@@ -12,40 +12,6 @@
 {.end}
 
 <!-- item loop -->
-<!--{.repeated section items}
-  {.if starred}
-    <article id="post-{id}" class="blog-list-item {@|item-classes}" data-item-id="{id}">
-      <!-- main image (thumbnail) -->
-      {.main-image?}
-        <a href="{fullUrl}" class="main-image content-fill">
-          <img {@|image-meta} />
-        </a>
-      {.end}
-      <!-- post title -->
-      <h1 class="title" data-content-field="title">
-        {.passthrough?}
-          <a href="{sourceUrl}" target="_blank">{title}</a>
-        {.or}
-          <a href="{fullUrl}">{title}</a>
-        {.end}
-      </h1>
-      <!-- excerpt or body -->
-      {.if excerpt}
-        {excerpt}
-        <a class="link" href="{fullUrl}">Read More</a>
-      {.or}
-        {body}
-      {.end}
-    </article>
-  {.or}
-    <p>No Featured blog post</p>
-  {.end}
-{.or}
-
-  <!-- no items means no blog posts -->
-  <p><em>No blog posts yet.</em></p>
-
-{.end}-->
 
 <iframe width="283" height="237" src="https://www.youtube.com/embed/pf2wE-h7I30?list=PLzfCqf040Ya8aUAuHPeBi7vH9M21Y2NtD" frameborder="0" allowfullscreen></iframe>
 <p>The Youtube video is above</p>
