@@ -47,7 +47,10 @@
 
 {.end}
 
-<!-- pagination -->
+<iframe src="https://www.youtube.com/watch?list=PLzfCqf040Ya8aUAuHPeBi7vH9M21Y2NtD&v=pf2wE-h7I30"
+  width="560" height="315" frameborder="0" allowfullscreen></iframe>
+
+!-- pagination -->
 {.if pagination}
   <nav class="blog-list-pagination">
 
