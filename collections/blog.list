@@ -12,6 +12,14 @@
 {.end}
 
 <!-- item loop -->
+{.repeated section items}                                                       
+{.or}                          
+
+  <!-- no items means no blog posts -->                                         
+  <p><em>No blog posts yet.</em></p>                                            
+                                                                                
+{.end}   
+
 
 <iframe width="283" height="237" src="https://www.youtube.com/embed/pf2wE-h7I30?list=PLzfCqf040Ya8aUAuHPeBi7vH9M21Y2NtD" frameborder="0" allowfullscreen></iframe>
 <p>The Youtube video is above</p>
