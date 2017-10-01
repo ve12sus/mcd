@@ -30,12 +30,6 @@
         {.end}                                                                  
       </h1>                                                                     
       <!-- excerpt or body -->                                                  
-      {.if excerpt}                                                             
-        {excerpt}                                                               
-        <a class="link" href="{fullUrl}">Read More</a>                          
-      {.or}                                                                     
-        {body}                                                                  
-      {.end}                                                                    
     </article>                                                                  
   {.or}                                                                         
     <p>No Featured blog post</p>                                                
