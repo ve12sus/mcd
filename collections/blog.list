@@ -47,6 +47,34 @@
 
 <a href="http://bit.ly/McDNYApp"><img src="http://www.mcdonaldsnytristate.com/wp-content/uploads/2015/04/app-310-x-340.jpg" alt="Download the App!"></a>
 
+{.repeated section items}                                                       
+  {.if starred}                                                                 
+    
+  {.or}                                                                         
+    <article id="post-{id}" class="blog-list-item {@|item-classes}" data-item-id="{id}">
+      <!-- main image (thumbnail) -->                                           
+      {.main-image?}                                                            
+        <a href="{fullUrl}" class="main-image content-fill">                    
+          <img {@|image-meta} />                                                
+        </a>                                                                    
+      {.end}                                                                    
+      <!-- post title -->                                                       
+      <h1 class="title" data-content-field="title">                             
+        {.passthrough?}                                                         
+          <a href="{sourceUrl}" target="_blank">{title}</a>                     
+        {.or}                                                                   
+          <a href="{fullUrl}">{title}</a>                                       
+        {.end}                                                                  
+      </h1>                                                                     
+      <!-- excerpt or body -->                                                  
+    </article>                                                                  
+  {.end}                                                                        
+{.or}                          
+
+  <!-- no items means no blog posts -->                                         
+  <p><em>No blog posts yet.</em></p>                                            
+                                                                                
+{.end}   
 <!-- pagination -->
 {.if pagination}
   <nav class="blog-list-pagination">
