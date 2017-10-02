@@ -37,8 +37,9 @@
 
 </squarespace:query>
 
-<iframe width="283" height="237" src="https://www.youtube.com/embed/pf2wE-h7I30?list=PLzfCqf040Ya8aUAuHPeBi7vH9M21Y2NtD" frameborder="0" allowfullscreen></iframe>
-<p>The Youtube video is above</p>
+<div class="video-wrapper">
+  <iframe width="283" height="237" src="https://www.youtube.com/embed/pf2wE-h7I30?list=PLzfCqf040Ya8aUAuHPeBi7vH9M21Y2NtD" frameborder="0" allowfullscreen></iframe>
+</div>
 
 <a href="http://bit.ly/McDNYApp"><img src="http://www.mcdonaldsnytristate.com/wp-content/uploads/2015/04/app-310-x-340.jpg" 
   width="285" height="313" alt="Download the App!"></a>
