@@ -11,36 +11,6 @@
   <p class="filtered-by">Filtered by Author: {author.displayName}</p>
 {.end}
 
-<!-- item loop -->
-{.repeated section items}                                                       
-  {.if starred}                                                                 
-    <article id="post-{id}" class="blog-list-item {@|item-classes}" data-item-id="{id}">
-      <!-- main image (thumbnail) -->                                           
-      {.main-image?}                                                            
-        <a href="{fullUrl}" class="main-image content-fill">                    
-          <img {@|image-meta} />                                                
-        </a>                                                                    
-      {.end}                                                                    
-      <!-- post title -->                                                       
-      <h1 class="title" data-content-field="title">                             
-        {.passthrough?}                                                         
-          <a href="{sourceUrl}" target="_blank">{title}</a>                     
-        {.or}                                                                   
-          <a href="{fullUrl}">{title}</a>                                       
-        {.end}                                                                  
-      </h1>                                                                     
-      <!-- excerpt or body -->                                                  
-    </article>                                                                  
-  {.or}                                                                         
-    <p>No Featured blog post</p>                                                
-  {.end}                                                                        
-{.or}                          
-
-  <!-- no items means no blog posts -->                                         
-  <p><em>No blog posts yet.</em></p>                                            
-                                                                                
-{.end}   
-
 <squarespace:query collection="{.section collection}{urlId}{.end}" featured="true" limit="1">
 
   <div class="featured-wrapper">
@@ -53,13 +23,13 @@
         </a>                                                                    
       {.end}                                                                    
       <!-- post title -->                                                       
-      <h1 class="title" data-content-field="title">                             
+      <h3 class="title" data-content-field="title">                             
         {.passthrough?}                                                         
           <a href="{sourceUrl}" target="_blank">{title}</a>                     
         {.or}                                                                   
           <a href="{fullUrl}">{title}</a>                                       
         {.end}                                                                  
-      </h1>                                                                     
+      </h3>                                                                     
       <!-- excerpt or body -->                                                  
     </article>                                                                  
     {.end}
@@ -71,6 +41,32 @@
 <p>The Youtube video is above</p>
 
 <a href="http://bit.ly/McDNYApp"><img src="http://www.mcdonaldsnytristate.com/wp-content/uploads/2015/04/app-310-x-340.jpg" alt="Download the App!"></a>
+
+<squarespace:query collection="{.section collection}{urlId}{.end}" featured="false" limit="1">
+
+  <div class="featured-wrapper">
+    {.repeated section items}
+    <article id="post-{id}" class="blog-list-item {@|item-classes}" data-item-id="{id}">
+      <!-- main image (thumbnail) -->                                           
+      {.main-image?}                                                            
+        <a href="{fullUrl}" class="main-image content-fill">                    
+          <img {@|image-meta} />                                                
+        </a>                                                                    
+      {.end}                                                                    
+      <!-- post title -->                                                       
+      <h3 class="title" data-content-field="title">                             
+        {.passthrough?}                                                         
+          <a href="{sourceUrl}" target="_blank">{title}</a>                     
+        {.or}                                                                   
+          <a href="{fullUrl}">{title}</a>                                       
+        {.end}                                                                  
+      </h3>                                                                     
+      <!-- excerpt or body -->                                                  
+    </article>                                                                  
+    {.end}
+  </div>
+
+</squarespace:query>
 
 <squarespace:query collection="new-blog" limit="1">
 
