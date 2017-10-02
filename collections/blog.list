@@ -47,7 +47,7 @@
 
 <a href="http://bit.ly/McDNYApp"><img src="http://www.mcdonaldsnytristate.com/wp-content/uploads/2015/04/app-310-x-340.jpg" alt="Download the App!"></a>
 
-{.repeated section items}                                                       
+{.section items}                                                       
     <article id="post-{id}" class="blog-list-item {@|item-classes}" data-item-id="{id}">
       <!-- main image (thumbnail) -->                                           
       {.main-image?}                                                            
