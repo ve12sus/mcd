@@ -45,8 +45,14 @@
 
   <div class="featured-wrapper">
     {.repeated section items}
-    <div class="featured-post">
-      {.main-image?}<img {@|image-meta} />{.end}
+    <article id="post-{id}" class="blog-list-item {@|item-classes}" data-item-id="{id}">
+      <!-- main image (thumbnail) -->                                           
+      {.main-image?}                                                            
+        <a href="{fullUrl}" class="main-image content-fill">                    
+          <img {@|image-meta} />                                                
+        </a>                                                                    
+      {.end}                                                                    
+      <!-- post title -->                                                       
       <h1 class="title" data-content-field="title">                             
         {.passthrough?}                                                         
           <a href="{sourceUrl}" target="_blank">{title}</a>                     
@@ -54,7 +60,8 @@
           <a href="{fullUrl}">{title}</a>                                       
         {.end}                                                                  
       </h1>                                                                     
-    </div>
+      <!-- excerpt or body -->                                                  
+    </article>                                                                  
     {.end}
   </div>
 
