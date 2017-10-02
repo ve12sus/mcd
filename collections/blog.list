@@ -44,6 +44,7 @@
 <squarespace:query collection="{.section collection}{urlId}{.end}" featured="true" limit="1">
 
   <div class="featured-wrapper">
+    {.repeated section items}
     <div class="featured-post">
       {.main-image?}<img {@|image-meta} />{.end}
       <h1 class="title" data-content-field="title">                             
