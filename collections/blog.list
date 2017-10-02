@@ -41,6 +41,23 @@
                                                                                 
 {.end}   
 
+<squarespace:query collection="{.section collection}{urlId}{.end}" featured="true" limit="1">
+
+  <div class="featured-wrapper">
+    <div class="featured-post">
+      {.main-image?}<img {@|image-meta} />{.end}
+      <h1 class="title" data-content-field="title">                             
+        {.passthrough?}                                                         
+          <a href="{sourceUrl}" target="_blank">{title}</a>                     
+        {.or}                                                                   
+          <a href="{fullUrl}">{title}</a>                                       
+        {.end}                                                                  
+      </h1>                                                                     
+    </div>
+    {.end}
+  </div>
+
+</squarespace:query>
 
 <iframe width="283" height="237" src="https://www.youtube.com/embed/pf2wE-h7I30?list=PLzfCqf040Ya8aUAuHPeBi7vH9M21Y2NtD" frameborder="0" allowfullscreen></iframe>
 <p>The Youtube video is above</p>
