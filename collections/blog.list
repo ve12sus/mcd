@@ -47,7 +47,9 @@
 
 <a href="http://bit.ly/McDNYApp"><img src="http://www.mcdonaldsnytristate.com/wp-content/uploads/2015/04/app-310-x-340.jpg" alt="Download the App!"></a>
 
+<!-- item loop -->
 {.section items}                                                       
+  {.if starred}                                                                 
     <article id="post-{id}" class="blog-list-item {@|item-classes}" data-item-id="{id}">
       <!-- main image (thumbnail) -->                                           
       {.main-image?}                                                            
@@ -65,7 +67,13 @@
       </h1>                                                                     
       <!-- excerpt or body -->                                                  
     </article>                                                                  
-{.end}   
+  {.or}                                                                         
+    <p>No Featured blog post</p>                                                
+  {.end}                                                                        
+{.or}
+                          
+{.end}
+
 <!-- pagination -->
 {.if pagination}
   <nav class="blog-list-pagination">

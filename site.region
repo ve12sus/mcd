@@ -26,8 +26,6 @@
       <!-- cms content injection point -->
       <main class="content-container" role="main" data-content-field="main-content">
        {squarespace.main-content}
-       <iframe width="283" height="237" src="https://www.youtube.com/embed/pf2wE-h7I30?list=PLzfCqf040Ya8aUAuHPeBi7vH9M21Y2NtD" frameborder="0" allowfullscreen></iframe>
-       <p>The Youtube video is above</p>       
       </main>
 
       <!--Footer with open block field -->
