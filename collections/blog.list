@@ -14,7 +14,7 @@
 <div class="row">
 {.repeated section items}                                                       
   <div class="one column">
-    <p>{title}</p>
+    <h2>{title}</h2>
   </div>                                                                                
 {.end}   
 </div>
