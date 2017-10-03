@@ -20,13 +20,8 @@
           <img {@|image-meta} />                                                
         </a>                                                                    
       {.end}                                                                    
-{.or}                          
-
-  <!-- no items means no blog posts -->                                         
-  <p><em>No blog posts yet.</em></p>                                            
-                                                                                
+  </div>                                                                                
 {.end}   
-  </div>
 </div>
 
 <!-- pagination -->
