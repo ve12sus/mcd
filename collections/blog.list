@@ -17,10 +17,8 @@
 
   <div class="eight columns">
     {.repeated section items}
-    <div class="featured-post">
       {.main-image?}<img {@|image-meta} />{.end}
       <h2>{title}</h2>
-    </div>
     {.end}
   </div>
 
@@ -30,10 +28,8 @@
 
   <div class="four columns">
     {.repeated section items}
-    <div class="featured-post">
       {.main-image?}<img {@|image-meta} />{.end}
       <h2>{title}</h2>
-    </div>
     {.end}
   </div>
 
