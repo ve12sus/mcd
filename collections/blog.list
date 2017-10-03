@@ -11,9 +11,9 @@
   <p class="filtered-by">Filtered by Author: {author.displayName}</p>
 {.end}
 
-<div class="columns">
+<div class="tile is-ancestor">
 {.repeated section items}                                                       
-  <div class="column is-half">
+  <div class="tile">
     <h1>{title}</h1>
   </div>                                                                                
 {.end}   
