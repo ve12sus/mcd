@@ -11,9 +11,10 @@
   <p class="filtered-by">Filtered by Author: {author.displayName}</p>
 {.end}
 
+<div class="row">
 <squarespace:query collection="new-blog" featured="true" limit="1">
 
-  <div class="featured-wrapper">
+  <div class="eight columns">
     {.repeated section items}
     <div class="featured-post">
       {.main-image?}<img {@|image-meta} />{.end}
@@ -24,14 +25,19 @@
 
 </squarespace:query>
 
-<div class="row">
-{.repeated section items}                                                       
-  <div class="three columns">
-    <h2>{title}</h2>
-  </div>                                                                                
-{.end}   
-</div>
+<squarespace:query collection="new-blog" featured="false" limit="1">
 
+  <div class="four columns">
+    {.repeated section items}
+    <div class="featured-post">
+      {.main-image?}<img {@|image-meta} />{.end}
+      <h2>{title}</h2>
+    </div>
+    {.end}
+  </div>
+
+</squarespace:query>
+</div>
 <!-- pagination -->
 {.if pagination}
   <nav class="blog-list-pagination">
