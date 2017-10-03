@@ -11,6 +11,7 @@
   <p class="filtered-by">Filtered by Author: {author.displayName}</p>
 {.end}
 
+<div class="container">
 <div class="row">
 <squarespace:query collection="new-blog" featured="true" limit="1">
 
@@ -37,6 +38,7 @@
   </div>
 
 </squarespace:query>
+</div>
 </div>
 <!-- pagination -->
 {.if pagination}
