@@ -14,22 +14,12 @@
 <div class="wrapper">
 {.repeated section items}                                                       
   <div class="box {id}">
-    <article id="post-{id}" class="blog-list-item {@|item-classes}" data-item-id="{id}">
       <!-- main image (thumbnail) -->                                           
       {.main-image?}                                                            
         <a href="{fullUrl}" class="main-image content-fill">                    
           <img {@|image-meta} />                                                
         </a>                                                                    
       {.end}                                                                    
-      <!-- post title -->                                                       
-      <h1 class="title" data-content-field="title">                             
-        {.passthrough?}                                                         
-          <a href="{sourceUrl}" target="_blank">{title}</a>                     
-        {.or}                                                                   
-          <a href="{fullUrl}">{title}</a>                                       
-        {.end}                                                                  
-      </h1>                                                                     
-    </article>
 {.or}                          
 
   <!-- no items means no blog posts -->                                         
