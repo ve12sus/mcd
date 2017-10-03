@@ -27,7 +27,7 @@
       <main class="content-container" role="main" data-content-field="main-content">
        {squarespace.main-content}
       </main>
-      <squarespace:query collection="{.section collection}{urlId}{.end}" featured="true" limit="1">
+      <squarespace:query collection="new-blog" featured="true" limit="1">
       <div class="featured-wrapper">
         {.repeated section items}
         <article id="post-{id}" class="blog-list-item {@|item-classes}" data-item-id="{id}">
