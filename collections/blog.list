@@ -29,10 +29,12 @@
 <squarespace:query collection="new-blog" featured="false" limit="1">
 
   <div class="four columns">
+    <div class="onside">
     {.repeated section items}
       {.main-image?}<img {@|image-meta} />{.end}
       <h6>{title}</h6>
     {.end}
+    </div>
   </div>
 
 </squarespace:query>
