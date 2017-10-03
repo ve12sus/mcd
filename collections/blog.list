@@ -13,7 +13,7 @@
 
 <div class="wrapper">
 {.repeated section items}                                                       
-  <div class="box">
+  <div class="box {id}">
     <article id="post-{id}" class="blog-list-item {@|item-classes}" data-item-id="{id}">
       <!-- main image (thumbnail) -->                                           
       {.main-image?}                                                            
