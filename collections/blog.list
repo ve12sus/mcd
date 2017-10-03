@@ -13,7 +13,7 @@
 
 <div class="columns is-multiline">
 {.repeated section items}                                                       
-  <div class="columns is-half">
+  <div class="columns is-one-quarter">
     <h1>{title}</h1>
   </div>                                                                                
 {.end}   
