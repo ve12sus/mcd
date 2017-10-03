@@ -11,10 +11,10 @@
   <p class="filtered-by">Filtered by Author: {author.displayName}</p>
 {.end}
 
-<div class="columns is-multiline">
+<div class="row">
 {.repeated section items}                                                       
-  <div class="column is-one-quarter">
-    <h1>{title}</h1>
+  <div class="one column">
+    <p>{title}</p>
   </div>                                                                                
 {.end}   
 </div>
