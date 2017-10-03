@@ -14,12 +14,7 @@
 <div class="wrapper">
 {.repeated section items}                                                       
   <div class="box {id}">
-      <!-- main image (thumbnail) -->                                           
-      {.main-image?}                                                            
-        <a href="{fullUrl}" class="main-image content-fill">                    
-          <img {@|image-meta} />                                                
-        </a>                                                                    
-      {.end}                                                                    
+    <h1>{title}</h1>
   </div>                                                                                
 {.end}   
 </div>
