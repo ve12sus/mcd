@@ -11,6 +11,19 @@
   <p class="filtered-by">Filtered by Author: {author.displayName}</p>
 {.end}
 
+<squarespace:query collection="new-blog" featured="true" limit="1">
+
+  <div class="featured-wrapper">
+    {.repeated section items}
+    <div class="featured-post">
+      {.main-image?}<img {@|image-meta} />{.end}
+      <h2>{title}</h2>
+    </div>
+    {.end}
+  </div>
+
+</squarespace:query>
+
 <div class="row">
 {.repeated section items}                                                       
   <div class="three columns">
