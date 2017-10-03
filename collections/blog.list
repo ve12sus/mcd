@@ -15,7 +15,7 @@
 <div class="row">
 <squarespace:query collection="new-blog" featured="true" limit="1">
 
-  <div class="seven columns">
+  <div class="eight columns">
     <div class="featured">
     {.repeated section items}
       {.main-image?}<img {@|image-meta} />{.end}
@@ -28,7 +28,7 @@
 
 <squarespace:query collection="new-blog" featured="false" limit="1">
 
-  <div class="three columns">
+  <div class="four columns">
     <div class="onside">
     {.repeated section items}
       {.main-image?}<img {@|image-meta} />{.end}
