@@ -1,31 +1,7 @@
-.billboard {
-  height: 350px;
-  background-color: red;
+.advert {
+  height: 400px;
 }
 
-.bigguy {
-  background-color: blue;
-  height: 315px;
-}
-
-.smallguy {
-  background-color: green;
-  height: 315px;
-}
-
-.rubix div {
-  float: left;
-  width: 33%;
-  height: 315px;
-  background-color: purple;
-}
-
-.summary-v2-block {
-  height: 309px;
-  width: 882px;
-  margin: auto;
-}
-
-.gridstuff {
-  margin-top: 450px;
+.feature {
+  height: 400px;
 }

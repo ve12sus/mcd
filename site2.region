@@ -28,9 +28,9 @@
         {squarespace.main-content}
         <div class="container">
           <div class="row">
-            <div class="col-md-4">one</div> 
-            <div class="col-md-4">two</div> 
-            <div class="col-md-4">three</div>
+            <div class="col-md-4 col-sm-12 advert">AD</div> 
+            <div class="col-md-4 col-sm-12 feature">Feature 1</div> 
+            <div class="col-md-4 col-sm-12 feature">Feature 2</div>
           </div>
         </div> 
       </main>
