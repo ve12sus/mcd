@@ -19,8 +19,7 @@ img {
   width: 100%;
   z-index: 10000;
   position: absolute;
-  top: 10px;
-  height: 200px;
+  height: 50px;
 }
 
 
