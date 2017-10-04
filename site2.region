@@ -25,79 +25,13 @@
 
       <!-- cms content injection point -->
       <main class="content-container" role="main" data-content-field="main-content">
-       {squarespace.main-content}
+        {squarespace.main-content}
+        <div class="row">
+          <div class="col-md-4"> </div> 
+          <div class="col-md-4"> </div> 
+          <div class="col-md-4"> </div>
+        </div> 
       </main>
-      <div class="gridstuff">
-      <div class="container">                                                         
-      <!-- there are a few shorthand columns widths as well -->                     
-        <div class="row billboard">                                                   
-          <div class="col smallguy">AD</div>                            
-          <div class="col smallguy">
-            <squarespace:query collection="new-blog" featured="true" limit="1">
-            <div class="featured-wrapper">
-            {.repeated section items}
-            <article id="post-{id}" class="blog-list-item {@|item-classes}" data-item-id="{id}">
-            <!-- main image (thumbnail) -->                                           
-            {.main-image?}                                                            
-              <a href="{fullUrl}" class="main-image content-fill">
-                <img {@|image-meta} />
-              </a>                                                                    
-            {.end}                                                                    
-            <!-- post title -->                                                       
-            <h3 class="title" data-content-field="title">                             
-              {.passthrough?}                                                         
-                <a href="{sourceUrl}" target="_blank">{title}</a>                     
-              {.or}                                                                   
-                <a href="{fullUrl}">{title}</a>                                       
-              {.end}                                                                  
-            </h3>                                                                     
-            <!-- excerpt or body -->                                                  
-            </article>                                                                  
-            {.end}
-            </div>
-            </squarespace:query>
-          </div>                            
-          <div class="col smallguy">
-            <squarespace:query collection="bloggo" featured="true" limit="1">
-            <div class="featured-wrapper">
-            {.repeated section items}
-            <article id="post-{id}" class="blog-list-item {@|item-classes}" data-item-id="{id}">
-            <!-- main image (thumbnail) -->                                           
-            {.main-image?}                                                            
-              <a href="{fullUrl}" class="main-image content-fill">
-                <img {@|image-meta} />
-              </a>                                                                    
-            {.end}                                                                    
-            <!-- post title -->                                                       
-            <h3 class="title" data-content-field="title">                             
-              {.passthrough?}                                                         
-                <a href="{sourceUrl}" target="_blank">{title}</a>                     
-              {.or}                                                                   
-                <a href="{fullUrl}">{title}</a>                                       
-              {.end}                                                                  
-            </h3>                                                                     
-            <!-- excerpt or body -->                                                  
-            </article>                                                                  
-            {.end}
-            </div>
-            </squarespace:query>
-          </div>                            
-        </div>                                                                        
-        <div class="row">                                                           
-          <div class="col">
-              <blockquote class="twitter-tweet" data-lang="en"><p lang="en" dir="ltr">Happy <a href="https://twitter.com/hashtag/WorldSmileDay?src=hash&amp;ref_src=twsrc%5Etfw">#WorldSmileDay</a>! Show off those pearly whites. <a href="https://t.co/9WwJV2SLHc">pic.twitter.com/9WwJV2SLHc</a></p>&mdash; McDonalds NYTriState (@McDNYTriState) <a href="https://twitter.com/McDNYTriState/status/915334157080907776?ref_src=twsrc%5Etfw">October 3, 2017</a></blockquote>
-              <script async src="//platform.twitter.com/widgets.js" charset="utf-8"></script>
-          </div>                                                                
-          <div class="col">
-            <div class="video-wrapper">                                                     
-              <iframe width="283" height="237" src="https://www.youtube.com/embed/pf2wE-h7I30?list=PLzfCqf040Ya8aUAuHPeBi7vH9M21Y2NtD" frameborder="0" allowfullscreen></iframe>
-            </div>     
-          </div>                                                                
-        </div>                                                                        
-      </div>  
-
-      </div>
-      </div>     
       <!--Footer with open block field -->
       <footer class="site-footer">
         <squarespace:block-field id="footerBlocks" columns="12" />
