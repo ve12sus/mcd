@@ -14,6 +14,12 @@ img {
   top: 10px;
 }
 
+.hilight {
+  background-color: rgba(0,0,0,0.65);
+  position: absolute;
+  top: 10px;
+}
+
 .img-wrap > h2 {
   position: absolute;
   width: 100%;
