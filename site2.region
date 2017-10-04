@@ -36,9 +36,9 @@
           <div class="row no-gutters">
             <div class="col-md-4 col-sm-12 advert">AD</div> 
             <div class="col-md-4 col-sm-12 feature">
-              <div class="feat-title">Feature 1</div>
               <div class="img-wrap">
                 <img src="https://i.imgur.com/ZFTYzzY.jpg"></img>
+                <h2>Feature 1</h2>
               </div>  
             </div>  
             <div class="col-md-4 col-sm-12 feature">

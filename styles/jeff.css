@@ -2,3 +2,13 @@ img {
   width: 100%;
   height: 100%;
 }
+
+.img-wrap {
+  position: relative;
+}
+
+.img-wrap > h2 {
+  position: absolute;
+  width: 100%;
+  left: 0;
+}
