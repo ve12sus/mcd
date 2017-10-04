@@ -26,10 +26,12 @@
       <!-- cms content injection point -->
       <main class="content-container" role="main" data-content-field="main-content">
         {squarespace.main-content}
-        <div class="row">
-          <div class="col-md-4">one</div> 
-          <div class="col-md-4">two</div> 
-          <div class="col-md-4">three</div>
+        <div class="container">
+          <div class="row">
+            <div class="col-md-4">one</div> 
+            <div class="col-md-4">two</div> 
+            <div class="col-md-4">three</div>
+          </div>
         </div> 
       </main>
       <!--Footer with open block field -->
