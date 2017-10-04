@@ -28,10 +28,17 @@
         {squarespace.main-content}
         <div class="container">
           <div class="row">
+            <div class="col-md-12 col-sm-12 carousel">
+              Carousel
+            </div>
+          <div class="row">
             <div class="col-md-4 col-sm-12 advert">AD</div> 
             <div class="col-md-4 col-sm-12 feature">Feature 1</div> 
             <div class="col-md-4 col-sm-12 feature">Feature 2</div>
           </div>
+          <div class="row">
+            <div class="col-md-8 col-sm-12 twitter">Twitter</div>
+            <div class="col-md-4 col-sm-12 advert">AD</div>
         </div> 
       </main>
       <!--Footer with open block field -->

@@ -1,7 +1,14 @@
 .advert {
   height: 400px;
+  background-color: red;
 }
 
 .feature {
   height: 400px;
+  background-color: green;
+}
+
+.twitter {
+  height: 400px;
+  background-color: green;
 }
