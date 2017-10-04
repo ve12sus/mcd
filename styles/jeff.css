@@ -2,3 +2,13 @@
   height: 350px;
   background-color: red;
 }
+
+.bigguy {
+  background-color: blue;
+  height: 315px;
+}
+
+.smallguy {
+  background-color: green;
+  height: 315px;
+}
