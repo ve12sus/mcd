@@ -15,10 +15,15 @@ img {
 }
 
 .hilight {
-  background-color: rgba(0,0,0,0.65);
-  position: absolute;
-  top: 10px;
+  background-color: rgba(255, 255, 0, 0.4);    
+  display: block;
+  margin: 0 auto;
+  width: 100%;
+  z-index: 10000;
+  position: relative;
+  height: 200px;
 }
+
 
 .img-wrap > h2 {
   position: absolute;
