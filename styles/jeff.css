@@ -26,6 +26,5 @@
 }
 
 .gridstuff {
-  float: left;
-  clear: both;
+  margin-top: 600px;
 }
