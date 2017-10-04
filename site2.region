@@ -32,8 +32,8 @@
       <div class="container">                                                         
       <!-- there are a few shorthand columns widths as well -->                     
         <div class="row billboard">                                                   
-          <div class="one-third column smallguy">AD</div>                            
-          <div class="one-third column smallguy">
+          <div class="one-third column smallguy u-full-width">AD</div>                            
+          <div class="one-third column smallguy u-full-width">
             <squarespace:query collection="new-blog" featured="true" limit="1">
             <div class="featured-wrapper">
             {.repeated section items}
@@ -58,7 +58,7 @@
             </div>
             </squarespace:query>
           </div>                            
-          <div class="one-third column smallguy">
+          <div class="one-third column smallguy u-full-width">
             <squarespace:query collection="bloggo" featured="true" limit="1">
             <div class="featured-wrapper">
             {.repeated section items}
