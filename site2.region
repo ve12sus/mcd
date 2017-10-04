@@ -28,6 +28,7 @@
        {squarespace.main-content}
       </main>
       <!-- .container is main centered wrapper -->                                    
+      <div class="gridstuff">
       <div class="container">                                                         
       <!-- there are a few shorthand columns widths as well -->                     
         <div class="row billboard">                                                   
@@ -93,6 +94,7 @@
         </div>                                                                        
       </div>  
 
+      </div>
       </div>     
       <!--Footer with open block field -->
       <footer class="site-footer">
