@@ -27,13 +27,12 @@
       <main class="content-container" role="main" data-content-field="main-content">
        {squarespace.main-content}
       </main>
-      <!-- .container is main centered wrapper -->                                    
       <div class="gridstuff">
       <div class="container">                                                         
       <!-- there are a few shorthand columns widths as well -->                     
         <div class="row billboard">                                                   
-          <div class="one-third column smallguy">AD</div>                            
-          <div class="one-third column smallguy">
+          <div class="col smallguy">AD</div>                            
+          <div class="col smallguy">
             <squarespace:query collection="new-blog" featured="true" limit="1">
             <div class="featured-wrapper">
             {.repeated section items}
@@ -58,7 +57,7 @@
             </div>
             </squarespace:query>
           </div>                            
-          <div class="one-third column smallguy">
+          <div class="col smallguy">
             <squarespace:query collection="bloggo" featured="true" limit="1">
             <div class="featured-wrapper">
             {.repeated section items}
@@ -84,12 +83,12 @@
             </squarespace:query>
           </div>                            
         </div>                                                                        
-        <div class="rubix">                                                           
-          <div class="one-half column">
+        <div class="row">                                                           
+          <div class="col">
               <blockquote class="twitter-tweet" data-lang="en"><p lang="en" dir="ltr">Happy <a href="https://twitter.com/hashtag/WorldSmileDay?src=hash&amp;ref_src=twsrc%5Etfw">#WorldSmileDay</a>! Show off those pearly whites. <a href="https://t.co/9WwJV2SLHc">pic.twitter.com/9WwJV2SLHc</a></p>&mdash; McDonalds NYTriState (@McDNYTriState) <a href="https://twitter.com/McDNYTriState/status/915334157080907776?ref_src=twsrc%5Etfw">October 3, 2017</a></blockquote>
               <script async src="//platform.twitter.com/widgets.js" charset="utf-8"></script>
           </div>                                                                
-          <div class="one-half column">
+          <div class="col">
             <div class="video-wrapper">                                                     
               <iframe width="283" height="237" src="https://www.youtube.com/embed/pf2wE-h7I30?list=PLzfCqf040Ya8aUAuHPeBi7vH9M21Y2NtD" frameborder="0" allowfullscreen></iframe>
             </div>     
