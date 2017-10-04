@@ -12,3 +12,10 @@
   background-color: green;
   height: 315px;
 }
+
+.rubix div {
+  float: left;
+  width: 33%;
+  height: 315px;
+  background-color: purple;
+}
