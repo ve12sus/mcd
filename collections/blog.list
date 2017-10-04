@@ -19,6 +19,16 @@
     <div class="one-third column smallguy">2/3</div>
   </div>
 
+  <div class="row rubix">
+    <div class="one-third column">1</div>
+    <div class="one-third column">2</div>
+    <div class="one-third column">3</div>
+    <div class="one-third column">4</div>
+    <div class="one-third column">5</div>
+    <div class="one-third column">6</div>
+    <div class="one-third column">7</div>
+    <div class="one-third column">8</div>
+  </div>
 </div>
 <!-- pagination -->
 {.if pagination}
