@@ -7,6 +7,13 @@ img {
   position: relative;
 }
 
+.hilight > h2 {
+  position: absolute;
+  width: 100%;
+  left: 0;
+  top: 10px;
+}
+
 .img-wrap > h2 {
   position: absolute;
   width: 100%;
