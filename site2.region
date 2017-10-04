@@ -57,7 +57,31 @@
             </div>
             </squarespace:query>
           </div>                            
-          <div class="one-third column smallguy">1/3</div>                            
+          <div class="one-third column smallguy">
+            <squarespace:query collection="bloggo" featured="true" limit="1">
+            <div class="featured-wrapper">
+            {.repeated section items}
+            <article id="post-{id}" class="blog-list-item {@|item-classes}" data-item-id="{id}">
+            <!-- main image (thumbnail) -->                                           
+            {.main-image?}                                                            
+              <a href="{fullUrl}" class="main-image content-fill">
+                <img {@|image-meta} />
+              </a>                                                                    
+            {.end}                                                                    
+            <!-- post title -->                                                       
+            <h3 class="title" data-content-field="title">                             
+              {.passthrough?}                                                         
+                <a href="{sourceUrl}" target="_blank">{title}</a>                     
+              {.or}                                                                   
+                <a href="{fullUrl}">{title}</a>                                       
+              {.end}                                                                  
+            </h3>                                                                     
+            <!-- excerpt or body -->                                                  
+            </article>                                                                  
+            {.end}
+            </div>
+            </squarespace:query>
+          </div>                            
         </div>                                                                        
         <div class="rubix">                                                           
           <div class="one-half column">1/2</div>                                                                
