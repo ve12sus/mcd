@@ -15,8 +15,6 @@
  */
 /*! normalize.css v3.0.3 | MIT License | github.com/necolas/normalize.css */
 .no-gutters {
-  margin-right: 0;
-  margin-left: 0;
 
   > .col,
   > [class*="col-"] {
