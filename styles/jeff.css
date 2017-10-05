@@ -44,3 +44,8 @@ img {
 .site-navigation-list > li {
   display: inline;
 }
+
+.site-navigation-list > li > a {
+  font-family: Helvetica;
+  font-size: 14px;
+}
