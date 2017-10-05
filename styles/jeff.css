@@ -1,5 +1,6 @@
 .site-header {
   height: 64px;
+  position: relative;
 }
 
 img {
@@ -35,16 +36,15 @@ img {
 
 .site-navigation {
   text-align: center;
-  position: relative;
+  position: absolute;
+  top: 50%; left: 50%;
+  transform: translate(-50%,-50%);
 }
 
 .site-navigation-list {
   list-style-type: none;
   margin: 0;
   padding: 0;
-  position: absolute;
-  top: 50%; left: 50%;
-  transform: translate(-50%,-50%);
 }
 
 .site-navigation-list > li {
