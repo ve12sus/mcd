@@ -54,12 +54,15 @@
               </div>  
             </div> 
             <div class="col-md-4 col-sm-12 feature">
-              <div class="img-wrap">
-                <img src="https://i.imgur.com/v87eRxG.jpg"></img>
-                <div class="hilight">
-                  <p>That's a big ass check</p>
-                </div>
-              </div>  
+              <squarespace:query collection="blog" limit="1">
+                {.repeated section items}
+                  <div class="img-wrap">
+                    {.main-image?}<img {@|image-meta} />{.end}
+                    <div class="hilight">
+                      <p>{title}</p>
+                    </div>
+                  </div>
+                {.end}  
             </div>  
             <div class="col-md-4 col-sm-12 feature">
               <div class="img-wrap">
