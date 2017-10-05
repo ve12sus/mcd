@@ -12,6 +12,14 @@ img {
   position: relative;
 }
 
+.img-wrap:hover .hilight {
+  background-color: black;
+}
+
+.img-wrap:hover .hilight > p {
+  color: white;
+}
+
 .hilight > p {
   font-family: 'PT Sans', sans-serif;
   text-align: center;
