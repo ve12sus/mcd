@@ -45,7 +45,7 @@ img {
   display: inline;
 }
 
-.site-navigation-list > li > a {
-  font-family: Helvetica;
-  font-size: 14px;
+.site-navigation-item > a {
+  font-family: 'Raleway', sans-serif;
+  font-size: 20px;
 }
