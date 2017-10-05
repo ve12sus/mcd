@@ -36,12 +36,12 @@ img {
   cursor: pointer;
 }
 
-.container-fluid {
+body, html, .container-fluid {
   height: 100%
 }
 
 .row {
-  height: 25%
+  height: 20%
 }
 
 .site-navigation {
