@@ -38,7 +38,14 @@
               </div>  
             </div>
           <div class="row no-gutters">
-            <div class="col-md-4 col-sm-12 advert">AD</div> 
+            <div class="col-md-4 col-sm-12 advert">
+              <div class="img-wrap">
+                <img src="https://i.imgur.com/zfkB4fc.jpg"></img>
+                <div class="hilight">
+                  <p>Get Some Fries</p>
+                </div>
+              </div>  
+            </div> 
             <div class="col-md-4 col-sm-12 feature">
               <div class="img-wrap">
                 <img src="https://i.imgur.com/ZFTYzzY.jpg"></img>
