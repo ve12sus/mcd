@@ -23,7 +23,6 @@ img {
   height: 50px;
 }
 
-
 .img-wrap > h2 {
   position: absolute;
   width: 100%;
@@ -51,6 +50,17 @@ img {
   font-weight: 600;
   text-transform: uppercase;
   color: #999;
+  border: 0px solid transparent;
+  border-radius: 16px;
+}
+
+.site-navigation-item > a:link {
+  text-decoration: none;
+}
+
+.site-navigation-item > a:hover {
+  background-color: #fafafa;
+  transition: all 0.2s;
 }
 
 .site-navigation-list >li:not(:last-child) {
