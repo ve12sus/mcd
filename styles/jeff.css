@@ -76,3 +76,7 @@ img {
 .site-navigation-list >li:not(:last-child) {
   margin-right: 20px;
 }
+
+.site-footer {
+  text-align: center;
+}
