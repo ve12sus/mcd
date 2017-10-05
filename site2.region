@@ -33,7 +33,7 @@
               <div class="img-wrap">  
                 <img src="https://i.imgur.com/EGRKwwy.jpg"></img>
                 <div class="hilight">
-                  <h2>Carousel Title</h2>
+                  <p>Carousel Title</p>
                 </div>
               </div>  
             </div>
