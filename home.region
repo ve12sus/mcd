@@ -36,12 +36,18 @@
         <div class="container">
           <div class="row no-gutters">
             <div class="col-md-12 col-sm-12 carousel">
-              <div class="img-wrap">  
-                <img src="https://i.imgur.com/EGRKwwy.jpg"></img>
-                <div class="hilight">
-                  <p>Big Mac mmmmm</p>
+              <squarespace:query collection="featured-images" limit="!">
+                {.repeated section items}
+                <a href={fullUrl}">
+                <div class="img-wrap">  
+                  {.main-image?}<img {@|image-meta} />{.end}
+                  <div class="hilight">
+                    <p>{title}</p>
+                  </div>
                 </div>
-              </div>  
+                </a>
+                {.end}
+              </squarespace:query>
             </div>
           </div>
           <div class="row no-gutters second">
