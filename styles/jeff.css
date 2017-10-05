@@ -8,10 +8,9 @@ img {
 }
 
 .hilight > h2 {
-  position: absolute;
-  width: 100%;
-  left: 0;
-  top: 10px;
+  font-family: 'PT Sans', sans-serif;
+  text-align: center;
+  color: white;
 }
 
 .hilight {
