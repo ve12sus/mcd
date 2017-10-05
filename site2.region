@@ -70,10 +70,12 @@
             </div>  
           </div>
           <div class="row no-gutters">
-            <div class="col-md-8 col-sm-12 feature">
+            <div class="col-md-r8 col-sm-12 feature">
               <div class="img-wrap">
                 <img src="https://i.imgur.com/m081jrL.jpg"></img>
-                <p>Go back to school with mcdonalds</p>
+                <div class="hilight">
+                  <p>Go back to school with mcdonalds</p>
+                </div>
               </div>
             </div> 
             <div class="col-md-4 col-sm-12 feature">
