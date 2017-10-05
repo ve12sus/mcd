@@ -56,8 +56,10 @@
             </div>  
             <div class="col-md-4 col-sm-12 feature">
               <div class="img-wrap">
-                <img src="https://i.imgur.com/ZFTYzzY.jpg"></img>
-                <h2>Feature 2</h2>
+                <img src="https://i.imgur.com/3n09DM7.jpg"></img>
+                <div class="hilight">
+                  <p>Selfie with Ronald</p>
+                </div>
               </div>  
             </div>  
           </div>
