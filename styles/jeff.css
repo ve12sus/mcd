@@ -59,7 +59,7 @@ img {
 }
 
 .site-navigation-item > a:hover {
-  background-color: #fafafa;
+  background-color: #ffff00;
   transition: all 0.2s;
 }
 
