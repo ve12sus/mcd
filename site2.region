@@ -65,10 +65,8 @@
           </div>
           <div class="row no-gutters">
             <div class="col-md-8 col-sm-12 twitter">
-              <div class="img-wrap">
-                <img src="https://i.imgur.com/ZFTYzzY.jpg"></img>
-                <h2>Twitter</h2>
-              </div>
+              <blockquote class="twitter-tweet" data-lang="en"><p lang="en" dir="ltr">Having a hot study buddy never hurt anyone. Enjoy <a href="https://twitter.com/hashtag/BackInSchool?src=hash&amp;ref_src=twsrc%5Etfw">#BackInSchool</a> with <a href="https://twitter.com/hashtag/McCafe?src=hash&amp;ref_src=twsrc%5Etfw">#McCafe</a> ☕ <a href="https://t.co/XGy8zXoIbY">pic.twitter.com/XGy8zXoIbY</a></p>&mdash; McDonald&#39;s (@McDonalds) <a href="https://twitter.com/McDonalds/status/915637656280797184?ref_src=twsrc%5Etfw">October 4, 2017</a></blockquote>
+              <script async src="//platform.twitter.com/widgets.js" charset="utf-8"></script>
             </div> 
             <div class="col-md-4 col-sm-12 advert">
               <div class="img-wrap">
