@@ -36,16 +36,16 @@
         <div class="container">
           <div class="row no-gutters">
             <div class="col-md-12 col-sm-12 carousel">
-              <squarespace:query collection="featured-images" limit="!">
+              <squarespace:query collection="featured-images" limit="1">
                 {.repeated section items}
-                <a href={fullUrl}">
-                <div class="img-wrap">  
-                  {.main-image?}<img {@|image-meta} />{.end}
-                  <div class="hilight">
-                    <p>{title}</p>
+                  <a href={fullUrl}">
+                  <div class="img-wrap">
+                    {.main-image?}<img {@|image-meta} />{.end}
+                    <div class="hilight">
+                      <p>{title}</p>
+                    </div>
                   </div>
-                </div>
-                </a>
+                  </a>
                 {.end}
               </squarespace:query>
             </div>
