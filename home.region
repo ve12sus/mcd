@@ -63,6 +63,7 @@
                     </div>
                   </div>
                 {.end}  
+              </squarespace:query>
             </div>  
             <div class="col-md-4 col-sm-12 feature">
               <div class="img-wrap">
