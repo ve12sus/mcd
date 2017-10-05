@@ -56,12 +56,14 @@
             <div class="col-md-4 col-sm-12 feature">
               <squarespace:query collection="blog" limit="1">
                 {.repeated section items}
+                  <a href="{fullURL}">
                   <div class="img-wrap">
                     {.main-image?}<img {@|image-meta} />{.end}
                     <div class="hilight">
                       <p>{title}</p>
                     </div>
                   </div>
+                  </a>
                 {.end}  
               </squarespace:query>
             </div>  
