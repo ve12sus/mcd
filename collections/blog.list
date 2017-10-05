@@ -10,26 +10,7 @@
 {.if authorFilter}
   <p class="filtered-by">Filtered by Author: {author.displayName}</p>
 {.end}
-<!-- .container is main centered wrapper -->
-<div class="container">
 
-  <!-- there are a few shorthand columns widths as well -->
-  <div class="row billboard">
-    <div class="two-thirds column bigguy">1/3</div>
-    <div class="one-third column smallguy">2/3</div>
-  </div>
-
-  <div class="rubix">
-    <div>1</div>
-    <div>2</div>
-    <div>3</div>
-    <div>4</div>
-    <div>5</div>
-    <div>6</div>
-    <div>7</div>
-    <div>8</div>
-  </div>
-</div>
 <!-- pagination -->
 {.if pagination}
   <nav class="blog-list-pagination">
