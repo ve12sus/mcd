@@ -48,6 +48,7 @@ img {
 .site-navigation-item > a {
   font-family: 'Raleway', sans-serif;
   font-size: 20px;
+  font-weight: 600;
   text-transform: uppercase;
   color: #999;
 }
