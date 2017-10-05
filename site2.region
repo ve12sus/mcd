@@ -28,7 +28,7 @@
       <main class="content-container" role="main" data-content-field="main-content">
         {squarespace.main-content}
         <div class="container">
-          <div class="row">
+          <div class="row no-gutters">
             <div class="col-md-12 col-sm-12 carousel">
               <div class="img-wrap">  
                 <img src="https://i.imgur.com/EGRKwwy.jpg"></img>
