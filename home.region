@@ -43,7 +43,7 @@
                   <li data-target="#carouselExampleIndicators" data-slide-to="1"></li>
                   <li data-target="#carouselExampleIndicators" data-slide-to="2"></li>
                 </ol>
-                <squarespace:query collection="featured-images" limit="3">
+                <squarespace:query collection="featured-images" limit="5">
                 <div class="carousel-inner" role="listbox">
                   <div class="carousel-item active">
                     {.section items.0}
@@ -51,7 +51,7 @@
                     {.end}
                   </div>
                   <div class="carousel-item">
-                    {.section items.1)
+                    {.section items.3)
                     <img class="d-block img-fluid" {@|image-meta} />
                     {.end}
                   </div>
