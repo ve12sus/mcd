@@ -43,14 +43,14 @@
                   <li data-target="#carouselExampleIndicators" data-slide-to="1"></li>
                   <li data-target="#carouselExampleIndicators" data-slide-to="2"></li>
                 </ol>
-                <squarespace:query collection="featured-images" limit="5">
+                <squarespace:query collection="featured-images" limit="3">
                 <div class="carousel-inner" role="listbox">
+                  {.repeated section items}
                   <div class="carousel-item active">
-                    {.section items.0}
                     <img class="d-block img-fluid" {@|image-meta} />
-                    {.end}
                   </div>
-                  <div class="carousel-item">
+                  {.end}
+                  <!--<div class="carousel-item">
                     {.section items.3)
                     <img class="d-block img-fluid" {@|image-meta} />
                     {.end}
@@ -59,7 +59,7 @@
                     {.section items.2}
                     <img class="d-block img-fluid" {@|image-meta} />
                     {.end}
-                  </div>
+                    </div>-->
                 </div>
                 </squarespace:query>
                 <a class="carousel-control-prev" href="#carouselExampleIndicators" role="button" data-slide="prev">
