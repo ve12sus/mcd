@@ -46,15 +46,19 @@
                 <squarespace:query collection="featured-images" limit="3">
                 <div class="carousel-inner" role="listbox">
                   <div class="carousel-item active">
-                      {.section items.0}
-                      <img class="d-block img-fluid" {@|image-meta} />
-                      {.end}
+                    {.section items.0}
+                    <img class="d-block img-fluid" {@|image-meta} />
+                    {.end}
                   </div>
                   <div class="carousel-item">
-                    <img class="d-block img-fluid" src="https://i.imgur.com/nNBxlZw.jpg" alt="Second slide">
+                    {.section items.1)
+                    <img class="d-block img-fluid" {@|image-meta} />
+                    {.end}
                   </div>
                   <div class="carousel-item">
-                    <img class="d-block img-fluid" src="https://i.imgur.com/fGXPukk.jpg" alt="Third slide">
+                    {.section items.2}
+                    <img class="d-block img-fluid" {@|image-meta} />
+                    {.end}
                   </div>
                 </div>
                 </squarespace:query>
