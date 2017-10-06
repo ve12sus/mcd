@@ -46,7 +46,7 @@
                 <squarespace:query collection="featured-images" limit="3">
                 <div class="carousel-inner" role="listbox">
                   {.repeated section items}
-                  <div class="carousel-item active">
+                  <div class="carousel-item">
                     <img class="d-block img-fluid" {@|image-meta} />
                   </div>
                   {.end}
