@@ -1,23 +1,37 @@
-<nav class="site-navigation">
-  <ul class="site-navigation-list">
-    {.repeated section items}
+<nav class="navbar navbar-inverse navbar-static-top site-navigation" role="navigation">
+    <div class="container">
+        <div class="navbar-header">
+            <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#bs-example-navbar-collapse-1">
+                <span class="sr-only">Toggle navigation</span>
+                <span class="icon-bar"></span>
+                <span class="icon-bar"></span>
+                <span class="icon-bar"></span>
+            </button>
+        </div>
 
-      <li class="site-navigation-item {.section active} active-link{.end}">
+        <!-- Collect the nav links, forms, and other content for toggling -->
+        <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
+            <ul class="nav navbar-nav site-navigation-list">
+              {.repeated section items}
+              
+                <li class="site-navigation-item {.section active} active-link{.end}">     
+                                                                                
+                  <!-- collection link -->                                                
+                  {.section collection}                                                   
+                    <a href="{fullUrl}">{navigationTitle}</a>                             
+                  {.end}                                                                  
+                                                                                
+                  <!-- external link -->                                                  
+                  {.section externalLink}                                                 
+                    <a href="{url}"{.section newWindow} target="_blank"{.end}>            
+                      {title}                                                             
+                    </a>                                                                  
+                  {.end}                                                                  
+                                                                                
+                </li>                                                                     
 
-        <!-- collection link -->
-        {.section collection}
-          <a href="{fullUrl}">{navigationTitle}</a>
-        {.end}
-
-        <!-- external link -->
-        {.section externalLink}
-          <a href="{url}"{.section newWindow} target="_blank"{.end}>
-            {title}
-          </a>
-        {.end}
-
-      </li>
-
-    {.end}
-  </ul>
+              {.end}  
+            </ul>
+        </div>
+    </div>
 </nav>
