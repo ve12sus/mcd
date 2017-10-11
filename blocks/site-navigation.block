@@ -1,12 +1,12 @@
 <nav class="site-navigation">
-  <ul class="site-navigation-list">
+  <ul class="site-navigation-list nav justify-content-center">
     {.repeated section items}
 
-      <li class="site-navigation-item {.section active} active-link{.end}">
+      <li class="site-navigation-item {.section active} active-link{.end} nav-item">
 
         <!-- collection link -->
         {.section collection}
-          <a href="{fullUrl}">{navigationTitle}</a>
+          <a class="nav-link" href="{fullUrl}">{navigationTitle}</a>
         {.end}
 
         <!-- external link -->
