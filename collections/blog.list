@@ -14,6 +14,7 @@
 <div class="container">
   <div class="row no-gutters">
     {.repeated section items}
+      {.main-image?}
       <div class="col-md-4 col-sm-12">
         <div class="img-wrap">
           <img {@|image-meta} />
@@ -22,6 +23,7 @@
           </div>
         </div>
       </div>
+      {.end}
     {.end}
   </div>
 </div>
