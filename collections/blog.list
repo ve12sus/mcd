@@ -11,6 +11,18 @@
   <p class="filtered-by">Filtered by Author: {author.displayName}</p>
 {.end}
 
+<div class="container">
+  <div class="row">
+    {.repeated section items}
+      <div class="col-md-4 col-sm-12">
+        <div class="img-wrap">
+          <img {@|image-meta} />
+        </div>
+      </div>
+    {.end}
+  </div>
+</div>
+
 <!-- pagination -->
 {.if pagination}
   <nav class="blog-list-pagination">
