@@ -1,23 +1,35 @@
-<nav class="site-navigation">
-  <ul class="site-navigation-list nav justify-content-center">
-    {.repeated section items}
+<nav class="site-navigation navbar">
+  <div class="container-fluid"
+    <div class="navbar-header">
+      <button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#myNavbar">
+        <span class="icon-bar"></span>
+        <span class="icon-bar"></span>
+        <span class="icon-bar"></span>                        
+      </button>
+      <a class="navbar-brand" href="#">WebSiteName</a>
+    </div>
+    <div class="collapse navbar-collapse" id="myNavbar">
+			<ul class="site-navigation-list nav justify-content-center navbar-nav">
+				{.repeated section items}
 
-      <li class="site-navigation-item {.section active} active-link{.end} nav-item">
+					<li class="site-navigation-item {.section active} active-link{.end} nav-item">
 
-        <!-- collection link -->
-        {.section collection}
-          <a class="nav-link" href="{fullUrl}">{navigationTitle}</a>
-        {.end}
+						<!-- collection link -->
+						{.section collection}
+							<a class="nav-link" href="{fullUrl}">{navigationTitle}</a>
+						{.end}
 
-        <!-- external link -->
-        {.section externalLink}
-          <a href="{url}"{.section newWindow} target="_blank"{.end}>
-            {title}
-          </a>
-        {.end}
+						<!-- external link -->
+						{.section externalLink}
+							<a href="{url}"{.section newWindow} target="_blank"{.end}>
+								{title}
+							</a>
+						{.end}
 
-      </li>
+					</li>
 
-    {.end}
-  </ul>
+				{.end}
+			</ul>
+	  </div>	
+  </div>
 </nav>
