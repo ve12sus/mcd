@@ -7,16 +7,15 @@
     <link href="https://fonts.googleapis.com/css?family=PT+Sans|Raleway" rel="stylesheet">
     <!-- include system scripts, page meta, and header code injection -->
     <squarespace:script src="bootstrap.js" combo="true" />
-    <!--{squarespace-headers}-->
+    {squarespace-headers}
   </head>
-  <!--<body id="{squarespace.page-id}" class="{squarespace.page-classes}">-->
-  <body>
+  <body id="{squarespace.page-id}" class="{squarespace.page-classes}">
 
     <div class="site-container">
 
       <header class="site-header">
         <!-- site navigation -->
-        <!--<squarespace:navigation navigationId="siteNav" template="site-navigation" />-->
+        <squarespace:navigation navigationId="siteNav" template="site-navigation" />
 
         <!-- site title or logo -->
         <!--{.section website}
