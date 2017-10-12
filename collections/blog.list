@@ -12,6 +12,13 @@
 {.end}
 
 <div class="container">
+  {.section pagination}
+    {.if prevPage}
+      <h1>I am the following pages</h1>
+    {.or}
+      <h1>I am the first page</h1>
+    {.end}
+  {.end}
   <div class="row no-gutters">
     {.repeated section items}
       {.main-image?}
