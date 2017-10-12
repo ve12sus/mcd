@@ -33,14 +33,28 @@
           <div class="row no-gutters">
             <div class="col-md-12 col-sm-12 carousel">
               <div id="carouselExampleIndicators" class="carousel slide" data-ride="carousel">
-                <ol class="carousel-indicators">
-                  <li data-target="#carouselExampleIndicators" data-slide-to="0" class="active">
-                    <img src='http://placehold.it/400x200&text=slide1' alt='' /></li>
-                  <li data-target="#carouselExampleIndicators" data-slide-to="1">
-                    <img src='http://placehold.it/400x200&text=slide2' alt='' /></li>
-                  <li data-target="#carouselExampleIndicators" data-slide-to="2">
-                    <img src='http://placehold.it/400x200&text=slide3' alt='' /></li>
-                </ol>
+                <!--<ol class="carousel-indicators">
+                  <li data-target="#carouselExampleIndicators" data-slide-to="0" class="active"></li>
+                  <li data-target="#carouselExampleIndicators" data-slide-to="1"></li>
+                  <li data-target="#carouselExampleIndicators" data-slide-to="2"></li>
+                </ol>-->
+                <ul class="carousel-indicators list-inline">
+                    <li class="list-inline-item active">
+                        <a id="carousel-selector-0" class="selected" data-slide-to="0" data-target="#carouselExampleIndicators">
+                            <img src="http://placehold.it/80x60&amp;text=one" class="img-fluid">
+                        </a>
+                    </li>
+                    <li class="list-inline-item">
+                        <a id="carousel-selector-1" data-slide-to="1" data-target="#carouselExampleIndicators">
+                            <img src="http://placehold.it/80x60&amp;text=two" class="img-fluid">
+                        </a>
+                    </li>
+                    <li class="list-inline-item">
+                        <a id="carousel-selector-2" data-slide-to="2" data-target="#carouselExampleIndicators">
+                            <img src="http://placehold.it/80x60&amp;text=three" class="img-fluid">
+                        </a>
+                    </li>
+                </ul>
                 <squarespace:query collection="featured-images" limit="3">
                 <div class="carousel-inner" role="listbox">
                   {.section items.0}
