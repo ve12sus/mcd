@@ -38,12 +38,15 @@
                   <li data-target="#carouselExampleIndicators" data-slide-to="1"></li>
                   <li data-target="#carouselExampleIndicators" data-slide-to="2"></li>
                 </ol>-->
+                <squarespace:query collection="featured-images" limit="3">
                 <ul class="carousel-indicators list-inline">
+                    {.section items.0}
                     <li class="list-inline-item active">
                         <a id="carousel-selector-0" class="selected" data-slide-to="0" data-target="#carouselExampleIndicators">
-                            <img src="http://placehold.it/80x60&amp;text=one" class="img-fluid">
+                            <img class="img-fluid" {@|image-meta} />>
                         </a>
                     </li>
+                    {.end}
                     <li class="list-inline-item">
                         <a id="carousel-selector-1" data-slide-to="1" data-target="#carouselExampleIndicators">
                             <img src="http://placehold.it/80x60&amp;text=two" class="img-fluid">
@@ -55,6 +58,7 @@
                         </a>
                     </li>
                 </ul>
+                </squarespace:query>
                 <squarespace:query collection="featured-images" limit="3">
                 <div class="carousel-inner" role="listbox">
                   {.section items.0}
