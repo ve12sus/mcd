@@ -8,6 +8,8 @@
     <link href="https://fonts.googleapis.com/css?family=PT+Sans|Raleway" rel="stylesheet">
     <!-- include system scripts, page meta, and header code injection -->
     <squarespace:script src="bootstrap.js" combo="true" />
+    <squarespace:script src="jquery.bcSwipe.min.js" combo="true" />
+    <script>$('.carousel').bcSwipe({ threshold: 50 });</script>
     {squarespace-headers}
   </head>
   <body id="{squarespace.page-id}" class="{squarespace.page-classes}">
