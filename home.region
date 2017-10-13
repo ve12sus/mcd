@@ -8,7 +8,9 @@
     <link href="https://fonts.googleapis.com/css?family=PT+Sans|Raleway" rel="stylesheet">
     <!-- include system scripts, page meta, and header code injection -->
     <squarespace:script src="bootstrap.js" combo="true" />
+    <squarespace:script src="carousel-swipe.js" combo="true" />
     {squarespace-headers}
+    <script>$("#carouselExampleIndicators").carousel()</script>
   </head>
   <body id="{squarespace.page-id}" class="{squarespace.page-classes}">
 
