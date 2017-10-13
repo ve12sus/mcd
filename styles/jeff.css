@@ -158,5 +158,6 @@ img {
 @media (min-width: 576px){
   .container {
     width: 100%;
+    max-width: 100%;
   }
 }
