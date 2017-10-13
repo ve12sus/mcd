@@ -123,10 +123,11 @@ img {
 }
 
 #carouselExampleIndicators .carousel-indicators {
-  position: static;
-  left: initial;
-  width: initial;
+  position: absolute;
+  width: 50%;
   margin-left: initial;
+  overflow: hidden;
+  margin: 0 auto;
 }
 
 #carouselExampleIndicators .carousel-indicators > li {
