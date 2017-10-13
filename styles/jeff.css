@@ -146,14 +146,11 @@ img {
   height: 100px;
   width: 200px;
   background-size: 100%;
-}
-
-.carousel-indicators {
   display: hidden;
 }
 
 @media(min-width:768px){
-  .carousel-indicators {
+  .fill {
     display: block;
   }
 }
