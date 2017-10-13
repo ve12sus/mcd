@@ -8,6 +8,7 @@
     <link href="https://fonts.googleapis.com/css?family=PT+Sans|Raleway" rel="stylesheet">
     <!-- include system scripts, page meta, and header code injection -->
     <squarespace:script src="bootstrap.js" combo="true" />
+    <squarespace:script src="bootstrap-touch-carousel.js" combo="true" />
     {squarespace-headers}
   </head>
   <body id="{squarespace.page-id}" class="{squarespace.page-classes}">
