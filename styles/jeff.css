@@ -1,7 +1,6 @@
-/*.site-header {
-  height: 64px;
-  position: relative;
-}*/
+.content-container {
+  overflow: hidden;
+}
 
 img {
   width: 100%;
