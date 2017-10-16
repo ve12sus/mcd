@@ -9,9 +9,13 @@
     <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.11.0/umd/popper.min.js"
       integrity="sha384-b/U6ypiBEHpOf/4+1nzFpr53nxSS+GLCkfwBdFNTxtclqqenISfwAzpKaMNFNmj4"
       crossorigin="anonymous"></script>
+    <link rel="stylesheet"
+          href="https://cdnjs.cloudflare.com/ajax/libs/mdbootstrap/4.4.1/css/mdb.min.css">
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/mdbootstrap/4.4.1/js/mdb.min.js"></script>
     <squarespace:script src="bootstrap.js" combo="true" />
     <squarespace:script src="jquery.bcSwipe.js" combo="true" />
     {squarespace-headers}
+    <script>new WOW().init();</script>
   </head>
   <body>
 
@@ -89,7 +93,7 @@
                 </a>
               </div>
             </div>
-          <div class="row no-gutters second">
+          <div class="row no-gutters second wow animated fadeInLeft">
             <div class="col-md-4 col-sm-12 feature">
               <div class="img-wrap">
                 <img src="https://i.imgur.com/zfkB4fc.jpg"></img>
@@ -122,7 +126,7 @@
             </div>  
           </div>
           <div class="row no-gutters">
-            <div class="col-md-4 col-sm-12 feature">
+            <div class="col-md-4 col-sm-12 feature wow fadeInLeft">
               <div class="img-wrap">
                 <img src="https://i.imgur.com/m081jrL.jpg"></img>
                 <div class="hilight">
