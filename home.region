@@ -92,7 +92,7 @@
                 </a>
               </div>
             </div>
-          <div class="row no-gutters second wow animated fadeInLeft">
+          <div class="row no-gutters second wow fadeInLeft">
             <div class="col-md-4 col-sm-12 feature">
               <div class="img-wrap">
                 <img src="https://i.imgur.com/zfkB4fc.jpg"></img>
@@ -125,7 +125,7 @@
             </div>  
           </div>
           <div class="row no-gutters">
-            <div class="col-md-4 col-sm-12 feature wow animated fadeInLeft">
+            <div class="col-md-4 col-sm-12 feature wow fadeInLeft">
               <div class="img-wrap">
                 <img src="https://i.imgur.com/m081jrL.jpg"></img>
                 <div class="hilight">
