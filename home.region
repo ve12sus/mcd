@@ -15,7 +15,6 @@
     <squarespace:script src="bootstrap.js" combo="true" />
     <squarespace:script src="jquery.bcSwipe.js" combo="true" />
     {squarespace-headers}
-    <script>new WOW().init();</script>
   </head>
   <body>
 
@@ -154,6 +153,7 @@
     <!-- combo and minify scripts when not logged in -->
     <squarespace:script src="site.js" combo="{.if authenticatedAccount}false{.or}true{.end}" />
     <script>$('.carousel').bcSwipe({ threshold: 50 });</script>
+    <script>new WOW().init();</script>
 
     <!-- other scripts, and footer code injection -->
     <!-- {squarespace-footers} -->
