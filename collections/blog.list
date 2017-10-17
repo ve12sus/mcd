@@ -26,7 +26,7 @@
         <div class="img-wrap">
           <img {@|image-meta} />
           <div class="hilight">
-            <p>{title|truncate 55}</p>
+            <p>{title|truncate 100}</p>
           </div>
         </div>
       </div>
@@ -35,7 +35,7 @@
         <div class="img-wrap">
           <img src="http://clipart-library.com/img/1791739.jpg" />
           <div class="hilight">
-            <p>{title|truncate 55}</p>
+            <p>{title|truncate 100}</p>
           </div>
         </div>
       </div>
