@@ -17,8 +17,9 @@ img {
 
 .hilight > p {
   font-family: 'PT Sans', sans-serif;
-  text-align: center;
+  /*text-align: center;*/
   color: #999;
+  margin: auto;
 }
 
 .hilight > p:hover {
@@ -33,7 +34,8 @@ img {
   position: absolute;
   top: 0px;
   height: 50px;
-  text-overflow: ellipsis;
+  display: -webkit-flex;
+  display: flex;
 }
 
 .hilight:hover {

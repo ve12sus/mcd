@@ -26,7 +26,7 @@
         <div class="img-wrap">
           <img {@|image-meta} />
           <div class="hilight">
-            <span class="align-middle"><p>{title|truncate 80}</p></span>
+            <p>{title|truncate 80}</p>
           </div>
         </div>
       </div>
