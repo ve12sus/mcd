@@ -30,6 +30,15 @@
           </div>
         </div>
       </div>
+      {.or}
+      <div class="col-md-4 col-sm-12">
+        <div class="img-wrap">
+          <img src="http://clipart-library.com/img/1791739.jpg" />
+          <div class="hilight">
+            <p>{title}</p>
+          </div>
+        </div>
+      </div>
       {.end}
     {.end}
   </div>
