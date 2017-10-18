@@ -16,24 +16,11 @@
     {.if prevPage}
       <h1>I am the following pages</h1>
     {.or}
-      <squarespace:query collection="blog" featured="true" limit="1">
-        {.section items.0}
-          <div class="row no-gutters">
-            {.main-image?}
-            <div class="col-md-12 cold-sm-12">
-              <div class="img-wrap">
-                <img {@|image-meta} />
-                <div class="hilight">
-                  <p>{title}</p>
-                </div>
-              </div>
-            </div>
-            {.or}
-              <h1>I am the first page without an image</h1>
-            {.end}
-          </div>
-        {.end}
-      </squarespace:query>
+      <div class="row no-gutters">
+        <div class="col-md-12 col-sm-12">
+          <h1>I am the first page jumbotron</h1>
+        </div>
+      </div>
     {.end}
   {.end}
   <div class="row no-gutters">
