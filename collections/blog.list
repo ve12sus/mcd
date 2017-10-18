@@ -16,7 +16,6 @@
     {.if prevPage}
       <h1>I am the following pages</h1>
     {.or}
-      <h1>I am the first page</h1>
       <squarespace:query collection="blog" featured="true" limit="1">
         {.section items.0}
           <div class="row no-gutters">
@@ -29,6 +28,8 @@
                 </div>
               </div>
             </div>
+            {.or}
+              <h1>I am the first page without an image</h1>
             {.end}
           </div>
         {.end}
