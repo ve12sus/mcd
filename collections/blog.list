@@ -18,7 +18,7 @@
     {.or}
       <div class="row no-gutters">
         <div class="col-md-12 col-sm-12">
-          <h1>I am the first page jumbotron</h1>
+          <img src="https://static6.businessinsider.com/image/563bd36c9dd7cc19008c7b37-1190-625/a-large-order-of-mcdonalds-fries-costs-about-126-in-venezuela.jpg">
         </div>
       </div>
     {.end}
