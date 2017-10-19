@@ -35,9 +35,7 @@
                     {.var @imageUrl assetUrl}
                     <li class="list-inline-item active">
                       <a id="carousel-selector-0" class="selected" data-slide-to="0" data-target="#carouselExampleIndicators">
-                        <div class="fill">
-                          <img src={assetUrl} />
-                        </div>
+                        <div style="background-image: url({assetUrl});" class="fill"></div>
                       </a>
                     </li>
                     {.end}
