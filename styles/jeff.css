@@ -121,11 +121,10 @@ img {
 }
 
 #carouselExampleIndicators .carousel-indicators {
-  position: absolute;
-  width: 50%;
+  position: static;
+  left: initial;
+  width: initia;;
   margin-left: initial;
-  overflow: hidden;
-  margin: 0 auto;
 }
 
 #carouselExampleIndicators .carousel-indicators > li {
@@ -137,11 +136,6 @@ img {
 #carouselExampleIndicators .carousel-indicators > li.active img {
   opacity: 0.7;
 }
-
-.featuredThumb {
-  height: 100px;
-  width: 200px;
-} 
 
 /*@media(min-width:768px){
   .fill {

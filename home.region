@@ -30,32 +30,6 @@
                   <li data-target="#carouselExampleIndicators" data-slide-to="2"></li>
                 </ol>-->
                 <squarespace:query collection="featured-images" limit="3">
-                <ul class="carousel-indicators list-inline">
-                    {.section items.0}
-                    {.var @imageUrl assetUrl}
-                    <li class="list-inline-item active">
-                      <a id="carousel-selector-0" class="selected" data-slide-to="0" data-target="#carouselExampleIndicators">
-                        <img class="img-fluid featuredThumb" {@|image-meta} />
-                      </a>
-                    </li>
-                    {.end}
-                    {.section items.1}
-                    <li class="list-inline-item">
-                      <a id="carousel-selector-1" data-slide-to="1" data-target="#carouselExampleIndicators">
-                        <img class="img-fluid featuredThumb" {@|image-meta} />
-                      </a>
-                    </li>
-                    {.end}
-                    {.section items.2}
-                    <li class="list-inline-item">
-                      <a id="carousel-selector-2" data-slide-to="2" data-target="#carouselExampleIndicators">
-                        <img class="img-fluid featuredThumb" {@|image-meta} />
-                      </a>
-                    </li>
-                    {.end}
-                </ul>
-                </squarespace:query>
-                <squarespace:query collection="featured-images" limit="3">
                 <div class="carousel-inner" role="listbox">
                   {.section items.0}
                   <div class="carousel-item active">
@@ -82,6 +56,31 @@
                   <span class="carousel-control-next-icon" aria-hidden="true"></span>
                   <span class="sr-only">Next</span>
                 </a>
+                <squarespace:query collection="featured-images" limit="3">
+                <ul class="carousel-indicators list-inline">
+                    {.section items.0}
+                    <li class="list-inline-item active">
+                      <a id="carousel-selector-0" class="selected" data-slide-to="0" data-target="#carouselExampleIndicators">
+                        <img class="img-fluid" {@|image-meta} >
+                      </a>
+                    </li>
+                    {.end}
+                    {.section items.1}
+                    <li class="list-inline-item">
+                      <a id="carousel-selector-1" data-slide-to="1" data-target="#carouselExampleIndicators">
+                        <img class="img-fluid" {@|image-meta} >
+                      </a>
+                    </li>
+                    {.end}
+                    {.section items.2}
+                    <li class="list-inline-item">
+                      <a id="carousel-selector-2" data-slide-to="2" data-target="#carouselExampleIndicators">
+                        <img class="img-fluid" {@|image-meta} >
+                      </a>
+                    </li>
+                    {.end}
+                </ul>
+                </squarespace:query>
               </div>
             </div>
           <div class="row no-gutters second wow fadeInLeft">
