@@ -35,21 +35,23 @@
                     {.var @imageUrl assetUrl}
                     <li class="list-inline-item active">
                       <a id="carousel-selector-0" class="selected" data-slide-to="0" data-target="#carouselExampleIndicators">
-                        <div style="background-image: url({assetUrl});" class="fill">one</div>
+                        <div class="fill">
+                          <div style="background-image: url({assetUrl});"></div>
+                        </div>
                       </a>
                     </li>
                     {.end}
                     {.section items.1}
                     <li class="list-inline-item">
                       <a id="carousel-selector-1" data-slide-to="1" data-target="#carouselExampleIndicators">
-                        <div style="background-image: url({assetUrl});" class="fill">two</div>
+                        <div style="background-image: url({assetUrl});" class="fill"></div>
                       </a>
                     </li>
                     {.end}
                     {.section items.2}
                     <li class="list-inline-item">
                       <a id="carousel-selector-2" data-slide-to="2" data-target="#carouselExampleIndicators">
-                        <div style="background-image: url({assetUrl});" class="fill">three</div>
+                        <div style="background-image: url({assetUrl});" class="fill"></div>
                       </a>
                     </li>
                     {.end}
