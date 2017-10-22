@@ -138,7 +138,7 @@
       <!--Footer with open block field -->
       <footer class="site-footer">
           <!--<squarespace:block-field id="footerBlocks" columns="12" />-->
-        <squarespace:navigation navigationId="siteNav" template="site-navigation" />
+        <squarespace:navigation navigationId="footerNav" template="footer-navigation" />
       </footer>
 
     </div>
