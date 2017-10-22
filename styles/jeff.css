@@ -139,11 +139,11 @@ img {
 }
 
 .fill {
-  /*overflow: hidden;
+  overflow: hidden;
   background-size: cover;
   height: 100px;
   width: 200px;
-  background-size: 100%;*/
+  background-size: 100%;
   display: none;
 }
 
