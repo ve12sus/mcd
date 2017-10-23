@@ -138,9 +138,9 @@ img {
   opacity: 0.7;
 }
 
-.carousel .carousel-indicators li {
+/*.carousel .carousel-indicators li {
   max-width: none;
-}
+}*/
 
 .fill {
   overflow: hidden;
