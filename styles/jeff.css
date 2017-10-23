@@ -16,7 +16,6 @@ img {
 }
 
 .hilight > p {
-  font-family: 'PT Sans', sans-serif;
   text-align: center;
   color: #999;
   margin: auto;
@@ -43,78 +42,6 @@ img {
   cursor: pointer;
 }
 
-/*.site-navigation {
-  text-align: center;
-  position: absolute;
-  top: 50%; left: 50%;
-  transform: translate(-50%,-50%);
-}
-
-.site-navigation-list {
-  list-style-type: none;
-  margin: 0;
-  padding: 0;
-}
-
-.site-navigation-list > li {
-  display: inline;
-}
-
-.site-navigation-item > a {
-  font-family: 'Raleway', sans-serif;
-  font-size: 20px;
-  font-weight: 600;
-  text-transform: uppercase;
-  color: #999;
-  border: 0px solid transparent;
-  border-radius: 16px;
-}
-
-.site-navigation-item > a:link {
-  text-decoration: none;
-}
-
-.site-navigation-item > a:hover {
-  background-color: #ffc300;
-  transition: all 0.2s;
-}
-
-.site-navigation-list >li:not(:last-child) {
-  margin-right: 20px;
-}
-
-.site-footer {
-  text-align: center;
-}*/
-
-/* new navigation css */
-
-/*.navbar, .navbar-inverse {
-  border-radius: 0;
-  border: none;
-  margin-bottom: 0;
-  min-height: 80px;
-}
-
-.nav li {
-  display: inline;
-  color: white;
-}
-
-.navbar-inverse .navbar-nav > li > a {
-  color: #ffffff;
-  font-family: Lato;
-  font-size: 1.7em;
-  font-weight: 300;
-  padding: 30px 25px 33px 25px;
-}
-
-.navbar-inverse .navbar-nav li a:hover {
-  background-color: #444444;
-  transition: 0.7s all linear;
-  height: 100%;
-}*/
-
 #carouselExampleIndicators .list-inline {
   white-space:nowrap;
   overflow-x:auto;
@@ -138,10 +65,6 @@ img {
   opacity: 0.7;
 }
 
-/*.carousel .carousel-indicators li {
-  max-width: none;
-}*/
-
 .fill {
   overflow: hidden;
   background-size: cover;
@@ -157,7 +80,7 @@ img {
   }
 }
 
-.sqs-layout > .sqs-row {
+/*.sqs-layout > .sqs-row {
   margin-left: 0px;
   margin-right: 0px;
-}
+}*/
