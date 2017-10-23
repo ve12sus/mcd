@@ -3,6 +3,7 @@ img {
   height: auto;
 }
 
+/* settings for image hover zoom */
 .img-wrap {
   border: 1px solid #333;
   overflow: hidden;
@@ -22,6 +23,7 @@ img {
   transform: scale(1.1);
 }
 
+/* settings for highlight text */
 .img-wrap {
   position: relative;
 }
@@ -61,6 +63,7 @@ img {
   cursor: pointer;
 }
 
+/* settings for carousel indicator thumbnails */
 #carouselExampleIndicators .list-inline {
   white-space:nowrap;
   overflow-x:auto;
@@ -93,13 +96,10 @@ img {
   display: none;
 }
 
+/* make indicator thumbnails appear in size larger than mobile */
+
 @media(min-width:768px){
   .fill {
     display: block;
   }
 }
-
-/*.sqs-layout > .sqs-row {
-  margin-left: 0px;
-  margin-right: 0px;
-}*/
