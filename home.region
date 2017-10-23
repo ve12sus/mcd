@@ -138,6 +138,7 @@
                 </div>
               </div>
             </div>  
+          {squarespace.main-content}
         </div>
       </main>
       <!--Footer with open block field -->
