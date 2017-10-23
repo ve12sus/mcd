@@ -3,9 +3,16 @@
   <head>
     <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
     <meta name="viewport" content="width=device-width, initial-scale=1.0, shrink-to-fit=no">
-    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0-beta/css/bootstrap.min.css"
-      integrity="sha384-/Y6pD6FV/Vv2HJnA6t+vslU6fwYXjCFtcEpHbNJ0lyAFsXTsjBbfaDjzALeQsN6M" crossorigin="anonymous">
-    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/mdbootstrap/4.4.1/css/mdb.min.css">
+    <link rel="stylesheet"
+      href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0-beta/css/bootstrap.min.css"
+      integrity="sha384-/Y6pD6FV/Vv2HJnA6t+vslU6fwYXjCFtcEpHbNJ0lyAFsXTsjBbfaDjzALeQsN6M"
+      crossorigin="anonymous">
+    <!--<link rel="stylesheet"
+        href="https://cdnjs.cloudflare.com/ajax/libs/mdbootstrap/4.4.1/css/mdb.min.css">-->
+    <link rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/3.5.2/animate.min.css"
+      integrity="sha384-OHBBOqpYHNsIqQy8hL1U+8OXf9hH6QRxi0+EODezv82DfnZoV7qoHAZDwMwEJvSw"
+      crossorigin="anonymous">
     {squarespace-headers}
   </head>
   <body>
@@ -84,7 +91,7 @@
                 </a>
               </div>
             </div>
-          <div class="row no-gutters second wow fadeInLeft">
+          <div class="row no-gutters animated wow fadeInLeft">
             <div class="col-md-4 col-sm-12 feature">
               <div class="img-wrap">
                 <img src="https://i.imgur.com/zfkB4fc.jpg"></img>
@@ -93,7 +100,7 @@
                 </div>
               </div>  
             </div> 
-            <div class="col-md-4 col-sm-12 feature">
+            <div class="col-md-4 col-sm-12">
               <squarespace:query collection="blog" limit="1">
                 {.repeated section items}
                   <a href="{fullUrl}">
@@ -107,7 +114,7 @@
                 {.end}  
               </squarespace:query>
             </div>  
-            <div class="col-md-4 col-sm-12 feature">
+            <div class="col-md-4 col-sm-12">
               <div class="img-wrap">
                 <img src="https://i.imgur.com/dkxxX8o.jpg"></img>
                 <div class="hilight">
@@ -116,7 +123,7 @@
               </div>  
             </div>  
           </div>
-          <div class="row no-gutters wow fadeInLeft">
+          <div class="row no-gutters animated wow fadeInLeft">
             <div class="col-md-4 col-sm-12 feature">
               <div class="img-wrap">
                 <img src="https://i.imgur.com/m081jrL.jpg"></img>
@@ -125,7 +132,7 @@
                 </div>
               </div>
             </div> 
-            <div class="col-md-4 col-sm-12 feature wow fadeInLeft">
+            <div class="col-md-4 col-sm-12 animated wow fadeInLeft">
               <div class="img-wrap">
                 <img src="https://i.imgur.com/noY7oQA.jpg"></img>
                 <div class="hilight">
@@ -151,7 +158,7 @@
     <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0-beta/js/bootstrap.min.js"
       integrity="sha384-h0AbiXch4ZDo7tp9hKZ4TsHbi047NrKGLO3SEJAg45jXxnGIfYzk4Si90RDIqNm1"
       crossorigin="anonymous"></script>
-    <script src="https://cdnjs.cloudflare.com/ajax/libs/mdbootstrap/4.4.1/js/mdb.min.js"></script>
+    <!--<script src="https://cdnjs.cloudflare.com/ajax/libs/mdbootstrap/4.4.1/js/mdb.min.js"></script>-->
     <script src="https://cdnjs.cloudflare.com/ajax/libs/wow/1.1.2/wow.min.js"></script>
 
     <!-- combo and minify scripts when not logged in -->
