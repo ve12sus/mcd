@@ -14,10 +14,8 @@
     {squarespace-headers}
   </head>
   <body>
-
     <div class="container-fluid">
-
-      <header class="site-header">
+      <header>
         <!-- site navigation -->
         <squarespace:navigation navigationId="siteNav" template="site-navigation" />
       </header>
