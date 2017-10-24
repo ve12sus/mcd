@@ -1,5 +1,5 @@
 <nav class="navbar navbar-expand-lg navbar-light">
-  <a class="navbar-brand" href="#">McDiddlyDo</a>
+  <a class="navbar-brand text-white" href="#">McDiddlyDo</a>
   <button class="navbar-toggler" type="button" data-toggle="collapse"
     data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent"
     aria-expanded="false" aria-label="Toggle navigation">
@@ -14,12 +14,12 @@
 
 		<!-- collection link -->
 		  {.section collection}
-			<a class="nav-item" href="{fullUrl}">{navigationTitle}</a>
+			<a class="nav-item text-white" href="{fullUrl}">{navigationTitle}</a>
 		  {.end}
 
 		<!-- external link -->
 		  {.section externalLink}
-			<a class="nav-item" href="{url}"{.section newWindow} target="_blank"{.end}>
+			<a class="nav-item text-white" href="{url}"{.section newWindow} target="_blank"{.end}>
 			  {title}
 			</a>
 		  {.end}
@@ -29,9 +29,5 @@
       {.end}
 
     </ul>
-    <form class="form-inline my-2 my-lg-0">
-      <input class="form-control mr-sm-2" type="text" placeholder="Search" aria-label="Search">
-      <button class="btn btn-outline-success my-2 my-sm-0" type="submit">Search</button>
-    </form>
   </div>
 </nav>
