@@ -9,6 +9,8 @@ img {
   position: absolute;
   z-index: 10;
   width: 100%;
+  left: 0;
+  right: 0;
 }
 
 /* settings for image hover zoom */
