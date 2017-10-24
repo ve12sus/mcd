@@ -177,7 +177,7 @@
           get: 'user',
           userId: '6265159584',
           clientId: '94aa0be9d70d4c7dbb2b4252562ab843',
-          template: '<div class="col-sm"><a href="{{link}}"><img src="{{image}}" /></a></div>'
+          template: '<div class="col-sm"><a href={{link}}><img src={{image}} /></a></div>'
       });
       feed.run();
     </script>
