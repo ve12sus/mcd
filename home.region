@@ -18,7 +18,7 @@
       <header>
         <!-- site navigation -->
         <div class="navbar-wrapper">
-          <div class="container-fluid">
+          <div class="container">
             <squarespace:navigation navigationId="siteNav" template="site-navigation" />
           </div>
         </div>
