@@ -138,8 +138,9 @@
                 </div>
               </div>
             </div>  
-          <div id="instafeed" class="row"></div>
+          </div>
           {squarespace.main-content}
+          <div id="instafeed" class="row"></div>
         </div>
       </main>
       <!--Footer with open block field -->
