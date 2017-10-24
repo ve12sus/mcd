@@ -175,7 +175,7 @@
       var feed = new Instafeed({
           accessToken: '6265159584.1677ed0.40664a4fc83c42c682160ad8dba3dfec',
           get: 'user',
-          userId: '18343150',
+          userId: '6265159584',
           clientId: '94aa0be9d70d4c7dbb2b4252562ab843'
       });
       feed.run();
