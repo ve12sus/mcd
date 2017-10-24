@@ -17,16 +17,16 @@
     <div class="container-fluid">
       <header>
         <!-- site navigation -->
-        <div class="navbar-wrapper">
-          <div class="container-fluid">
-            <squarespace:navigation navigationId="siteNav" template="site-navigation" />
-          </div>
-        </div>
       </header>
 
       <!-- cms content injection point -->
       <main class="content-container" role="main" data-content-field="main-content">
       <!-- {squarespace.main-content} -->
+        <div class="navbar-wrapper">
+          <div class="container-fluid">
+            <squarespace:navigation navigationId="siteNav" template="site-navigation" />
+          </div>
+        </div>
         <div class="containerold">
           <div class="row no-gutters">
             <div class="col-md-12 col-sm-12">
