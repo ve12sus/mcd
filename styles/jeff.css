@@ -3,6 +3,13 @@ img {
   height: auto;
 }
 
+/* settings for navbar */
+
+.navbar-wrapper {
+  position: absolute;
+  z-index: 10;
+}
+
 /* settings for image hover zoom */
 .img-wrap {
   border: 1px solid #333;

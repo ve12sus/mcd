@@ -17,7 +17,11 @@
     <div class="container-fluid">
       <header>
         <!-- site navigation -->
-        <squarespace:navigation navigationId="siteNav" template="site-navigation" />
+        <div class="navbar-wrapper">
+          <div class="container">
+            <squarespace:navigation navigationId="siteNav" template="site-navigation" />
+          </div>
+        </div>
       </header>
 
       <!-- cms content injection point -->
