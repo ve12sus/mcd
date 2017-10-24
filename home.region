@@ -166,7 +166,7 @@
     <!-- combo and minify scripts when not logged in -->
     <squarespace:script src="site.js" combo="{.if authenticatedAccount}false{.or}true{.end}" />
     <squarespace:script src="jquery.bcSwipe.js" combo="true" />
-    <squarespace:script src="instafeedrev.js" combo="true" />
+    <script src="scripts/instafeedrev.js"></script>
     <script>
       $('.carousel').bcSwipe({ threshold: 50 });
     </script>
