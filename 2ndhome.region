@@ -86,8 +86,13 @@
 		  </div>
 	    </div>
 	  </div>
-	  <img src="https://www.mcdonaldsnytristate.com/wp-content/uploads/2016/09/download_app.jpg" 
-	    class="img-fluid" alt="Responsive image">  
+	  <div class="jumbotron jumbotron-fluid" style="background-image: url(https://www.mcdonaldsnytristate.com/wp-content/uploads/2016/09/download_app.jpg);
+	    background-size: cover;">
+		<div class="container">
+		  <h1 class="display-3">Fluid jumbotron</h1>
+		  <p class="lead">This is a modified jumbotron that occupies the entire horizontal space of its parent.</p>
+		</div>
+	  </div> 
     </div>
     <script src="https://code.jquery.com/jquery-3.2.1.min.js"
       integrity="sha256-hwg4gsxgFZhOsEEamdOYGBf13FyQuiTwlAQgxVSNgt4="
