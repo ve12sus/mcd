@@ -1,6 +1,6 @@
 @font-face {  
   font-family: 'mcd' ;  
-  src: url( 'https://ve12sus.com/fonts/LovinSansCondensed-Regular.woff' ) format('woff');  
+  src: url( '../assets/LovinSansCondensed-Regular.woff' ) format('woff');  
 }  
  
 /* Then use it like you would any other font */  
