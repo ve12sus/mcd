@@ -45,7 +45,7 @@
 	  <div class="row no-gutters">
 	    <div class="col-sm-6 align-items-stretch">
 		  <div class="card bg-dark text-white text-center">
-			<img class="card-img" src="http://ve12sus.com/images/news.jpg" alt="Card image">
+			<img class="card-img" src="https://ve12sus.com/images/news.jpg" alt="Card image">
 			<div class="card-img-overlay">
 			  <h4 class="card-title">News</h4>
 			  <p class="card-text">Rock Force wins B-Boy Royale '17</p>
@@ -55,7 +55,7 @@
 	    </div>
 	    <div class="col-sm-6 align-items-stretch">
 		  <div class="card bg-dark text-white text-center">
-			<img class="card-img" src="http://ve12sus.com/images/food.jpg" alt="Card image">
+			<img class="card-img" src="https://ve12sus.com/images/food.jpg" alt="Card image">
 			<div class="card-img-overlay">
 			  <h4 class="card-title">Food</h4>
 			  <p class="card-text">McCrispy Buttermilk Tenders</p>
@@ -67,7 +67,7 @@
 	  <div class="row no-gutters">
 	    <div class="col-sm-6 align-items-stretch">
 		  <div class="card bg-dark text-white text-center">
-			<img class="card-img" src="http://ve12sus.com/images/people.jpg" alt="Card image">
+			<img class="card-img" src="https://ve12sus.com/images/people.jpg" alt="Card image">
 			<div class="card-img-overlay">
 			  <h4 class="card-title">People</h4>
 			  <p class="card-text">2nd annual Archways event</p>
@@ -77,7 +77,7 @@
 	    </div>
 	    <div class="col-sm-6 align-items-stretch">
 		  <div class="card bg-dark text-white text-center">
-			<img class="card-img" src="http://ve12sus.com/images/events.jpg" alt="Card image">
+			<img class="card-img" src="https://ve12sus.com/images/events.jpg" alt="Card image">
 			<div class="card-img-overlay">
 			  <h4 class="card-title">Events</h4>
 			  <p class="card-text">Local events near you</p>
