@@ -105,7 +105,7 @@
 		<div class="card">
 		  <img class="card-img-top" src="https://theeatguide.com/wp-content/uploads/2017/09/P5198329-e1505081338555-256x180.jpg" alt="Card image cap">
 		  <div class="card-body">
-			<h4 class="card-title">Instagram</h4>
+			<h4 class="card-title">Twitter</h4>
 			<p class="card-text">This is a wider card with supporting text below as a natural lead-in to additional content. This content is a little bit longer.</p>
 			<p class="card-text"><small class="text-muted">Last updated 3 mins ago</small></p>
 		  </div>
@@ -113,7 +113,7 @@
 		<div class="card">
 		  <img class="card-img-top" src="https://theeatguide.com/wp-content/uploads/2017/09/P5198329-e1505081338555-256x180.jpg" alt="Card image cap">
 		  <div class="card-body">
-			<h4 class="card-title">Instagram</h4>
+			<h4 class="card-title">Twitter</h4>
 			<p class="card-text">This card has supporting text below as a natural lead-in to additional content.</p>
 			<p class="card-text"><small class="text-muted">Last updated 3 mins ago</small></p>
 		  </div>
@@ -121,10 +121,24 @@
 		<div class="card">
 		  <img class="card-img-top" src="https://theeatguide.com/wp-content/uploads/2017/09/P5198329-e1505081338555-256x180.jpg" alt="Card image cap">
 		  <div class="card-body">
-			<h4 class="card-title">Instagram</h4>
+			<h4 class="card-title">Twitter</h4>
 			<p class="card-text">This is a wider card with supporting text below as a natural lead-in to additional content. This card has even longer content than the first to show that equal height action.</p>
 			<p class="card-text"><small class="text-muted">Last updated 3 mins ago</small></p>
 		  </div>
+		</div>
+	  </div>
+	  <div class="row">
+		<div class="col-sm">
+		  <img src="https://pbs.twimg.com/profile_images/3468784053/5f3de0c358b5cd09447e48eb6673dc95.jpeg">
+		</div>
+		<div class="col-sm">
+		  <img src="https://pbs.twimg.com/profile_images/3468784053/5f3de0c358b5cd09447e48eb6673dc95.jpeg">
+		</div>
+		<div class="col-sm">
+		  <img src="https://pbs.twimg.com/profile_images/3468784053/5f3de0c358b5cd09447e48eb6673dc95.jpeg">
+		</div>
+		<div class="col-sm">
+		  <img src="https://pbs.twimg.com/profile_images/3468784053/5f3de0c358b5cd09447e48eb6673dc95.jpeg">
 		</div>
 	  </div> 
     </div>
