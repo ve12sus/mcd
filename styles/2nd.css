@@ -1,10 +1,11 @@
 @font-face {  
-  font-family: yourFontName ;  
-  src: url( //ve12sus.com/fonts/LovinSansCondensed-Regular.woff ) format("woff");  
+  font-family: 'mcd' ;  
+  src: url( 'https://ve12sus.com/fonts/LovinSansCondensed-Regular.woff' ) format('woff');  
 }  
  
 /* Then use it like you would any other font */  
-.yourFontName { font-family: yourFontName , verdana, helvetica, sans-serif;  
+.yourFontName {
+  font-family: 'mcd' , sans-serif;  
 }  
 
 
