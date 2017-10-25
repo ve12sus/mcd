@@ -36,7 +36,7 @@
       </nav>
       <div class="jumbotron jumbotron-fluid">
 		<div class="container">
-		  <h1 class="display-3 jeffy">Welcome to our new website.</h1>
+		  <h1 class="display-3">WELCOME TO OUR NEW WEBSITE.</h1>
 		  <p class="lead">
 			<a class="btn btn-primary btn-lg" href="#" role="button">Read more</a>
 		  </p>
