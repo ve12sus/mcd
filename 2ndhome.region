@@ -144,8 +144,8 @@
       <div class="row">
         <div class="col-sm-3">
           <h5>Get started</h5>
-          <ul>
-            <li class="nav-item"><a href="#">Home</a></li>
+          <ul class="nav">
+            <li class="nav-item"><a class="nav-link" href="#">Home</a></li>
             <li><a href="#">Sign up</a></li>
             <li><a href="#">Downloads</a></li>
           </ul>
