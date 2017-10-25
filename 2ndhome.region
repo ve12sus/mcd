@@ -55,10 +55,32 @@
 	    </div>
 	    <div class="col-sm-6">
 		  <div class="card bg-dark text-white text-center">
+			<img class="card-img" src="http://ve12sus.com/images/ButtermilkCrispyTenders.jpg" alt="Card image">
+			<div class="card-img-overlay">
+			  <h4 class="card-title">Food</h4>
+			  <p class="card-text">McCrispy Buttermilk Tenders</p>
+			  <a href="#" class="btn btn-primary">Read more</a>
+			</div>
+		  </div>
+	    </div>
+	  </div>
+	  <div class="row no-gutters">
+	    <div class="col-sm-6">
+		  <div class="card bg-dark text-white text-center">
 			<img class="card-img" src="http://ve12sus.com/images/bboy_18.jpg" alt="Card image">
 			<div class="card-img-overlay">
 			  <h4 class="card-title">News</h4>
 			  <p class="card-text">Rock Force wins B-Boy Royale '17</p>
+			  <a href="#" class="btn btn-primary">Read more</a>
+			</div>
+		  </div>
+	    </div>
+	    <div class="col-sm-6">
+		  <div class="card bg-dark text-white text-center">
+			<img class="card-img" src="http://ve12sus.com/images/ButtermilkCrispyTenders.jpg" alt="Card image">
+			<div class="card-img-overlay">
+			  <h4 class="card-title">Food</h4>
+			  <p class="card-text">McCrispy Buttermilk Tenders</p>
 			  <a href="#" class="btn btn-primary">Read more</a>
 			</div>
 		  </div>
