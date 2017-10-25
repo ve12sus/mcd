@@ -1,3 +1,9 @@
-.jeffy {
-  color: red;
+@font-face {
+  font-family: 'LovinSansRegular';
+  font-style: normal;
+  font-weight: normal;
+  src: local('LovinSansRegular'), url('http://ve12sus.com/LovinSansRegular.otf') format('truetype');
+}
+body {
+  font-family: 'LovingSansRegular', serif;
 }
