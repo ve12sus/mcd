@@ -128,16 +128,16 @@
 		</div>
 	  </div>
 	  <div class="row">
-		<div class="col-sm">
+		<div class="col-sm-3 col-12">
 		  <img src="https://pbs.twimg.com/profile_images/3468784053/5f3de0c358b5cd09447e48eb6673dc95.jpeg">
 		</div>
-		<div class="col-sm">
+		<div class="col-sm-3 col-12">
 		  <img src="https://pbs.twimg.com/profile_images/3468784053/5f3de0c358b5cd09447e48eb6673dc95.jpeg">
 		</div>
-		<div class="col-sm">
+		<div class="col-sm-3 col-12">
 		  <img src="https://pbs.twimg.com/profile_images/3468784053/5f3de0c358b5cd09447e48eb6673dc95.jpeg">
 		</div>
-		<div class="col-sm">
+		<div class="col-sm-3 col-12">
 		  <img src="https://pbs.twimg.com/profile_images/3468784053/5f3de0c358b5cd09447e48eb6673dc95.jpeg">
 		</div>
 	  </div> 
