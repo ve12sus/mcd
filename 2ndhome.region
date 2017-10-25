@@ -85,7 +85,9 @@
 			</div>
 		  </div>
 	    </div>
-	  </div>  
+	  </div>
+	  <img src="https://www.mcdonaldsnytristate.com/wp-content/uploads/2016/09/download_app.jpg" 
+	    class="img-fluid" alt="Responsive image">  
     </div>
     <script src="https://code.jquery.com/jquery-3.2.1.min.js"
       integrity="sha256-hwg4gsxgFZhOsEEamdOYGBf13FyQuiTwlAQgxVSNgt4="
