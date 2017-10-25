@@ -143,34 +143,36 @@
 	  </div>
       <div class="row">
         <div class="col-sm-3">
-          <h5>Get started</h5>
-          <ul class="nav">
-            <li class="nav-item"><a class="nav-link" href="#">Home</a></li>
-            <li><a href="#">Sign up</a></li>
-            <li><a href="#">Downloads</a></li>
+          <h5>ABOUT US</h5>
+          <ul class="list-unstyled">
+            <li><a href="#">Our History</a></li>
+            <li><a href="#">Leadership Team</a></li>
+            <li><a href="#">Values in Action</a></li>
           </ul>
         </div>
         <div class="col-sm-3">
-          <h5>About us</h5>
-          <ul>
-            <li><a href="#">Company Information</a></li>
-            <li><a href="#">Contact us</a></li>
-            <li><a href="#">Reviews</a></li>
+          <h5>OPPORTUNITIES</h5>
+          <ul class="list-unstyled">
+            <li><a href="#"	>Meet Our People</a></li>
+            <li><a href="#">For Our Veterans</a></li>
+            <li><a href="#">Apply Now</a></li>
+            <li><a href="#">Education Opportunities</a></li>
           </ul>
         </div>
         <div class="col-sm-3">
-          <h5>Support</h5>
-          <ul>
-            <li><a href="#">FAQ</a></li>
-            <li><a href="#">Help desk</a></li>
-            <li><a href="#">Forums</a></li>
+          <h5>PRESS ROOM</h5>
+          <ul class="list-unstyled">
+            <li><a href="#">Meet Our People</a></li>
+            <li><a href="#">For Our Veterans</a></li>
+            <li><a href="#">Apply Now</a></li>
+            <li><a href="#">This Same Thing Twice</a></li>
           </ul>
         </div>
         <div class="col-sm-3">
           <div class="social-networks">
-           <a href="#" class="twitter">Twitter</a>
-           <a href="#" class="facebook">Instagram</i></a>
-           <a href="#" class="google">YouTube</a>
+           <a href="#">Twitter</a>
+           <a href="#">Instagram</a>
+           <a href="#">YouTube</a>
           </div>
         </div>
       </div>      
