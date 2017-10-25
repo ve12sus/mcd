@@ -1,9 +1,8 @@
 @font-face {
-  font-family: 'LovinSansRegular';
-  font-style: normal;
-  font-weight: normal;
-  src: local('LovinSansRegular'), url('https://ve12sus.com/LovinSansRegular.otf') format('truetype');
+  font-family: LovinSansRegular;
+  src: url('https://ve12sus.com/fonts/LovinSansRegular.otf');
 }
+
 body {
   font-family: 'LovingSansRegular', serif;
 }
