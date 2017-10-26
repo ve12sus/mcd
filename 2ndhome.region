@@ -55,9 +55,25 @@
 					</div>
 					<div class="carousel-item">
 						<img class="d-block w-100" src="https://ve12sus.com/images/McCafe_LineUp_16x9.jpg" alt="Second slide">
+						<div class="container">
+							<div class="carousel-caption">
+								<h1>WELCOME TO OUR NEW WEBSITE.</h1>
+								<p class="lead">
+									<a class="btn btn-primary btn-lg" href="#" role="button">Learn more</a>
+								</p>
+							</div>
+						</div>
 					</div>
 					<div class="carousel-item">
 						<img class="d-block w-100" src="https://ve12sus.com/images/Szechuan.jpg" alt="Third slide">
+						<div class="container">
+							<div class="carousel-caption">
+								<h1>WELCOME TO OUR NEW WEBSITE.</h1>
+								<p class="lead">
+									<a class="btn btn-primary btn-lg" href="#" role="button">Learn more</a>
+								</p>
+							</div>
+						</div>
 					</div>
 				</div>
 				<a class="carousel-control-prev" href="#carouselExampleIndicators" role="button" data-slide="prev">
