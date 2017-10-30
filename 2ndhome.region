@@ -146,7 +146,7 @@
 				</div>
 			</div>
 			<div class="card-group">
-				<div class="card">
+				<div class="card border-0">
 					<img class="card-img-top" src="https://theeatguide.com/wp-content/uploads/2017/09/P5198329-e1505081338555-256x180.jpg" alt="Card image cap">
 					<div class="card-body">
 						<h4 class="card-title">Twitter</h4>
@@ -154,7 +154,7 @@
 						<p class="card-text"><small class="text-muted">Last updated 3 mins ago</small></p>
 					</div>
 				</div>
-				<div class="card">
+				<div class="card border-0">
 					<img class="card-img-top" src="https://theeatguide.com/wp-content/uploads/2017/09/P5198329-e1505081338555-256x180.jpg" alt="Card image cap">
 					<div class="card-body">
 						<h4 class="card-title">Twitter</h4>
@@ -162,7 +162,7 @@
 						<p class="card-text"><small class="text-muted">Last updated 3 mins ago</small></p>
 					</div>
 				</div>
-				<div class="card">
+				<div class="card border-0">
 					<img class="card-img-top" src="https://theeatguide.com/wp-content/uploads/2017/09/P5198329-e1505081338555-256x180.jpg" alt="Card image cap">
 					<div class="card-body">
 						<h4 class="card-title">Twitter</h4>
