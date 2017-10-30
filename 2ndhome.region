@@ -173,12 +173,14 @@
 			</div>
       <div class="row">
         <div class="col-sm-3">
-          <h5>ABOUT US</h5>
-          <ul class="list-unstyled">
-            <li><a href="#">Our History</a></li>
-            <li><a href="#">Leadership Team</a></li>
-            <li><a href="#">Values in Action</a></li>
-          </ul>
+          <div class="card-body">
+            <h5>ABOUT US</h5>
+            <ul class="list-unstyled">
+              <li><a href="#">Our History</a></li>
+              <li><a href="#">Leadership Team</a></li>
+              <li><a href="#">Values in Action</a></li>
+            </ul>
+          </div>
         </div>
         <div class="col-sm-3">
           <h5>OPPORTUNITIES</h5>
