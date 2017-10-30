@@ -183,30 +183,36 @@
           </div>
         </div>
         <div class="col-sm-3">
-          <h5>OPPORTUNITIES</h5>
-          <ul class="list-unstyled">
-            <li><a href="#"	>Meet Our People</a></li>
-            <li><a href="#">For Our Veterans</a></li>
-            <li><a href="#">Apply Now</a></li>
-            <li><a href="#">Education Opportunities</a></li>
-          </ul>
+          <div class="card-body">
+            <h5>OPPORTUNITIES</h5>
+            <ul class="list-unstyled">
+              <li><a href="#"	>Meet Our People</a></li>
+              <li><a href="#">For Our Veterans</a></li>
+              <li><a href="#">Apply Now</a></li>
+              <li><a href="#">Education Opportunities</a></li>
+            </ul>
+          </div>
         </div>
         <div class="col-sm-3">
-          <h5>PRESS ROOM</h5>
-          <ul class="list-unstyled">
-            <li><a href="#">Meet Our People</a></li>
-            <li><a href="#">For Our Veterans</a></li>
-            <li><a href="#">Apply Now</a></li>
-            <li><a href="#">This Same Thing Twice</a></li>
-          </ul>
+          <div class="card-body">
+            <h5>PRESS ROOM</h5>
+            <ul class="list-unstyled">
+              <li><a href="#">Meet Our People</a></li>
+              <li><a href="#">For Our Veterans</a></li>
+              <li><a href="#">Apply Now</a></li>
+              <li><a href="#">This Same Thing Twice</a></li>
+            </ul>
+          </div>
         </div>
         <div class="col-sm-3">
-          <h5>Social</h5>
-          <ul class="list-unstyled">
-            <li><a href="#">Twitter</a></li>
-            <li><a href="#">Instagram</a></li>
-            <li><a href="#">YouTube</a></li>
-          </ul>
+          <div class="card-body">
+            <h5>Social</h5>
+            <ul class="list-unstyled">
+              <li><a href="#">Twitter</a></li>
+              <li><a href="#">Instagram</a></li>
+              <li><a href="#">YouTube</a></li>
+            </ul>
+          </div>
         </div>
       </div>      
       <div class="footer-copyright">
