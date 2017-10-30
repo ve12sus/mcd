@@ -87,7 +87,7 @@
 			</div>
 			<div class="row no-gutters">
 				<div class="col-sm-6 align-items-stretch">
-					<div class="card bg-dark text-white text-center">
+					<div class="card bg-dark text-white text-center border-0">
 						<img class="card-img" src="https://ve12sus.com/images/news.jpg" alt="Card image">
 						<div class="card-img-overlay">
 							<h4 class="card-title">News</h4>
@@ -97,7 +97,7 @@
 					</div>
 				</div>
 				<div class="col-sm-6 align-items-stretch">
-					<div class="card bg-dark text-white text-center">
+					<div class="card bg-dark text-white text-center border-0">
 						<img class="card-img" src="https://ve12sus.com/images/food.jpg" alt="Card image">
 						<div class="card-img-overlay">
 							<h4 class="card-title">Food</h4>
@@ -109,7 +109,7 @@
 			</div>
 			<div class="row no-gutters">
 				<div class="col-sm-6 align-items-stretch">
-					<div class="card bg-dark text-white text-center">
+					<div class="card bg-dark text-white text-center border-0">
 						<img class="card-img" src="https://ve12sus.com/images/people.jpg" alt="Card image">
 						<div class="card-img-overlay">
 							<h4 class="card-title">People</h4>
