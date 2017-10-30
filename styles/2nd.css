@@ -8,4 +8,10 @@ h1, h2, h3, h4, h5, h6, a {
   font-family: 'mcd' , sans-serif;  
 }  
 
-
+.navbar-wrapper {
+  position: absolute;
+  top: 0;
+  left: 0;
+  right: 0;
+  z-index: 10;
+}
