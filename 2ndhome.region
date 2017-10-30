@@ -199,11 +199,12 @@
           </ul>
         </div>
         <div class="col-sm-3">
-          <div class="social-networks">
-           <a href="#">Twitter</a>
-           <a href="#">Instagram</a>
-           <a href="#">YouTube</a>
-          </div>
+          <h5>Social</h5>
+          <ul class="list-unstyled">
+            <li><a href="#">Twitter</a></li>
+            <li><a href="#">Instagram</a></li>
+            <li><a href="#">YouTube</a></li>
+          </ul>
         </div>
       </div>      
       <div class="footer-copyright">
