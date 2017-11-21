@@ -21,6 +21,7 @@ h1, h2, h3, h4, h5, h6, a {
   font-family: 'LovinSansCondensed-Bold', sans-serif;
 }
 
+/* rules for floating nav */
 @media (min-width: 768px) {
 
   .navbar-wrapper {
@@ -51,4 +52,11 @@ h1, h2, h3, h4, h5, h6, a {
 		border-bottom: #ffc400 solid 2px;
 	}
 	
+}
+
+/* rules for featured cards */
+
+.featured-news {
+  background-color: #659a2a;
+  opacity: 0.7;
 }
