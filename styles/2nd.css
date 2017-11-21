@@ -8,6 +8,10 @@
   src: url( '../assets/LovinSansCondensed-Bold.woff' ) format('woff');
 }
 
+body {
+  background-color: #1e1e1e;
+}
+
 /* Then use it like you would any other font */  
 h1, h2, h3, h4, h5, h6, a {
   font-family: 'LovinSansCondensed-Regular' , sans-serif;  
