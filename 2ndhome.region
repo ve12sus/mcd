@@ -95,7 +95,7 @@
 				<div class="col-xs-12">
           <div class="card bg-dark text-white text-center border-0" style="width: 470px;">
 						<img class="card-img" src="https://ve12sus.com/images/news.jpg" alt="Card image">
-						<div class="card-img-overlay feature-news">
+						<div class="card-img-overlay featured-news">
 							<h2 class="card-title">NEWS</h2>
 							<p class="card-text">Local stories, promotions, and sponsorships</p>
 							<a href="#" class="btn btn-primary">READ MORE</a>
