@@ -57,6 +57,16 @@ h1, h2, h3, h4, h5, h6, a {
 /* rules for featured cards */
 
 .featured-news {
-  background-color: #659a2a;
-  opacity: 0.7;
+  background-color: rgba(101, 154, 42, 0.5);
+}
+
+.featured-news > a {
+  background-color: #61b310;
+  width: 140px;
+  height: 36px;
+  border-radius: 37px;
+}
+
+.featured-food {
+  background-color: rgba(57, 120, 191, 0.5);
 }
