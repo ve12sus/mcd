@@ -82,103 +82,104 @@
 						</div>
 					</div>
 				</div>
+				<a class="carousel-control-prev" href="#carouselExampleIndicators" role="button" data-slide="prev">
+					<span class="carousel-control-prev-icon" aria-hidden="true"></span>
+					<span class="sr-only">Previous</span>
+				</a>
+				<a class="carousel-control-next" href="#carouselExampleIndicators" role="button" data-slide="next">
+					<span class="carousel-control-next-icon" aria-hidden="true"></span>
+					<span class="sr-only">Next</span>
+				</a>
+      <div class="featured-posts">
         <div class="container">
-				  <a class="carousel-control-prev" href="#carouselExampleIndicators" role="button" data-slide="prev">
-					  <span class="carousel-control-prev-icon" aria-hidden="true"></span>
-					  <span class="sr-only">Previous</span>
-				  </a>
-				  <a class="carousel-control-next" href="#carouselExampleIndicators" role="button" data-slide="next">
-					  <span class="carousel-control-next-icon" aria-hidden="true"></span>
-					  <span class="sr-only">Next</span>
-				  </a>
+			    <div class="row no-gutters justify-content-center">
+				    <div class="col-xs-12">
+              <div class="card bg-dark text-white text-center border-0" style="width: 470px;">
+						    <img class="card-img" src="https://ve12sus.com/images/news.jpg" alt="Card image">
+						    <div class="card-img-overlay featured-news">
+							    <h2 class="card-title">NEWS</h2>
+							    <p class="card-text">Local stories, promotions, and sponsorships</p>
+							    <a href="#" class="btn">READ MORE</a>
+						    </div>
+					    </div>
+				    </div>
+				    <div class="col-xs-12">
+					    <div class="card bg-dark text-white text-center border-0" style="width: 470px;">
+						    <img class="card-img" src="https://ve12sus.com/images/food.jpg" alt="Card image">
+						    <div class="card-img-overlay featured-food">
+							    <h2 class="card-title">FOOD</h2>
+							    <p class="card-text">Explore our new products and nutrition facts</p>
+							    <a href="#" class="btn">READ MORE</a>
+						    </div>
+					    </div>
+				    </div>
+			    </div>
+			    <div class="row no-gutters justify-content-center">
+				    <div class="col-xs-12">
+					    <div class="card bg-dark text-white text-center border-0" style="width: 470px;">
+						    <img class="card-img" src="https://ve12sus.com/images/people.jpg" alt="Card image">
+						    <div class="card-img-overlay featured-people">
+							    <h2 class="card-title">PEOPLE</h2>
+							    <p class="card-text">Meet our crew</p>
+							    <a href="#" class="btn">READ MORE</a>
+						    </div>
+					    </div>
+				    </div>
+				    <div class="col-xs-12">
+					    <div class="card bg-dark text-white text-center border-0" style="width: 470px;">
+						    <img class="card-img" src="https://ve12sus.com/images/events.jpg" alt="Card image">
+						    <div class="card-img-overlay featured-events">
+							    <h2 class="card-title">EVENTS</h2>
+							    <p class="card-text">Local events near you</p>
+							    <a href="#" class="btn">READ MORE</a>
+						    </div>
+					    </div>
+				    </div>
+			    </div>
+			    <div class="jumbotron jumbotron-fluid" style="background-image:
+					    url(https://www.mcdonaldsnytristate.com/wp-content/uploads/2016/09/download_app.jpg);
+					    background-size: cover;">
+				    <div class="container">
+					    <h1 class="display-3">Pretend I am Uber eats</h1>
+					    <p class="lead">This is a modified jumbotron that occupies the entire horizontal space of its parent.</p>
+				    </div>
+			    </div>
+			    <div class="jumbotron jumbotron-fluid">
+				    <div class="container">
+					    <h1 class="display-3">Baby Everett needed surgery 1,000 miles from home</h1>
+					    <p class="lead">
+						    <a class="btn btn-primary btn-lg" href="#" role="button">Read more</a>
+					    </p>
+				    </div>
+			    </div>
+			    <div class="card-group">
+				    <div class="card border-0">
+					    <img class="card-img-top" src="https://theeatguide.com/wp-content/uploads/2017/09/P5198329-e1505081338555-256x180.jpg" alt="Card image cap">
+					    <div class="card-body">
+						    <h4 class="card-title">Twitter</h4>
+						    <p class="card-text">This is a wider card with supporting text below as a natural lead-in to additional content. This content is a little bit longer.</p>
+						    <p class="card-text"><small class="text-muted">Last updated 3 mins ago</small></p>
+					    </div>
+				    </div>
+				    <div class="card border-0">
+					    <img class="card-img-top" src="https://theeatguide.com/wp-content/uploads/2017/09/P5198329-e1505081338555-256x180.jpg" alt="Card image cap">
+					    <div class="card-body">
+						    <h4 class="card-title">Twitter</h4>
+						    <p class="card-text">This card has supporting text below as a natural lead-in to additional content.</p>
+						    <p class="card-text"><small class="text-muted">Last updated 3 mins ago</small></p>
+					    </div>
+				    </div>
+				    <div class="card border-0">
+					    <img class="card-img-top" src="https://theeatguide.com/wp-content/uploads/2017/09/P5198329-e1505081338555-256x180.jpg" alt="Card image cap">
+					    <div class="card-body">
+						    <h4 class="card-title">Twitter</h4>
+						    <p class="card-text">This is a wider card with supporting text below as a natural lead-in to additional content. This card has even longer content than the first to show that equal height action.</p>
+						    <p class="card-text"><small class="text-muted">Last updated 3 mins ago</small></p>
+					    </div>
+				    </div>
+			    </div>
         </div>
-			</div>
-			<div class="row no-gutters justify-content-center">
-				<div class="col-xs-12">
-          <div class="card bg-dark text-white text-center border-0" style="width: 470px;">
-						<img class="card-img" src="https://ve12sus.com/images/news.jpg" alt="Card image">
-						<div class="card-img-overlay featured-news">
-							<h2 class="card-title">NEWS</h2>
-							<p class="card-text">Local stories, promotions, and sponsorships</p>
-							<a href="#" class="btn">READ MORE</a>
-						</div>
-					</div>
-				</div>
-				<div class="col-xs-12">
-					<div class="card bg-dark text-white text-center border-0" style="width: 470px;">
-						<img class="card-img" src="https://ve12sus.com/images/food.jpg" alt="Card image">
-						<div class="card-img-overlay featured-food">
-							<h2 class="card-title">FOOD</h2>
-							<p class="card-text">Explore our new products and nutrition facts</p>
-							<a href="#" class="btn">READ MORE</a>
-						</div>
-					</div>
-				</div>
-			</div>
-			<div class="row no-gutters justify-content-center">
-				<div class="col-xs-12">
-					<div class="card bg-dark text-white text-center border-0" style="width: 470px;">
-						<img class="card-img" src="https://ve12sus.com/images/people.jpg" alt="Card image">
-						<div class="card-img-overlay featured-people">
-							<h2 class="card-title">PEOPLE</h2>
-							<p class="card-text">Meet our crew</p>
-							<a href="#" class="btn">READ MORE</a>
-						</div>
-					</div>
-				</div>
-				<div class="col-xs-12">
-					<div class="card bg-dark text-white text-center border-0" style="width: 470px;">
-						<img class="card-img" src="https://ve12sus.com/images/events.jpg" alt="Card image">
-						<div class="card-img-overlay featured-events">
-							<h2 class="card-title">EVENTS</h2>
-							<p class="card-text">Local events near you</p>
-							<a href="#" class="btn">READ MORE</a>
-						</div>
-					</div>
-				</div>
-			</div>
-			<div class="jumbotron jumbotron-fluid" style="background-image:
-					url(https://www.mcdonaldsnytristate.com/wp-content/uploads/2016/09/download_app.jpg);
-					background-size: cover;">
-				<div class="container">
-					<h1 class="display-3">Pretend I am Uber eats</h1>
-					<p class="lead">This is a modified jumbotron that occupies the entire horizontal space of its parent.</p>
-				</div>
-			</div>
-			<div class="jumbotron jumbotron-fluid">
-				<div class="container">
-					<h1 class="display-3">Baby Everett needed surgery 1,000 miles from home</h1>
-					<p class="lead">
-						<a class="btn btn-primary btn-lg" href="#" role="button">Read more</a>
-					</p>
-				</div>
-			</div>
-			<div class="card-group">
-				<div class="card border-0">
-					<img class="card-img-top" src="https://theeatguide.com/wp-content/uploads/2017/09/P5198329-e1505081338555-256x180.jpg" alt="Card image cap">
-					<div class="card-body">
-						<h4 class="card-title">Twitter</h4>
-						<p class="card-text">This is a wider card with supporting text below as a natural lead-in to additional content. This content is a little bit longer.</p>
-						<p class="card-text"><small class="text-muted">Last updated 3 mins ago</small></p>
-					</div>
-				</div>
-				<div class="card border-0">
-					<img class="card-img-top" src="https://theeatguide.com/wp-content/uploads/2017/09/P5198329-e1505081338555-256x180.jpg" alt="Card image cap">
-					<div class="card-body">
-						<h4 class="card-title">Twitter</h4>
-						<p class="card-text">This card has supporting text below as a natural lead-in to additional content.</p>
-						<p class="card-text"><small class="text-muted">Last updated 3 mins ago</small></p>
-					</div>
-				</div>
-				<div class="card border-0">
-					<img class="card-img-top" src="https://theeatguide.com/wp-content/uploads/2017/09/P5198329-e1505081338555-256x180.jpg" alt="Card image cap">
-					<div class="card-body">
-						<h4 class="card-title">Twitter</h4>
-						<p class="card-text">This is a wider card with supporting text below as a natural lead-in to additional content. This card has even longer content than the first to show that equal height action.</p>
-						<p class="card-text"><small class="text-muted">Last updated 3 mins ago</small></p>
-					</div>
-				</div>
-			</div>
+      </div>
       <div class="row">
         <div class="col-sm-3">
           <div class="card-body">
