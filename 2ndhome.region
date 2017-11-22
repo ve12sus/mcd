@@ -90,6 +90,7 @@
 					<span class="carousel-control-next-icon" aria-hidden="true"></span>
 					<span class="sr-only">Next</span>
 				</a>
+      </div>
       <div class="featured-posts">
         <div class="container">
 			    <div class="row no-gutters justify-content-center">
