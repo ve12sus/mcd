@@ -64,6 +64,11 @@ h1, h2, h3, h4, h5, h6, a {
 	
 }
 
+.carousel-caption {
+  bottom: 200px;
+  text-align: left;
+}
+
 /* rules for featured cards */
 
 .featured-news {
