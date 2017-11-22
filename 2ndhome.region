@@ -94,7 +94,7 @@
       <div class="featured-posts">
         <div class="container">
 			    <div class="row no-gutters justify-content-center">
-				    <div class="col-xs-12">
+				    <div class="col-sm-6">
               <div class="card bg-dark text-white text-center border-0" style="width: 470px;">
 						    <img class="card-img" src="https://ve12sus.com/images/news.jpg" alt="Card image">
 						    <div class="card-img-overlay featured-news">
@@ -104,7 +104,7 @@
 						    </div>
 					    </div>
 				    </div>
-				    <div class="col-xs-12">
+				    <div class="col-sm-6">
 					    <div class="card bg-dark text-white text-center border-0" style="width: 470px;">
 						    <img class="card-img" src="https://ve12sus.com/images/food.jpg" alt="Card image">
 						    <div class="card-img-overlay featured-food">
@@ -116,7 +116,7 @@
 				    </div>
 			    </div>
 			    <div class="row no-gutters justify-content-center">
-				    <div class="col-xs-12">
+				    <div class="col-sm-6">
 					    <div class="card bg-dark text-white text-center border-0" style="width: 470px;">
 						    <img class="card-img" src="https://ve12sus.com/images/people.jpg" alt="Card image">
 						    <div class="card-img-overlay featured-people">
@@ -126,7 +126,7 @@
 						    </div>
 					    </div>
 				    </div>
-				    <div class="col-xs-12">
+				    <div class="col-sm-6">
 					    <div class="card bg-dark text-white text-center border-0" style="width: 470px;">
 						    <img class="card-img" src="https://ve12sus.com/images/events.jpg" alt="Card image">
 						    <div class="card-img-overlay featured-events">
