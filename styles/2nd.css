@@ -96,7 +96,7 @@ h1, h2, h3, h4, h5, h6, a {
   background-color: rgba(189, 162, 57, 0.7);
 }
 
-.featured-food > a {
+.featured-events > a {
   background-color: #e4b600;
   color: #fff;
   width: 140px;
