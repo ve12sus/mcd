@@ -181,52 +181,58 @@
 			    </div>
         </div>
       </div>
-      <div class="row">
-        <div class="col-sm-3">
-          <div class="card-body">
-            <h5>ABOUT US</h5>
-            <ul class="list-unstyled">
-              <li><a href="#">Our History</a></li>
-              <li><a href="#">Leadership Team</a></li>
-              <li><a href="#">Values in Action</a></li>
-            </ul>
+    </div>
+    <div class="container-fluid">
+      <div class="footer-links">
+        <div class="container">
+          <div class="row">
+            <div class="col-sm-3">
+              <div class="card-body">
+                <h5>ABOUT US</h5>
+                <ul class="list-unstyled">
+                  <li><a href="#">Our History</a></li>
+                  <li><a href="#">Leadership Team</a></li>
+                  <li><a href="#">Values in Action</a></li>
+                </ul>
+              </div>
+            </div>
+            <div class="col-sm-3">
+              <div class="card-body">
+                <h5>OPPORTUNITIES</h5>
+                <ul class="list-unstyled">
+                  <li><a href="#"	>Meet Our People</a></li>
+                  <li><a href="#">For Our Veterans</a></li>
+                  <li><a href="#">Apply Now</a></li>
+                  <li><a href="#">Education Opportunities</a></li>
+                </ul>
+              </div>
+            </div>
+            <div class="col-sm-3">
+              <div class="card-body">
+                <h5>PRESS ROOM</h5>
+                <ul class="list-unstyled">
+                  <li><a href="#">Meet Our People</a></li>
+                  <li><a href="#">For Our Veterans</a></li>
+                  <li><a href="#">Apply Now</a></li>
+                  <li><a href="#">This Same Thing Twice</a></li>
+                </ul>
+              </div>
+            </div>
+            <div class="col-sm-3">
+              <div class="card-body">
+                <h5>Social</h5>
+                <ul class="list-unstyled">
+                  <li><a href="#">Twitter</a></li>
+                  <li><a href="#">Instagram</a></li>
+                  <li><a href="#">YouTube</a></li>
+                </ul>
+              </div>
+            </div>
+          </div>      
+          <div class="footer-copyright">
+            <p class="text-center">© 2017 MCDONALD'S NEW YORK TRI-STATE. ALL RIGHTS RESERVED</p>
           </div>
         </div>
-        <div class="col-sm-3">
-          <div class="card-body">
-            <h5>OPPORTUNITIES</h5>
-            <ul class="list-unstyled">
-              <li><a href="#"	>Meet Our People</a></li>
-              <li><a href="#">For Our Veterans</a></li>
-              <li><a href="#">Apply Now</a></li>
-              <li><a href="#">Education Opportunities</a></li>
-            </ul>
-          </div>
-        </div>
-        <div class="col-sm-3">
-          <div class="card-body">
-            <h5>PRESS ROOM</h5>
-            <ul class="list-unstyled">
-              <li><a href="#">Meet Our People</a></li>
-              <li><a href="#">For Our Veterans</a></li>
-              <li><a href="#">Apply Now</a></li>
-              <li><a href="#">This Same Thing Twice</a></li>
-            </ul>
-          </div>
-        </div>
-        <div class="col-sm-3">
-          <div class="card-body">
-            <h5>Social</h5>
-            <ul class="list-unstyled">
-              <li><a href="#">Twitter</a></li>
-              <li><a href="#">Instagram</a></li>
-              <li><a href="#">YouTube</a></li>
-            </ul>
-          </div>
-        </div>
-      </div>      
-      <div class="footer-copyright">
-        <p class="text-center">© 2017 MCDONALD'S NEW YORK TRI-STATE. ALL RIGHTS RESERVED</p>
       </div>
     </div>
     <script src="https://code.jquery.com/jquery-3.2.1.min.js"
