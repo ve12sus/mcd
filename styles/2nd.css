@@ -57,16 +57,49 @@ h1, h2, h3, h4, h5, h6, a {
 /* rules for featured cards */
 
 .featured-news {
-  background-color: rgba(101, 154, 42, 0.5);
+  background-color: rgba(101, 154, 42, 0.7);
 }
 
 .featured-news > a {
   background-color: #61b310;
+  color: #fff;
   width: 140px;
   height: 36px;
   border-radius: 37px;
 }
 
 .featured-food {
-  background-color: rgba(57, 120, 191, 0.5);
+  background-color: rgba(57, 120, 191, 0.7);
+}
+
+.featured-food > a {
+  background-color: #4ea0ff;
+  color: #fff;
+  width: 140px;
+  height: 36px;
+  border-radius: 37px;
+}
+
+.featured-people {
+  background-color: rgba(130, 58, 194, 0.7);
+}
+
+.featured-people > a {
+  background-color: #c26fff;
+  color: #fff;
+  width: 140px;
+  height: 36px;
+  border-radius: 37px;
+}
+
+.featured-events {
+  background-color: rgba(189, 162, 57, 0.7);
+}
+
+.featured-food > a {
+  background-color: #e4b600;
+  color: #fff;
+  width: 140px;
+  height: 36px;
+  border-radius: 37px;
 }
