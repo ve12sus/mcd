@@ -51,6 +51,10 @@ h1, h2, h3, h4, h5, h6, a {
 	.events-nav-link {
 		border-bottom: #ffc400 solid 2px;
 	}
+
+  .carousel-caption > h1 {
+    font-size: 4rem;
+  }
 	
 }
 
