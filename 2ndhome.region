@@ -25,16 +25,16 @@
 			      <div class="collapse navbar-collapse" id="navbarNavDropdown">
 				      <ul class="navbar-nav ml-auto justify-content-end">
 					      <li class="nav-item">
-						      <a class="nav-link text-white news-nav-link" href="#">News</a>
+						      <a class="nav-link text-white news-nav-link" href="#">NEWS</a>
 					      </li>
 	              <li class="nav-item">
-						      <a class="nav-link text-white food-nav-link" href="#">Food</a>
+						      <a class="nav-link text-white food-nav-link" href="#">FOOD</a>
 					      </li>
 					      <li class="nav-item">
-						      <a class="nav-link text-white people-nav-link" href="#">People</a>
+						      <a class="nav-link text-white people-nav-link" href="#">PEOPLE</a>
 					      </li>
 					      <li class="nav-item">
-						      <a class="nav-link text-white events-nav-link" href="#">Events</a>
+						      <a class="nav-link text-white events-nav-link" href="#">EVENTS</a>
 					      </li>
 				      </ul>
 			      </div>
