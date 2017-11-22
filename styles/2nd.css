@@ -142,4 +142,15 @@ h1, h2, h3, h4, h5, h6, a {
   color: #fff;
 }
 
+/* rules for mobile view */
+@media (max-width: 575px) {
+  .container {
+    padding-right: 0px;
+    padding-left: 0px;
+  }
 
+  .row {
+    margin-right: 0px;
+    margin-left: 0px;
+  }
+}
