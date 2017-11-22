@@ -70,6 +70,14 @@ h1, h2, h3, h4, h5, h6, a {
   background-color: rgba(101, 154, 42, 0.7);
 }
 
+.welcome-readmore > a {
+  background-color: #c26fff;
+  color: #fff;
+  width: 140px;
+  height: 36px;
+  border-radius: 18.5px;
+}
+
 .featured-news > a {
   background-color: #61b310;
   color: #fff;
