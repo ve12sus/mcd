@@ -134,7 +134,12 @@ h1, h2, h3, h4, h5, h6, a {
 
 /* footer styles */
 
-.footer-links * {
-  color: #fff;
+.footer {
   background-color: #282828;
 }
+
+.footer-links * {
+  color: #fff;
+}
+
+
