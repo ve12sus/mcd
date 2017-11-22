@@ -126,3 +126,9 @@ h1, h2, h3, h4, h5, h6, a {
   height: 36px;
   border-radius: 37px;
 }
+
+/* footer styles */
+
+.footer-links * {
+  color: #fff;
+}
