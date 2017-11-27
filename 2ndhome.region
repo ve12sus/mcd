@@ -143,10 +143,10 @@
 					    <p class="lead">McDelivery and UBER eats</p>
 				    </div>
 			    </div>
-			    <div class="jumbotron jumbotron-fluid">
+			    <div class="jumbotron jumbotron-fluid" style="min-height: 318px;">
 				    <div class="container">
-					    <h1 class="display-3">Baby Everett needed surgery 1,000 miles from home</h1>
-					    <p class="lead">
+					    <h1 class="display-3">Mcdonalds Ads</h1>
+					    <p class="lead">McDonald's Ad
 						    <a class="btn btn-primary btn-lg" href="#" role="button">Read more</a>
 					    </p>
 				    </div>
