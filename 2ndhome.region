@@ -137,13 +137,13 @@
 					    </div>
 				    </div>
 			    </div>
-			    <div class="jumbotron jumbotron-fluid 360ad" style="height: 227px;">
+			    <div class="jumbotron jumbotron-fluid ad-360" style="height: 227px;">
 				    <div class="container">
 					    <h1 class="display-3">360 Video</h1>
 					    <p class="lead">McDelivery and UBER eats</p>
 				    </div>
 			    </div>
-			    <div class="jumbotron jumbotron-fluid topad" style="min-height: 318px;">
+			    <div class="jumbotron jumbotron-fluid ad-top" style="min-height: 318px;">
 				    <div class="container">
 					    <h1 class="display-3">Mcdonalds Ads</h1>
               <p class="lead">McDonald's Ad</p>
