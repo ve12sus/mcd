@@ -202,6 +202,13 @@
 					    </div>
 				    </div>
 			    </div>
+			    <div class="jumbotron jumbotron-fluid ad-bottom" style="min-height: 299px;">
+				    <div class="container">
+					    <h1 class="display-3">DEALS ON THE DOWNLOAD</h1>
+              <p class="lead">McDonald's Ad</p>
+						  <a class="btn btn-primary btn-lg" href="#" role="button">DOWNLOAD THE APP</a>
+				    </div>
+			    </div>
         </div>
       </div>
     </div>

@@ -141,9 +141,13 @@ h1, h2, h3, h4, h5, h6, a {
   margin-bottom: 0;
 }
 
-/* top ad styles */
+/* ad styles */
 .ad-top {
   background-color: #bd9e1f;
+}
+
+.ad-bottom {
+  background-color: #3978bf;
 }
 
 /* footer styles */
