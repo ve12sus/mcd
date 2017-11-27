@@ -150,18 +150,30 @@
 						  <a class="btn btn-primary btn-lg" href="#" role="button">Read more</a>
 				    </div>
 			    </div>
-          <div class="row no-gutters">
-            <div class="col-sm-3">
-              <img src="https://ve12sus.com/images/igfeed.jpg">              
+          <div class="card-group">
+            <div class="card bg-dark text-white">
+              <img class="card-img" src="https://ve12sus.com/images/igfeed.jpg" alt="Card image">
+              <div class="card-img-overlay">
+                <h4 class="card-title">IG feed</h4>
+              </div>
             </div>
-            <div class="col-sm-3">
-              <img src="https://ve12sus.com/images/igfeed.jpg">              
+            <div class="card bg-dark text-white">
+              <img class="card-img" src="https://ve12sus.com/images/igfeed.jpg" alt="Card image">
+              <div class="card-img-overlay">
+                <h4 class="card-title">IG feed</h4>
+              </div>
             </div>
-            <div class="col-sm-3">
-              <img src="https://ve12sus.com/images/igfeed.jpg">              
+            <div class="card bg-dark text-white">
+              <img class="card-img" src="https://ve12sus.com/images/igfeed.jpg" alt="Card image">
+              <div class="card-img-overlay">
+                <h4 class="card-title">IG feed</h4>
+              </div>
             </div>
-            <div class="col-sm-3">
-              <img src="https://ve12sus.com/images/igfeed.jpg">              
+            <div class="card bg-dark text-white">
+              <img class="card-img" src="https://ve12sus.com/images/igfeed.jpg" alt="Card image">
+              <div class="card-img-overlay">
+                <h4 class="card-title">IG feed</h4>
+              </div>
             </div>
           </div>
 			    <div class="card-group">
