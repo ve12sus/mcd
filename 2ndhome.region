@@ -150,6 +150,20 @@
 						  <a class="btn btn-primary btn-lg" href="#" role="button">Read more</a>
 				    </div>
 			    </div>
+          <div class="row no-gutters">
+            <div class="col-sm-4">
+              IG feed
+            </div>
+            <div class="col-sm-4">
+              IG feed
+            </div>
+            <div class="col-sm-4">
+              IG feed
+            </div>
+            <div class="col-sm-4">
+              IG feed
+            </div>
+          </div>
 			    <div class="card-group">
 				    <div class="card border-0">
 					    <img class="card-img-top" src="https://theeatguide.com/wp-content/uploads/2017/09/P5198329-e1505081338555-256x180.jpg" alt="Card image cap">
