@@ -137,12 +137,10 @@
 					    </div>
 				    </div>
 			    </div>
-			    <div class="jumbotron jumbotron-fluid" style="background-image:
-					    url(https://www.mcdonaldsnytristate.com/wp-content/uploads/2016/09/download_app.jpg);
-					    background-size: cover;">
+			    <div class="jumbotron jumbotron-fluid" style="height: 227px;">
 				    <div class="container">
-					    <h1 class="display-3">Pretend I am Uber eats</h1>
-					    <p class="lead">This is a modified jumbotron that occupies the entire horizontal space of its parent.</p>
+					    <h1 class="display-3">360 Video</h1>
+					    <p class="lead">McDelivery and UBER eats</p>
 				    </div>
 			    </div>
 			    <div class="jumbotron jumbotron-fluid">
