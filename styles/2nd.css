@@ -132,6 +132,12 @@ h1, h2, h3, h4, h5, h6, a {
   border-radius: 37px;
 }
 
+/* jumbotron styles */
+
+.360ad .topad {
+  margin-bottom: none;
+}
+
 /* top ad styles */
 .topad {
   background-color: #bd9e1f;

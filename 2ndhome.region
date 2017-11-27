@@ -137,7 +137,7 @@
 					    </div>
 				    </div>
 			    </div>
-			    <div class="jumbotron jumbotron-fluid" style="height: 227px;">
+			    <div class="jumbotron jumbotron-fluid 360ad" style="height: 227px;">
 				    <div class="container">
 					    <h1 class="display-3">360 Video</h1>
 					    <p class="lead">McDelivery and UBER eats</p>
@@ -146,9 +146,8 @@
 			    <div class="jumbotron jumbotron-fluid topad" style="min-height: 318px;">
 				    <div class="container">
 					    <h1 class="display-3">Mcdonalds Ads</h1>
-					    <p class="lead">McDonald's Ad
-						    <a class="btn btn-primary btn-lg" href="#" role="button">Read more</a>
-					    </p>
+              <p class="lead">McDonald's Ad</p>
+						  <a class="btn btn-primary btn-lg" href="#" role="button">Read more</a>
 				    </div>
 			    </div>
 			    <div class="card-group">
