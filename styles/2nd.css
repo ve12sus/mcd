@@ -8,17 +8,26 @@
   src: url( '../assets/LovinSansCondensed-Bold.woff' ) format('woff');
 }
 
+@font-face {
+  font-family: 'LovinSansRegular' ;
+  src: url( '../assets/LovinSansRegular.woff' ) format('woff');
+}
+
 body {
   background-color: #1e1e1e;
 }
 
 /* Then use it like you would any other font */  
-h1, h2, h3, h4, h5, h6, p {
+h1, h2, h3, h4, h5, h6 {
   font-family: 'LovinSansCondensed-Bold' , sans-serif;  
 }  
 
 a {
   font-family: 'LovinSansCondensed-Regular', sans-serif;
+}
+
+p {
+  font-family: 'LovinSansRegular', sans-serif;
 }
 
 .container-fluid {
