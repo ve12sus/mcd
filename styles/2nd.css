@@ -26,6 +26,11 @@ a {
   padding-left: 0px;
 }
 
+.btn {
+  font-size: 14px;
+  letter-spacing: 1px;
+}
+
 #main, #nav {
   padding-right: 0;
   padding-left: 0;
