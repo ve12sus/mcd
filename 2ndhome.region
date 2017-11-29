@@ -11,8 +11,8 @@
   <body>
     <div class="container-fluid">
       <div class="navbar-wrapper">
-        <div class="container">
-          <nav class="navbar navbar-expand-md navbar-light">
+        <nav class="navbar navbar-expand-md navbar-light">
+          <div class="container">
 			      <a class="navbar-brand text-white" href="#">
               <img src="assets/logo.png" alt="">
             </a>
@@ -38,8 +38,8 @@
 					      </li>
 				      </ul>
 			      </div>
-          </nav>
-        </div>
+          </div>
+        </nav>
       </div>
       <div id="carouselExampleIndicators" class="carousel slide" data-ride="carousel">
 				<ol class="carousel-indicators">
