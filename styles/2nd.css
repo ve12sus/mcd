@@ -81,8 +81,10 @@ h1, h2, h3, h4, h5, h6, a {
 }
 
 .carousel-caption {
-  bottom: 13%;
+  bottom: 30%;
   text-align: left;
+  right: 25%;
+  left: 25%;
 }
 
 /* rules for featured cards */
@@ -187,4 +189,8 @@ h1, h2, h3, h4, h5, h6, a {
     margin-right: 0px;
     margin-left: 0px;
   }
+
+  .carousel-caption {
+    bottom: 10%;
+    text-align: center;
 }
