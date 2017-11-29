@@ -27,6 +27,12 @@ h1, h2, h3, h4, h5, h6, a {
   padding-left: 0;
 }
 
+@media (min-width: 992px) {
+  .container{
+    max-width: 940px;
+  }
+}
+
 .nav-link {
   font-family: 'LovinSansCondensed-Bold', sans-serif;
 }
