@@ -138,13 +138,7 @@
 				    </div>
 			    </div>
           <img src="https://ve12sus.com/images/ad-uber.jpg" class="img-fluid">
-			    <div class="jumbotron jumbotron-fluid ad-top" style="min-height: 318px;">
-				    <div class="container">
-					    <h1 class="display-3">Mcdonalds Ads</h1>
-              <p class="lead">McDonald's Ad</p>
-						  <a class="btn btn-primary btn-lg" href="#" role="button">Read more</a>
-				    </div>
-			    </div>
+          <img src="https://ve12sus.com/images/ad-rmhc.jpg" class="img-fluid">
           <div class="card-group">
             <div class="card bg-dark text-white">
               <img class="card-img" src="https://ve12sus.com/images/igfeed.jpg" alt="Card image">
@@ -197,13 +191,7 @@
 					    </div>
 				    </div>
 			    </div>
-			    <div class="jumbotron jumbotron-fluid ad-bottom" style="min-height: 299px;">
-				    <div class="container">
-					    <h1 class="display-3">DEALS ON THE DOWNLOAD</h1>
-              <p class="lead">McDonald's Ad</p>
-						  <a class="btn btn-primary btn-lg" href="#" role="button">DOWNLOAD THE APP</a>
-				    </div>
-			    </div>
+          <img src="http://ve12sus.com/images/ad-gma.jpg" class="img-fluid">
         </div>
       </div>
     </div>
