@@ -13,7 +13,7 @@ body {
 }
 
 /* Then use it like you would any other font */  
-h1, h2, h3, h4, h5, h6, a {
+h1, h2, h3, h4, h5, h6, a, p {
   font-family: 'LovinSansCondensed-Regular' , sans-serif;  
 }  
 
