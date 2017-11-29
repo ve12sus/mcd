@@ -13,9 +13,13 @@ body {
 }
 
 /* Then use it like you would any other font */  
-h1, h2, h3, h4, h5, h6, a, p {
+h1, h2, h3, h4, h5, h6, p {
   font-family: 'LovinSansCondensed-Bold' , sans-serif;  
 }  
+
+a {
+  font-family: 'LovinSansCondensed-Regular', sans-serif;
+}
 
 .container-fluid {
   padding-right: 0px;
