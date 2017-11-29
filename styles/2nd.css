@@ -36,13 +36,8 @@ p {
 }
 
 .btn {
-  font-size: 14px;
-  letter-spacing: 1px;
-}
-
-.card-title {
-  font-size: 14px;
-  color: #009bf6;
+  font-size: 13px;
+  letter-spacing: 1.1px;
 }
 
 .card-text {
