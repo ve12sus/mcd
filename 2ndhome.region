@@ -184,7 +184,7 @@
 					    <img class="card-img-top" src="https://ve12sus.com/images/mcrib.jpg" alt="Card image cap">
 					    <div class="card-body">
 						    <h4 class="card-title">@McDonalds</h4>
-						    <p class="card-text regular">When good things aren't meant to last, you get them while you can. #WednesddayWisdom At part. McDs for a limited time.</p>
+                <p class="card-text regular">When good things aren't meant to last, you get them while you can. <span class="hashtag">#WednesddayWisdom</span> At part. McDs for a limited time.</p>
 					    </div>
 				    </div>
 			    </div>
