@@ -52,9 +52,9 @@ h1, h2, h3, h4, h5, h6 {
 }
 
 .btn {
-  font-family: 'LovinSansRegular', sans-serif;
-  font-size: 0.875rem;
-  letter-spacing: 1.1px;
+  font-family: 'LovinSanCondensed-Bold', sans-serif;
+  font-size: 0.8125rem;
+  letter-spacing: 0.9px;
 }
 
 #main, #nav {
