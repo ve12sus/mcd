@@ -95,7 +95,7 @@
         <div id="main" class="container">
 			    <div class="row no-gutters justify-content-center">
 				    <div class="col-sm">
-              <div class="card bg-dark text-white text-center border-0">
+              <div class="card text-white text-center border-0">
 						    <img class="card-img" src="https://ve12sus.com/images/news.jpg" alt="Card image">
 						    <div class="card-img-overlay featured-news">
 							    <h2 class="card-title">NEWS</h2>
@@ -105,7 +105,7 @@
 					    </div>
 				    </div>
 				    <div class="col-sm">
-					    <div class="card bg-dark text-white text-center border-0">
+					    <div class="card text-white text-center border-0">
 						    <img class="card-img" src="https://ve12sus.com/images/food.jpg" alt="Card image">
 						    <div class="card-img-overlay featured-food">
 							    <h2 class="card-title">FOOD</h2>
@@ -117,7 +117,7 @@
 			    </div>
 			    <div class="row no-gutters justify-content-center">
 				    <div class="col-sm">
-					    <div class="card bg-dark text-white text-center border-0">
+					    <div class="card text-white text-center border-0">
 						    <img class="card-img" src="https://ve12sus.com/images/people.jpg" alt="Card image">
 						    <div class="card-img-overlay featured-people">
 							    <h2 class="card-title">PEOPLE</h2>
@@ -127,7 +127,7 @@
 					    </div>
 				    </div>
 				    <div class="col-sm">
-					    <div class="card bg-dark text-white text-center border-0">
+					    <div class="card text-white text-center border-0">
 						    <img class="card-img" src="https://ve12sus.com/images/events.jpg" alt="Card image">
 						    <div class="card-img-overlay featured-events">
 							    <h2 class="card-title">EVENTS</h2>
