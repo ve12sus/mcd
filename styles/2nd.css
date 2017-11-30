@@ -197,7 +197,7 @@ h1, h2, h3, h4, h5, h6 {
 .card-body > h4 {
   color: #009bf6;
   font-family: 'LovinSansCondensed-Black', sans-serif;
-  font-size: 1.25rem;
+  font-size: 1.125rem;
   letter-spacing: 1px;
 }
 
@@ -213,6 +213,12 @@ h1, h2, h3, h4, h5, h6 {
 
 .footer-links * {
   color: #fff;
+}
+
+.footer h4 {
+  font-family: 'LovinSansCondensed-Black', sans-serif;
+  font-size: 1.25rem;
+  letter-spacing: 1.1px;
 }
 
 .footer a {
