@@ -13,6 +13,11 @@
   src: url( '../assets/LovinSansRegular.woff' ) format('woff');
 }
 
+@font-face {
+  font-family: 'LovinSansCondensed-Black' ;
+  src: url( '../assets/LovinSansCondensed-Black.woff' ) format('woff');
+}
+
 body {
   background-color: #1e1e1e;
   font-family: 'LovinSansRegular', sans-serif;
@@ -175,7 +180,7 @@ h1, h2, h3, h4, h5, h6 {
   border-radius: 37px;
 }
 
-/* twitter style */
+/* twitter and instagram */
 .card {
   border-radius: 0;
   border-top: none;
@@ -187,6 +192,11 @@ h1, h2, h3, h4, h5, h6 {
 
 .card-group :last-child {
   border-right: none;
+}
+
+.card-body > h4 {
+  font-family: 'LovinSansCondensed-Black', sans-serif;
+  letter-spacing: 1px;
 }
 
 /* footer styles */
