@@ -96,13 +96,15 @@
 			    <div class="row no-gutters justify-content-center">
 				    <div class="col-sm">
               <div class="card text-white text-center border-0">
-						    <img class="card-img" src="https://ve12sus.com/images/news.jpg" alt="Card image">
-						    <div class="card-img-overlay featured-news">
-							    <h2 class="card-title">NEWS</h2>
-							    <p class="card-text large">Local stories, promotions, and sponsorships</p>
-							    <a href="#" class="btn">READ MORE</a>
-						    </div>
-					    </div>
+                <div class="card-block">
+						      <img class="card-img" src="https://ve12sus.com/images/news.jpg" alt="Card image">
+						      <div class="card-img-overlay featured-news">
+							      <h2 class="card-title">NEWS</h2>
+							      <p class="card-text large">Local stories, promotions, and sponsorships</p>
+							      <a href="#" class="btn">READ MORE</a>
+						      </div>
+					      </div>
+              </div>
 				    </div>
 				    <div class="col-sm">
 					    <div class="card text-white text-center border-0">
