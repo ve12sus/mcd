@@ -15,20 +15,36 @@
 
 body {
   background-color: #1e1e1e;
+  font-family: 'LovinSansRegular', sans-serif;
 }
 
-/* Then use it like you would any other font */  
+.regular {
+  font-size: 0.875rem;
+}
+
+.large {
+  font-size: 1.125rem;
+}
+
+h1 {
+  font-size: 4rem;
+}
+
+h2 {
+  font-size: 3rem;
+}
+
+h3 {
+  font-size: 1.125rem;
+}
+
+h4 {
+  font-size: 0.875rem;
+}
+
 h1, h2, h3, h4, h5, h6 {
   font-family: 'LovinSansCondensed-Bold' , sans-serif;  
 }  
-
-a {
-  font-family: 'LovinSansCondensed-Regular', sans-serif;
-}
-
-p {
-  font-family: 'LovinSansRegular', sans-serif;
-}
 
 .container-fluid {
   padding-right: 0px;
@@ -36,12 +52,9 @@ p {
 }
 
 .btn {
-  font-size: 13px;
+  font-family: 'LovinSansCondensed-Bold', sans-serif;
+  font-size: 0.0875rem;
   letter-spacing: 1.1px;
-}
-
-.card-text {
-  font-size: 18px;
 }
 
 #main, #nav {
@@ -53,18 +66,16 @@ p {
   .container{
     max-width: 940px;
   }
-
-  h2 {
-    font-size: 3rem;
-  }
 }
 
 .nav-link {
   font-family: 'LovinSansCondensed-Bold', sans-serif;
+  font-size: 1.125rem;
+  letter-spacing: 1px;
 }
 
 /* rules for floating nav */
-@media (min-width: 768px) {
+@media (min-width: 992px) {
 
   .navbar-wrapper {
     position: absolute;
@@ -77,11 +88,6 @@ p {
   .nav-item {
   padding: 10px;
 	}
-
-  .nav-link {
-    font-size: 18px;
-    letter-spacing: 1px;
-  }
 
 	.news-nav-link {
 		border-bottom: #63dc12 solid 2px;
@@ -98,11 +104,6 @@ p {
 	.events-nav-link {
 		border-bottom: #ffc400 solid 2px;
 	}
-
-  .carousel-caption > h1 {
-    font-size: 4rem;
-  }
-	
 }
 
 .carousel-caption {
@@ -168,24 +169,6 @@ p {
   width: 140px;
   height: 36px;
   border-radius: 37px;
-}
-
-/* jumbotron styles */
-.ad-360 {
-  margin-bottom: 0;
-}
-
-.ad-top{
-  margin-bottom: 0;
-}
-
-/* ad styles */
-.ad-top {
-  background-color: #bd9e1f;
-}
-
-.ad-bottom {
-  background-color: #3978bf;
 }
 
 /* twitter style */
