@@ -219,6 +219,10 @@ h1, h2, h3, h4, h5, h6 {
   font-family: 'LovinSansRegular', sans-serif;
 }  
 
+.footer .card-body {
+  line-height: 2;
+}
+
 /* rules for mobile view */
 @media (max-width: 575px) {
   .container {
