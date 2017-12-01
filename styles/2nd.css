@@ -154,7 +154,7 @@ h1, h2, h3, h4, h5, h6 {
   background-color: rgba(57, 120, 191, 0.7);
 }
 
-.featured-food > a {
+.featured-food a {
   background-color: #4ea0ff;
   color: #fff;
   width: 140px;
@@ -166,7 +166,7 @@ h1, h2, h3, h4, h5, h6 {
   background-color: rgba(130, 58, 194, 0.7);
 }
 
-.featured-people > a {
+.featured-people a {
   background-color: #c26fff;
   color: #fff;
   width: 140px;
@@ -178,7 +178,7 @@ h1, h2, h3, h4, h5, h6 {
   background-color: rgba(189, 162, 57, 0.7);
 }
 
-.featured-events > a {
+.featured-events a {
   background-color: #e4b600;
   color: #fff;
   width: 140px;
