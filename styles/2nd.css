@@ -142,7 +142,7 @@ h1, h2, h3, h4, h5, h6 {
   border-radius: 18.5px;
 }
 
-.featured-news > a {
+.featured-news a {
   background-color: #61b310;
   color: #fff;
   width: 140px;
