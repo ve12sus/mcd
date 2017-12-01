@@ -11,9 +11,9 @@
   <body>
     <div class="container-fluid main">
       <div class="navbar-wrapper">
-        <nav class="navbar navbar-expand-md navbar-light">
+        <nav class="navbar navbar-expand-md">
           <div id="nav" class="container">
-			      <a class="navbar-brand text-white" href="#">
+			      <a class="navbar-brand" href="#">
               <picture>
                 <source
                   media="(min-width: 768px)"
@@ -32,16 +32,16 @@
 			      <div class="collapse navbar-collapse" id="navbarNavDropdown">
 				      <ul class="navbar-nav ml-auto justify-content-end">
 					      <li class="nav-item">
-						      <a class="nav-link text-white news-nav-link" href="#">NEWS</a>
+						      <a class="nav-link news-nav-link" href="#">NEWS</a>
 					      </li>
 	              <li class="nav-item">
-						      <a class="nav-link text-white food-nav-link" href="#">FOOD</a>
+						      <a class="nav-link food-nav-link" href="#">FOOD</a>
 					      </li>
 					      <li class="nav-item">
-						      <a class="nav-link text-white people-nav-link" href="#">PEOPLE</a>
+						      <a class="nav-link people-nav-link" href="#">PEOPLE</a>
 					      </li>
 					      <li class="nav-item">
-						      <a class="nav-link text-white events-nav-link" href="#">EVENTS</a>
+						      <a class="nav-link events-nav-link" href="#">EVENTS</a>
 					      </li>
 				      </ul>
 			      </div>
