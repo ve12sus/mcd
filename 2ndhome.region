@@ -14,7 +14,14 @@
         <nav class="navbar navbar-expand-md navbar-light">
           <div id="nav" class="container">
 			      <a class="navbar-brand text-white" href="#">
-              <img src="assets/logo.png" class="img-responsive" alt="logo">
+              <picture>
+                <source
+                  media="(min-width: 768px)"
+                  srcset="assets/logo.png">
+                <img
+                  src="assets/logo-mobile.png"
+                  alt="logo">
+              </picture>
             </a>
 			      <button class="navbar-toggler" type="button" data-toggle="collapse" 
 				      data-target="#navbarNavDropdown" aria-controls="navbarNavDropdown"
