@@ -260,7 +260,7 @@ h1, h2, h3, h4, h5, h6 {
 }
 
 /* rules for mobile view */
-@media (max-width: 575px) {
+@media (max-width: 767px) {
 
   body {
     line-height: 1;
