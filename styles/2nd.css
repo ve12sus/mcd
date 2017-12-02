@@ -66,7 +66,7 @@ h1, h2, h3, h4, h5, h6 {
   letter-spacing: 0.9px;
 }
 
-#main, #nav #footer {
+#main, #nav, #footer {
   padding-right: 0;
   padding-left: 0;
 }
@@ -84,14 +84,8 @@ h1, h2, h3, h4, h5, h6 {
 }
 
 /* rules for floating nav */
+
 @media (min-width: 576px) {
-
-  .navbar {
-    background-color: transparent;
-  }
-}
-
-@media (min-width: 992px) {
 
   h1 {
     font-size: 4rem;
