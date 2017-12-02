@@ -305,18 +305,6 @@ h1, h2, h3, h4, h5, h6 {
     text-align: center;
   }
 
-  .carousel-indicators {
-    display: none;
-  }
-
-  .carousel-control-prev {
-    display: none;
-  }
-
-  .carousel-control-next {
-    display: none;
-  }
-
   h1 {
     font-size: 2.25rem;
   }
@@ -330,4 +318,19 @@ h1, h2, h3, h4, h5, h6 {
     color: #4a4a4a;
   }
 
+}
+
+@media (max-width:575px) {
+
+  .carousel-indicators {
+    display: none;
+  }
+
+  .carousel-control-prev {
+    display: none;
+  }
+
+  .carousel-control-next {
+    display: none;
+  }
 }
