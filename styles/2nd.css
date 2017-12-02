@@ -128,15 +128,15 @@ h1, h2, h3, h4, h5, h6 {
 		border-bottom: #63dc12 solid 2px;
 	}
 
-	.food-nav-link {
+	.food-nav-link:hover {
 		border-bottom: #2289f2 solid 2px;
 	}
 
-	.people-nav-link {
+	.people-nav-link:hover {
 		border-bottom: #b549ff solid 2px;
 	}
 
-	.events-nav-link {
+	.events-nav-link:hover {
 		border-bottom: #ffc400 solid 2px;
 	}
 }
