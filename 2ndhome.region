@@ -57,12 +57,14 @@
 				<div class="carousel-inner">
 					<div class="carousel-item active">
 						<img class="d-block w-100" src="https://ve12sus.com/images/BuffaloBacon_Extended.jpg" alt="First slide">
-						<div class="container">
-							<div class="carousel-caption align-self-center">
-                <h1>WELCOME TO OUR NEW<br>WEBSITE.</h1>
-								<p class="lead welcome-readmore">
-									<a class="btn" href="#" role="button">READ MORE</a>
-								</p>
+						<div class="caption-wrapper">
+              <div class="container">
+							  <div class="caption">
+                  <h1>WELCOME TO OUR NEW<br>WEBSITE.</h1>
+								  <p class="welcome-readmore">
+									  <a class="btn" href="#" role="button">READ MORE</a>
+								  </p>
+                </div>
 							</div>
 						</div>
 					</div>
