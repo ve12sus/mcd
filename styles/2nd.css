@@ -116,9 +116,13 @@ h1, h2, h3, h4, h5, h6 {
   }
 
   .nav-item {
-  padding-top: 19px;
+  padding-top: 18px;
   padding-left: 10px;
 	}
+
+  .nav-link {
+    padding: 0;
+  }
 
   .news-nav-link {
     border-bottom: transparent solid 2px;
