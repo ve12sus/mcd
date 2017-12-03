@@ -101,7 +101,7 @@
       <div class="featured-posts">
         <div id="main" class="container">
 			    <div class="row no-gutters justify-content-center">
-				    <div class="col-sm">
+				    <div class="col-md">
               <div class="card text-white text-center border-0">
 						    <img class="card-img" src="https://ve12sus.com/images/news.jpg" alt="Card image">
 						    <div class="card-img-overlay d-flex featured-news">
@@ -113,7 +113,7 @@
 						    </div>
               </div>
 				    </div>
-				    <div class="col-sm">
+				    <div class="col-md">
 					    <div class="card text-white text-center border-0">
 						    <img class="card-img" src="https://ve12sus.com/images/food.jpg" alt="Card image">
 						    <div class="card-img-overlay d-flex featured-food">
