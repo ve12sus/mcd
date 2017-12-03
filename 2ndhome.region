@@ -32,7 +32,7 @@
 			      <div class="collapse navbar-collapse" id="navbarNavDropdown">
 				      <ul class="navbar-nav ml-auto justify-content-end">
 					      <li class="nav-item">
-						      <a class="nav-link news-nav-link" href="#">NEWS</a>
+                  <a class="nav-link news-nav-link" href="#"><h4>NEWS</h4></a>
 					      </li>
 	              <li class="nav-item">
 						      <a class="nav-link food-nav-link" href="#">FOOD</a>

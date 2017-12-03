@@ -66,7 +66,7 @@ h1, h2, h3, h4, h5, h6 {
 .btn {
   font-family: 'LovinSansCondensed-Bold', sans-serif;
   font-size: 0.8125rem;
-  letter-spacing: 0.9px;
+  letter-spacing: 1px;
 }
 
 #main, #nav, #caption, #footer {
@@ -74,17 +74,20 @@ h1, h2, h3, h4, h5, h6 {
   padding-left: 0;
 }
 
+/* large screens 992px plus */
+
+/* max width of container*/
 @media (min-width: 992px) {
   .container{
     max-width: 940px;
   }
 }
 
-.nav-link {
+/*.nav-link {
   font-family: 'LovinSansCondensed-Bold', sans-serif;
   font-size: 1.125rem;
   letter-spacing: 1px;
-}
+}*/
 
 /* rules for floating nav */
 
