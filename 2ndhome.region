@@ -161,8 +161,15 @@
               class="img-fluid"
               alt="logo">
           </picture>
-          <img src="https://ve12sus.com/images/ad-uber.jpg" class="img-fluid">
-          <img src="https://ve12sus.com/images/ad-rmhc.jpg" class="img-fluid">
+          <picture>
+            <source
+              media="(min-width: 768px)"
+              srcset="https://ve12sus.com/images/ad-rmhc.jpg">
+            <img
+              src="https://ve12sus.com/images/ad-rmhc-mobile@3x.jpg"
+              class="img-fluid"
+              alt="logo">
+          </picture>
           <div class="card-group">
             <div class="card text-white">
               <img class="card-img" src="https://scontent-lga3-1.cdninstagram.com/t51.2885-15/e15/23594243_401385300275853_5632111106257321984_n.jpg" alt="Card image">
