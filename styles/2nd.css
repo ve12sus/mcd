@@ -179,6 +179,7 @@ h1, h2, h3, h4, h5, h6 {
 @media (min-width: 992px) {
 
   .carousel-caption {
+    text-align: left;
     top: 180px;
   }
 }
