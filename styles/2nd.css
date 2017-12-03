@@ -184,11 +184,13 @@ h1, h2, h3, h4, h5, h6 {
   }
 }
 
-@media (max-width: 757px) {
+
+@media (min-width: 757px) {
   .carousel-caption {
     top: 110px;
-    right: 0;
-    left: 0;
+    text-align: left;
+    right: 25%;
+    left: 25%;
   }
 }
 
