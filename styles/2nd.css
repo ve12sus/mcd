@@ -52,6 +52,7 @@ h4 {
 
 h1, h2, h3, h4, h5, h6 {
   font-family: 'LovinSansCondensed-Bold' , sans-serif;  
+  line-height: 1;
 }  
 
 /* All screens */
@@ -75,25 +76,75 @@ h1, h2, h3, h4, h5, h6 {
   padding-left: 0;
 }
 
-/* large screens 992px plus */
+.carousel-indicators li {
+  width: 16px;
+  height: 16px;
+  border-radius: 50%;
+}
 
-/* max width of container*/
-@media (min-width: 992px) {
-  .container{
-    max-width: 940px;
+@media (max-width: 767px) {
+
+  .container {
+    padding-right: 0px;
+    padding-left: 0px;
+  }
+
+  .row {
+    margin-right: 0px;
+    margin-left: 0px;
+  }
+
+  .carousel-caption {
+    text-align: center;
+    right: 5%;
+    left: 5%;
+    bottom: -2%;
+    padding-top: 0;
+    padding-bottom: 0;
+  }
+
+  h1 {
+    font-size: 2.25rem;
+  }
+
+  .card-title {
+    margin-bottom: 0.5rem;
+  }
+
+  .navbar {
+    background-color: #fff;
+    color: #4a4a4a;
+  }
+
+}
+
+@media (max-width:767px) {
+
+  .carousel-indicators {
+    display: none;
+  }
+
+  .carousel-control-prev {
+    display: none;
+  }
+
+  .carousel-control-next {
+    display: none;
   }
 }
 
-/*.nav-link {
-  font-family: 'LovinSansCondensed-Bold', sans-serif;
-  font-size: 1.125rem;
-  letter-spacing: 1px;
-}*/
+@media (min-width: 992px) {
 
-/* rules for floating nav */
+/* max width of container*/
+  .container{
+    max-width: 940px;
+  }
+
+}
 
 @media (min-width: 768px) {
 
+/* rules for floating nav */
   .navbar-wrapper {
     position: absolute;
     top: 0;
@@ -116,7 +167,7 @@ h1, h2, h3, h4, h5, h6 {
   }
 
   .nav-item {
-  padding-top: 18px;
+  padding-top: 20px;
   padding-left: 10px;
 	}
 
@@ -127,7 +178,6 @@ h1, h2, h3, h4, h5, h6 {
   .news-nav-link {
     border-bottom: transparent solid 2px;
   }
-
 	.news-nav-link:hover {
 		border-bottom: #63dc12 solid 2px;
 	}
@@ -142,7 +192,6 @@ h1, h2, h3, h4, h5, h6 {
   .people-nav-link {
     border-bottom: transparent solid 2px;
   }
-
 	.people-nav-link:hover {
 		border-bottom: #b549ff solid 2px;
 	}
@@ -150,26 +199,11 @@ h1, h2, h3, h4, h5, h6 {
   .events-nav-link {
     border-bottom: transparent solid 2px;
   }
-
 	.events-nav-link:hover {
 		border-bottom: #ffc400 solid 2px;
 	}
-}
 
-.carousel-indicators li {
-  width: 16px;
-  height: 16px;
-  border-radius: 50%;
-}
-
-@media (min-width: 768px) {
-  .carousel-caption {
-    top: 120px;
-    text-align: left;
-    right: 25%;
-    left: 25%;
-  }
-
+  /* carousel-caption */
   .caption-wrapper {
     position: absolute;
     top: 180px;
@@ -181,20 +215,11 @@ h1, h2, h3, h4, h5, h6 {
 
 @media (min-width: 992px) {
 
-  .carousel-caption {
-    text-align: left;
-    top: 180px;
+/* max width of container*/
+  .container{
+    max-width: 940px;
   }
-}
 
-@media (min-width: 1200px) {
-
-  .carousel-caption {
-    text-align: left;
-    right: 25%;
-    left: 25%;
-    top: 180px;
-  }
 }
 
 /* rules for featured cards */
@@ -309,60 +334,4 @@ h1, h2, h3, h4, h5, h6 {
   font-family: 'LovinSansCondensed-Regular', sans-serif;
   opacity: 0.5;
   font-size: 1.25rem;
-}
-
-/* rules for mobile view */
-@media (max-width: 767px) {
-
-  body {
-    line-height: 1;
-  }
-
-  .container {
-    padding-right: 0px;
-    padding-left: 0px;
-  }
-
-  .row {
-    margin-right: 0px;
-    margin-left: 0px;
-  }
-
-  .carousel-caption {
-    text-align: center;
-    right: 5%;
-    left: 5%;
-    bottom: -2%;
-    padding-top: 0;
-    padding-bottom: 0;
-  }
-
-  h1 {
-    font-size: 2.25rem;
-  }
-
-  .card-title {
-    margin-bottom: 0.5rem;
-  }
-
-  .navbar {
-    background-color: #fff;
-    color: #4a4a4a;
-  }
-
-}
-
-@media (max-width:767px) {
-
-  .carousel-indicators {
-    display: none;
-  }
-
-  .carousel-control-prev {
-    display: none;
-  }
-
-  .carousel-control-next {
-    display: none;
-  }
 }
