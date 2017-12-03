@@ -23,6 +23,7 @@
 body {
   background-color: #1e1e1e;
   font-family: 'LovinSansRegular', sans-serif;
+  line-height: 1;
 }
 
 .regular {
