@@ -157,7 +157,7 @@
               media="(min-width: 768px)"
               srcset="https://ve12sus.com/images/ad-uber.jpg">
             <img
-              src="https://ve12sus.com/images/ad-uber-mobile.jpg"
+              src="https://ve12sus.com/images/ad-uber-mobile@3x.jpg"
               class="img-fluid"
               alt="logo">
           </picture>
