@@ -152,6 +152,15 @@
 					    </div>
 				    </div>
 			    </div>
+          <picture>
+            <source
+              media="(min-width: 768px)"
+              srcset="https://ve12sus.com/images/ad-uber.jpg">
+            <img
+              src="https://ve12sus.com/images/ad-uber-mobile.jpg"
+              class="img-fluid"
+              alt="logo">
+          </picture>
           <img src="https://ve12sus.com/images/ad-uber.jpg" class="img-fluid">
           <img src="https://ve12sus.com/images/ad-rmhc.jpg" class="img-fluid">
           <div class="card-group">
