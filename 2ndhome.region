@@ -219,7 +219,15 @@
 					    </div>
 				    </div>
 			    </div>
-          <img src="http://ve12sus.com/images/ad-gma.jpg" class="img-fluid">
+          <picture>
+            <source
+              media="(min-width: 768px)"
+              srcset="https://ve12sus.com/images/ad-gma.jpg">
+            <img
+              src="https://ve12sus.com/images/ad-gma-mobile@3x.jpg"
+              class="img-fluid"
+              alt="logo">
+          </picture>
         </div>
       </div>
     </div>
