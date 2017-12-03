@@ -166,13 +166,12 @@ h1, h2, h3, h4, h5, h6 {
   border-radius: 50%;
 }
 
-@media (min-width: 1200px) {
-
+@media (min-width: 768px) {
   .carousel-caption {
+    top: 110px;
     text-align: left;
     right: 25%;
     left: 25%;
-    top: 180px;
   }
 }
 
@@ -184,13 +183,13 @@ h1, h2, h3, h4, h5, h6 {
   }
 }
 
+@media (min-width: 1200px) {
 
-@media (min-width: 757px) {
   .carousel-caption {
-    top: 110px;
     text-align: left;
     right: 25%;
     left: 25%;
+    top: 180px;
   }
 }
 
