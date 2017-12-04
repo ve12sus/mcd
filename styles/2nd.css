@@ -308,10 +308,14 @@ h1, h2, h3, h4, h5, h6 {
   border-right: none;
 }
 
+.twitter p {
+  color: #191412;
+  line-height: 1.5;
+}
+
 .card-body > h4 {
   color: #009bf6;
   font-family: 'LovinSansCondensed-Black', Sans-serif;
-  font-size: 1.125rem;
   letter-spacing: 1px;
 }
 
