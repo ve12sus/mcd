@@ -170,15 +170,6 @@ h1, h2, h3, h4, h5, h6 {
   }
 }
 
-@media (min-width: 992px) {
-
-/* max width of container*/
-  .container{
-    max-width: 940px;
-  }
-
-}
-
 @media (min-width: 768px) {
 
 /* rules for floating nav */
@@ -250,7 +241,7 @@ h1, h2, h3, h4, h5, h6 {
   }
 
   .caption {
-    margin-top: 80px;
+    margin-top: 40px;
     margin-left: 12%;
   }
 
@@ -266,6 +257,18 @@ h1, h2, h3, h4, h5, h6 {
     max-width: 940px;
   }
 
+}
+
+@media (min-width: 1200px) {
+
+  .caption {
+    margin-top: 80px;
+    margin-left: 12%;
+  }
+
+  .caption h1 {
+    margin-bottom: 1rem;
+  }
 }
 
 /* rules for featured cards */
