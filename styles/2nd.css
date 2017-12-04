@@ -241,11 +241,12 @@ h1, h2, h3, h4, h5, h6 {
   }
 
   .caption {
-    margin-top: 20px;
+    margin-top: 0px;
     margin-left: 12%;
   }
 
   .caption h1 {
+    font-size: 2.5rem;
     margin-bottom: 1rem;
   }
 }
@@ -255,6 +256,15 @@ h1, h2, h3, h4, h5, h6 {
 /* max width of container*/
   .container{
     max-width: 940px;
+  }
+
+  .caption {
+    margin-top: 0;
+    margin-left: 12%;
+  }
+
+  .caption h1 {
+    margin-bottom: 1rem;
   }
 
 }
