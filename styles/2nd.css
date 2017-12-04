@@ -23,7 +23,7 @@
 body {
   background-color: #1e1e1e;
   color: #fff;
-  font-family: 'LovinSans-Regular';
+  font-family: 'LovinSans-Regular', Sans-serif;
   line-height: 1;
   -webkit-font-smoothing: antialiased;
   -moz-font-smoothing: antialiased;
@@ -56,7 +56,7 @@ h4 {
 }
 
 h1, h2, h3, h4, h5, h6 {
-  font-family: 'LovinSansCondensed-Bold' , sans-serif;  
+  font-family: 'LovinSansCondensed-Bold', Sans-serif;  
   line-height: 1;
 }  
 
@@ -71,7 +71,7 @@ h1, h2, h3, h4, h5, h6 {
 }
 
 .btn {
-  font-family: 'LovinSansCondensed-Bold', sans-serif;
+  font-family: 'LovinSansCondensed-Bold', Sans-serif;
   font-size: 0.8125rem;
   letter-spacing: 1px;
 }
@@ -310,7 +310,7 @@ h1, h2, h3, h4, h5, h6 {
 
 .card-body > h4 {
   color: #009bf6;
-  font-family: 'LovinSansCondensed-Black', sans-serif;
+  font-family: 'LovinSansCondensed-Black', Sans-serif;
   font-size: 1.125rem;
   letter-spacing: 1px;
 }
@@ -330,7 +330,7 @@ h1, h2, h3, h4, h5, h6 {
 }
 
 .footer h4 {
-  font-family: 'LovinSansCondensed-Bold', sans-serif;
+  font-family: 'LovinSansCondensed-Bold', Sans-serif;
   font-size: 1.25rem;
   letter-spacing: 1.1px;
 }
@@ -345,7 +345,7 @@ h1, h2, h3, h4, h5, h6 {
 }
 
 .footer-copyright > p {
-  font-family: 'LovinSansCondensed-Regular', sans-serif;
+  font-family: 'LovinSansCondensed-Regular', Sans-serif;
   opacity: 0.5;
   font-size: 1.25rem;
 }
