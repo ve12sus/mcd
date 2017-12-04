@@ -11,7 +11,7 @@
 }
 
 @font-face {
-  font-family: 'LovinSansRegular' ;
+  font-family: 'LovinSans-Regular' ;
   src: url( '../assets/LovinSans-Regular.woff' ) format('woff');
 }
 
@@ -22,7 +22,7 @@
 
 body {
   background-color: #1e1e1e;
-  font-family: 'LovinSansRegular', sans-serif;
+  font-family: 'LovinSans-Regular', sans-serif;
   line-height: 1;
 }
 
@@ -327,7 +327,7 @@ h1, h2, h3, h4, h5, h6 {
 
 .footer a {
   font-size: 0.875rem;
-  font-family: 'LovinSansRegular', sans-serif;
+  font-family: 'LovinSans-Regular', sans-serif;
 }  
 
 .footer .card-body {
