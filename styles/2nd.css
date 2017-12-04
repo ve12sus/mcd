@@ -104,6 +104,10 @@ h1, h2, h3, h4, h5, h6 {
     margin-top: 10px;
     text-align: center;
   }
+
+  .caption h1 {
+    font-size: 2.25rem;
+  }
 }
 
 @media (max-width: 767px) {
@@ -246,7 +250,7 @@ h1, h2, h3, h4, h5, h6 {
   }
 
   .caption h1 {
-    font-size: 2.5rem;
+    font-size: 3rem;
     margin-bottom: 1rem;
   }
 }
