@@ -334,26 +334,29 @@ h1, h2, h3, h4, h5, h6 {
 
 .footer {
   background-color: #282828;
-  color: #fff
+  color: #fff;
+  padding-top: 49px;
 }
 
 .footer h4 {
   font-family: 'LovinSansCondensed-Bold', Sans-serif;
   font-size: 1.25rem;
   letter-spacing: 1.1px;
+  margin-bottom: 15px;
 }
 
-/*.footer a {
-  font-size: 0.875rem;
-  font-family: 'LovinSans-Regular';
-}*/  
+.footer ul {
+  line-height: 2.23;
+}
 
-.footer .card-body {
-  line-height: 2;
+.footer a {
+  font-size: 0.8125rem;
+  font-family: 'LovinSans-Regular';
 }
 
 .footer-copyright > p {
   font-family: 'LovinSansCondensed-Regular', Sans-serif;
   opacity: 0.5;
   font-size: 1.25rem;
+  margin-top: 209px;
 }
