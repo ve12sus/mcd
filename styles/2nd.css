@@ -90,26 +90,6 @@ h1, h2, h3, h4, h5, h6 {
   border-radius: 50%;
 }
 
-@media (max-width: 575px) {
-
-  .caption-wrapper {
-    position: absolute;
-    top: 0;
-    left: 0;
-    right: 0;
-    z-index: 10;
-  }
-
-  .caption {
-    margin-top: 10px;
-    text-align: center;
-  }
-
-  .caption h1 {
-    font-size: 2.25rem;
-  }
-}
-
 @media (max-width: 767px) {
 
   .container {
@@ -171,6 +151,26 @@ h1, h2, h3, h4, h5, h6 {
 
   .carousel-control-next {
     display: none;
+  }
+}
+
+@media (max-width: 575px) {
+
+  .caption-wrapper {
+    position: absolute;
+    top: 0;
+    left: 0;
+    right: 0;
+    z-index: 10;
+  }
+
+  .caption {
+    margin-top: 10px;
+    text-align: center;
+  }
+
+  .caption h1 {
+    font-size: 2.25rem;
   }
 }
 
