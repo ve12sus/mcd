@@ -23,7 +23,7 @@
 body {
   background-color: #1e1e1e;
   color: #fff;
-  font-family: 'LovinSans-Regular', sans-serif;
+  font-family: 'LovinSans-Regular';
   line-height: 1;
   -webkit-font-smoothing: antialiased;
   -moz-font-smoothing: antialiased;
@@ -337,7 +337,7 @@ h1, h2, h3, h4, h5, h6 {
 
 .footer a {
   font-size: 0.875rem;
-  font-family: 'LovinSans-Regular', sans-serif;
+  font-family: 'LovinSans-Regular';
 }  
 
 .footer .card-body {
