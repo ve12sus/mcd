@@ -239,7 +239,7 @@
           <div class="row">
             <div class="col-sm-3">
               <div class="card-body">
-                <h5>ABOUT US</h5>
+                <h4>ABOUT US</h4>
                 <ul class="list-unstyled">
                   <li><a href="#">Our History</a></li>
                   <li><a href="#">Leadership Team</a></li>
@@ -249,7 +249,7 @@
             </div>
             <div class="col-sm-3">
               <div class="card-body">
-                <h5>OPPORTUNITIES</h5>
+                <h4>OPPORTUNITIES</h4>
                 <ul class="list-unstyled">
                   <li><a href="#"	>Meet Our People</a></li>
                   <li><a href="#">For Our Veterans</a></li>
@@ -260,7 +260,7 @@
             </div>
             <div class="col-sm-3">
               <div class="card-body">
-                <h5>PRESS ROOM</h5>
+                <h4>PRESS ROOM</h4>
                 <ul class="list-unstyled">
                   <li><a href="#">Meet Our People</a></li>
                   <li><a href="#">For Our Veterans</a></li>
@@ -271,7 +271,7 @@
             </div>
             <div class="col-sm-3">
               <div class="card-body">
-                <h5>Social</h5>
+                <h4>Social</h4>
                 <ul class="list-unstyled">
                   <li><a href="#">Twitter</a></li>
                   <li><a href="#">Instagram</a></li>
