@@ -24,6 +24,10 @@ body {
   background-color: #1e1e1e;
   font-family: 'LovinSans-Regular', sans-serif;
   line-height: 1;
+  -webkit-font-smoothing: antialiased;
+  -moz-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: antialiased;
+  -o-font-smoothing: antialiased;
 }
 
 .regular {
