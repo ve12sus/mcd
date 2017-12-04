@@ -328,7 +328,11 @@ h1, h2, h3, h4, h5, h6 {
 
 /* footer styles */
 
-#footer {
+#footer a, #footer h4 {
+  color: #fff;
+}
+
+.footer {
   background-color: #282828;
   color: #fff
 }
@@ -339,10 +343,10 @@ h1, h2, h3, h4, h5, h6 {
   letter-spacing: 1.1px;
 }
 
-.footer a {
+/*.footer a {
   font-size: 0.875rem;
   font-family: 'LovinSans-Regular';
-}  
+}*/  
 
 .footer .card-body {
   line-height: 2;
