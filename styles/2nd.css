@@ -12,7 +12,7 @@
 
 @font-face {
   font-family: 'LovinSansRegular' ;
-  src: url( '../assets/LovinSansRegular.woff' ) format('woff');
+  src: url( '../assets/LovinSans-Regular.woff' ) format('woff');
 }
 
 @font-face {
@@ -210,6 +210,10 @@ h1, h2, h3, h4, h5, h6 {
     left: 0;
     right: 0;
     z-index: 10;
+  }
+
+  .caption h1 {
+    margin-bottom: 1rem;
   }
 }
 
