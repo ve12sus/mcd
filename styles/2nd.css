@@ -413,11 +413,11 @@ h1, h2, h3, h4, h5, h6 {
 /* ie11 */
 
 @media all and (-ms-high-contrast:none) {
-  .featured-overlay-content h1 {
+  .featured-overlay-content h2 {
     margin-top: 50px;
   }
 
-  *::-ms-backdrop, .featured-overlay-content h1 {
+  *::-ms-backdrop, .featured-overlay-content h2 {
     margin-top: 50px;
   }
 }
