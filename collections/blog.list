@@ -12,6 +12,7 @@
 {.end}
 
 <div class="container">
+  <h1>Testing editing this page</h1>
   {.section pagination}
     {.if prevPage}
       <h1>I am the following pages</h1>
