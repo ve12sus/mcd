@@ -57,9 +57,9 @@
 						<li class="nav-item {.section active} active-link {.end}">
 						
 						<!-- collection link -->
-							{.section collection}
-							<a class="nav-link news-nav-link" href="{fullURL}"><h3>{navigationTitle}</h3></a>
-							{.end}
+						{.section collection}
+							<a class="nav-link news-nav-link" href="{fullUrl}"><h3>{navigationTitle}</h3></a>
+						{.end}
 						</li>
 					{.end}	
 					</ul>
