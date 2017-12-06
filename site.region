@@ -31,7 +31,7 @@
       </main>
 
       <!--Footer with open block field -->
-      <footer>
+      <footer class="site-footer">
       </footer>
 
     </div>
