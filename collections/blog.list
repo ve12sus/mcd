@@ -12,7 +12,6 @@
 {.end}
 
 <div class="container-fluid">
-  <div>
     <img class="d-block w-100" src="http://via.placeholder.com/1440x400">
     <div class"category-overlay">
       <div class="container">
@@ -75,7 +74,6 @@
       </div>
       {.end}
     {.end}
-  </div>
 </div>
 
 <!-- pagination -->
