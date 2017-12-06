@@ -428,7 +428,7 @@ h1, h2, h3, h4, h5, h6 {
   position: relative;
 }
 
-category-overlay {
+.category-overlay {
   position: absolute;
   left: 0;
   right: 0;
