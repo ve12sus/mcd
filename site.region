@@ -32,6 +32,8 @@
 
       <!--Footer with open block field -->
       <footer class="site-footer">
+        <!-- footer navigation -->
+        <squarespace:navigation navigationId="footerNav" template="footer-navigation" />
       </footer>
 
     </div>
