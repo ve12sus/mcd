@@ -19,7 +19,7 @@
         <div class="category text-center">
           <h1>NEWS</h1>
           <p>Local stories, promotions, and sponsorships</p>
-          <div class="container category-select>
+          <div class="container category-select">
             <div class="row">
               <div class="col">
                 <h4>ALL</h4>
