@@ -19,8 +19,16 @@
         <div class="category text-center">
           <h1>NEWS</h1>
           <p>Local stories, promotions, and sponsorships</p>
-          <div class="category-select">
-            <h4>All local national</h4>
+          <div class="row category-select">
+            <div class="col">
+              <h4>ALL</h4>
+            </div>
+            <div class="col">
+              <h4>ALL</h4>
+            </div>
+            <div class="col">
+              <h4>ALL</h4>
+            </div>
           </div>
         </div>
       </div>
