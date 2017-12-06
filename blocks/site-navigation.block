@@ -53,18 +53,15 @@
 
 				<div class="collapse navbar-collapse" id="navbarNavDropdown">
 					<ul class="navbar-nav ml-auto justify-content-end">
-						<li class="nav-item">
-							<a class="nav-link news-nav-link" href="#"><h3>NEWS</h3></a>
+					{.repeated section items}
+						<li class="nav-item {.section active} active-link {.end}">
+						
+						<!-- collection link -->
+							{.section collection}
+							<a class="nav-link news-nav-link" href="{fullURL}"><h3>{navigationTitle}</h3></a>
+							{.end}
 						</li>
-						<li class="nav-item">
-							<a class="nav-link food-nav-link" href="#"><h3>FOOD</h3></a>
-						</li>
-						<li class="nav-item">
-							<a class="nav-link people-nav-link" href="#"><h3>PEOPLE</h3></a>
-						</li>
-						<li class="nav-item">
-							<a class="nav-link events-nav-link" href="#"><h3>EVENTS</h3></a>
-						</li>
+					{.end}	
 					</ul>
 				</div>
 			</div>
