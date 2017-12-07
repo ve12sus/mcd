@@ -378,8 +378,10 @@ h1, h2, h3, h4, h5, h6 {
 .footer {
   background-color: #282828;
   color: #fff;
-  margin-top: 7%;
-  padding-top: 49px;
+}
+
+.footer-links {
+  margin-top: 49px;
 }
 
 .footer h4 {
