@@ -477,6 +477,12 @@ h1, h2, h3, h4, h5, h6 {
   font-size: 1.5rem;
 }
 
+.supporting-copy {
+  color: #6e6e6e;
+  font-size: 0.875rem;
+  line-height: 1.43;
+}
+
 .card-deck {
   margin-top: 65px;
 }
