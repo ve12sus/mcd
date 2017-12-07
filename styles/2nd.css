@@ -436,9 +436,15 @@ h1, h2, h3, h4, h5, h6 {
   width: 66px;
 }
 
+.category-overlay a:hover {
+  border-bottom: 2px solid #61b310;
+}
+
 .category-overlay .nav-item {
   margin-top: 0;
   margin-left: 0;
+  padding-left: 33px;
+  padding-right: 33px;
 }
 
 .select-wrapper {
