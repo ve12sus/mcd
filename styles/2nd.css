@@ -522,6 +522,9 @@ h1, h2, h3, h4, h5, h6 {
 .article-read-more {
   color: #b70c0f;
   font-family: 'LovinSansCondensed-Bold', sans-serif;
+}
+
+.see-older-wrapper {
   margin-top: 82px;
   margin-bottom: 82px;
 }
