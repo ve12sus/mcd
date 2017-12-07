@@ -472,7 +472,13 @@ h1, h2, h3, h4, h5, h6 {
   margin-top: 40px
 }
 
-.featured-post p {
+.supporting-copy {
+  color: #6e6e6e;
+  font-size: 0.875rem;
+  line-height: 1.43;
+}
+
+.featured-post-title {
   color: #111111;
   font-size: 1.5rem;
 }
