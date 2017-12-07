@@ -475,6 +475,7 @@ h1, h2, h3, h4, h5, h6 {
 .featured-post-title {
   color: #111111;
   font-size: 1.5rem;
+  margin-top: 20px;
 }
 
 .supporting-copy {
