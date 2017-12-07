@@ -434,6 +434,7 @@ h1, h2, h3, h4, h5, h6 {
 
 .category-overlay a {
   width: 66px;
+  border-bottom: 2px solid transparent;
 }
 
 .category-overlay a:hover {
