@@ -59,6 +59,9 @@
       <div class="card-deck">
         <div class="card">
           <img class="card-img-top" src="http://via.placeholder.com/300x188" alt="Card image cap">
+          <div class="post-tag-wrapper">
+            <img src="../assets/tag-national.png">
+          </div>
           <div class="card-body">
             <img src="../assets/tag-national.png">
             <h4 class="card-title">Card title</h4>
