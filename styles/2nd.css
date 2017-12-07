@@ -484,7 +484,8 @@ h1, h2, h3, h4, h5, h6 {
   line-height: 1.43;
 }
 
-.featured-post > a {
+.featured-post > a,
+.see-older-wrapper > a {
   background-color: #4a4a4a;
   color: #fff;
   width: 140px;

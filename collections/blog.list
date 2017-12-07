@@ -126,8 +126,8 @@
           </div>
         </div>
       </div>
-      <div class="text-center">
-        <a class="btn" href="#">SEE OLDER</a>
+      <div class="see-older-wrapper text-center">
+        <a class="btn" href="#" role="button"><h4>SEE OLDER</h4></a>
       </div>
     </div>
   </div>
