@@ -466,6 +466,11 @@ h1, h2, h3, h4, h5, h6 {
   margin-top: 40px
 }
 
+.featured-post p {
+  color: #111111;
+  font-size: 1.5rem;
+}
+
 .card-deck {
   margin-top: 65px;
 }
