@@ -501,7 +501,7 @@ h1, h2, h3, h4, h5, h6 {
   margin-top: -11px;
 }
 
-.article .card-body {
+.article {
   text-align: center;
 }
 
@@ -512,3 +512,8 @@ h1, h2, h3, h4, h5, h6 {
   line-height: 1.5;
 }
 
+.article .card-text {
+  color: #6e6e6e;
+  font-size: 0.875rem;
+  line-height: 1.5;
+}
