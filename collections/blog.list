@@ -20,23 +20,17 @@
           <h1>NEWS</h1>
           <p>Local stories, promotions, and sponsorships</p>
           <div class="container category-select">
-            <div class="row">
-              <div class="col">
-                <div class="select-wrapper">
-                  <a><h3>ALL</h3></a>
-                </div>
-              </div>
-              <div class="col">
-                <div class="select-wrapper">
-                  <a><h3>ALL</h3></a>
-                </div>
-              </div>
-              <div class="col">
-                <div class="select-wrapper">
-                  <a><h3>ALL</h3></a>
-                </div>
-              </div>
-            </div>
+            <ul class="nav">
+              <li class="nav-item">
+                <a class="nav-link active" href="#">Active</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="#">Link</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="#">Link</a>
+              </li>
+            </ul>
           </div>
         </div>
       </div>
