@@ -46,7 +46,7 @@
           <img src="../assets/tag-national.png">
           <p>Special Tribute to 9/11 McDonad's Owner Opreator Hero Lloyd Frazier
             at Annual SBU's "give Kids a Smile" Day</p>
-          <p>The 5th annual "Give Kids a Smile" Back to School Day took place</p>
+          <p class="regular">The 5th annual "Give Kids a Smile" Back to School Day took place</p>
           <div class="btn"></div>
         </div>
       </div>
