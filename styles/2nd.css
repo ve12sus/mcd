@@ -70,6 +70,12 @@ h1, h2, h3, h4, h5, h6 {
 @easter-purple: #c26fff;
 @easter-purple-hover: darken(@easter-purple, 20%);
 
+@golden: #e4b600;
+@golden-hover: darken(@golden, 20%);
+
+@dodger-blue: #4ea0ff;
+@dodger-blue-hover: darken(@dodger-blue, 20%);
+
 /* All screens */
 .container-fluid {
   padding-right: 0px;
@@ -321,11 +327,15 @@ h1, h2, h3, h4, h5, h6 {
 }
 
 .featured-food a {
-  background-color: #4ea0ff;
+  background-color: @dodger-blue;
   color: #fff;
   width: 140px;
   height: 36px;
   border-radius: 37px;
+}
+
+.featured-food a:hover {
+  background-color: @dodger-blue-hover;
 }
 
 .featured-people {
@@ -349,11 +359,15 @@ h1, h2, h3, h4, h5, h6 {
 }
 
 .featured-events a {
-  background-color: #e4b600;
+  background-color: @golden;
   color: #fff;
   width: 140px;
   height: 36px;
   border-radius: 37px;
+}
+
+.featured-events a:hover {
+  background-color: @golden-hover;
 }
 
 /* twitter and instagram */
