@@ -385,6 +385,10 @@ h1, h2, h3, h4, h5, h6 {
   background-color: @golden-hover;
 }
 
+.featured-overlay-content p {
+  margin-bottom: 60px;
+}
+
 /* twitter and instagram */
 .card {
   border-radius: 0;
