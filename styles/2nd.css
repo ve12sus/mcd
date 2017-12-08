@@ -39,7 +39,7 @@ body {
   font-size: 1.125rem;
 }
 
-h1 {
+ed1 {
   font-size: 4rem;
 }
 
@@ -316,7 +316,7 @@ h1, h2, h3, h4, h5, h6 {
 }
 
 .welcome-readmore a:hover {
-  background-color: @easer-purple-hover;
+  background-color: @easter-purple-hover;
 }
 
 .featured-news a {
