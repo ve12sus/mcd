@@ -63,6 +63,10 @@ h1, h2, h3, h4, h5, h6 {
   line-height: 1;
 }  
 
+/* Color variables */
+@link-color-test: #61b310;
+@link-color-hover: darken(@link-color-test, 20%); 
+
 /* All screens */
 .container-fluid {
   padding-right: 0px;
@@ -298,11 +302,15 @@ h1, h2, h3, h4, h5, h6 {
 }
 
 .featured-news a {
-  background-color: #61b310;
+  background-color: @link-color-test;
   color: #fff;
   width: 140px;
   height: 36px;
   border-radius: 37px;
+}
+
+.featured-news a:hover {
+  color: @link-color-hover;
 }
 
 .featured-food {
