@@ -308,11 +308,15 @@ h1, h2, h3, h4, h5, h6 {
 }
 
 .welcome-readmore > a {
-  background-color: #c26fff;
+  background-color: @easter-purple;
   color: #fff;
   width: 140px;
   height: 36px;
   border-radius: 18.5px;
+}
+
+.welcome-readmore a:hover {
+  background-color: @easer-purple-hover;
 }
 
 .featured-news a {
