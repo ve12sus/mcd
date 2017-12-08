@@ -310,7 +310,7 @@ h1, h2, h3, h4, h5, h6 {
 }
 
 .featured-news a:hover {
-  color: @link-color-hover;
+  background-color: @link-color-hover;
 }
 
 .featured-food {
