@@ -315,7 +315,7 @@ h1, h2, h3, h4, h5, h6 {
   background-color: @easter-purple-hover;
 }
 
-.featured-news .card-img-overlay {
+.featured-news {
   background-color: rgba(101, 154, 42, 0.7);
 }
 
@@ -330,6 +330,7 @@ h1, h2, h3, h4, h5, h6 {
   left: 0;
   right: 0;
   bottom: 24px;
+  margin: auto;
 }
 
 .featured-news a:hover {
