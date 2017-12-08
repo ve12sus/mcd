@@ -64,8 +64,11 @@ h1, h2, h3, h4, h5, h6 {
 }  
 
 /* Color variables */
-@link-color-test: #61b310;
-@link-color-hover: darken(@link-color-test, 20%); 
+@frog-green: #61b310;
+@frog-green-hover: darken(@frog-green, 20%); 
+
+@easter-purple: #c26fff;
+@easter-purple-hover: darken(@easter-purple, 20%);
 
 /* All screens */
 .container-fluid {
@@ -302,7 +305,7 @@ h1, h2, h3, h4, h5, h6 {
 }
 
 .featured-news a {
-  background-color: @link-color-test;
+  background-color: @frog-green;
   color: #fff;
   width: 140px;
   height: 36px;
@@ -310,7 +313,7 @@ h1, h2, h3, h4, h5, h6 {
 }
 
 .featured-news a:hover {
-  background-color: @link-color-hover;
+  background-color: @frog-green-hover;
 }
 
 .featured-food {
@@ -330,11 +333,15 @@ h1, h2, h3, h4, h5, h6 {
 }
 
 .featured-people a {
-  background-color: #c26fff;
+  background-color: @easter-purple;
   color: #fff;
   width: 140px;
   height: 36px;
   border-radius: 37px;
+}
+
+.featured-people a:hover {
+  background-color: @easter-purple-hover;
 }
 
 .featured-events {
