@@ -315,7 +315,7 @@ h1, h2, h3, h4, h5, h6 {
   background-color: @easter-purple-hover;
 }
 
-.featured-news, .featured-food, .featured-people, .featured-events a {
+.featured-news a, .featured-food a, .featured-people a, .featured-events a {
   position: absolute;
   left: 0;
   right: 0;
