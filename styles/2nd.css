@@ -100,22 +100,6 @@ h1, h2, h3, h4, h5, h6 {
   border-radius: 50%;
 }
 
-@media (max-width: 320px) {
-
-  .caption {
-    margin-top: 30px;
-  }
-
-  .carousel-inner, .carousel-item {
-    height: 180px;
-  }
-
-  .carousel-item .w-100 {
-    width: 130% !important;
-  }
-
-}
-
 @media (max-width: 767px) {
 
   .container {
@@ -198,6 +182,22 @@ h1, h2, h3, h4, h5, h6 {
   .caption h1 {
     font-size: 2.25rem;
   }
+}
+
+@media (max-width: 320px) {
+
+  .caption {
+    margin-top: 30px;
+  }
+
+  .carousel-inner, .carousel-item {
+    height: 180px;
+  }
+
+  .carousel-item .w-100 {
+    width: 130% !important;
+  }
+
 }
 
 @media (min-width: 768px) {
