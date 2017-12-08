@@ -303,10 +303,6 @@ h1, h2, h3, h4, h5, h6 {
 
 /* rules for featured cards */
 
-.featured-news {
-  background-color: rgba(101, 154, 42, 0.7);
-}
-
 .welcome-readmore > a {
   background-color: @easter-purple;
   color: #fff;
@@ -319,12 +315,21 @@ h1, h2, h3, h4, h5, h6 {
   background-color: @easter-purple-hover;
 }
 
+.featured-news .card-img-overlay {
+  background-color: rgba(101, 154, 42, 0.7);
+}
+
+
 .featured-news a {
   background-color: @frog-green;
   color: #fff;
   width: 140px;
   height: 36px;
   border-radius: 37px;
+  position: absolute;
+  left: 0;
+  right: 0;
+  bottom: 24px;
 }
 
 .featured-news a:hover {
