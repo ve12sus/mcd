@@ -39,7 +39,7 @@ body {
   font-size: 1.125rem;
 }
 
-ed1 {
+h1 {
   font-size: 4rem;
 }
 
@@ -98,6 +98,22 @@ h1, h2, h3, h4, h5, h6 {
   width: 16px;
   height: 16px;
   border-radius: 50%;
+}
+
+@media (max-width: 320px) {
+
+  .caption {
+    margin-top: 30px;
+  }
+
+  .carousel-inner, .carousel-item {
+    height: 180px;
+  }
+
+  .carousel-item .w-100 {
+    width: 130% !important;
+  }
+
 }
 
 @media (max-width: 767px) {
