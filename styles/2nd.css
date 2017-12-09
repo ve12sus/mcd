@@ -542,7 +542,12 @@ h1, h2, h3, h4, h5, h6 {
     padding: 0;
   }
 
+  .category-content .container {
+    padding-left: 10px;
+    padding-right: 10px;
+  }
 }
+
   
 #category-header {
   position: relative;
@@ -577,6 +582,11 @@ h1, h2, h3, h4, h5, h6 {
 
 .category-content {
   margin-top: 40px
+}
+
+.category-content .container {
+  padding-left: 10px;
+  padding-right: 10px;
 }
 
 .featured-post-title {
