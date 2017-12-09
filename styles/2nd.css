@@ -497,7 +497,7 @@ h1, h2, h3, h4, h5, h6 {
 
 /* Category page */
 
-@media (max-width: 575px) {
+@media (max-width: 767px) {
 
   /* fixed height for mobile category header */
   #category-header {
@@ -520,6 +520,15 @@ h1, h2, h3, h4, h5, h6 {
     left: 0;
     right: 0;
     bottom: 23px;
+  }
+
+  .category-overlay h1 {
+    font-size: 2.25rem;
+    letter-spacing: 0.6px;
+  }
+
+  .category-overlay p {
+    font-size: 0.875rem;
   }
   
   .category-overlay .nav-item {
