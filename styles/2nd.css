@@ -183,20 +183,6 @@ h1, h2, h3, h4, h5, h6 {
     font-size: 2.25rem;
   }
 
-  /* fixed height for mobile header */
-  #category-header {
-    min-height: 180px;
-    overflow: hidden;
-  }
-
-  #category-header img {
-    position: absolute;
-    height: 100%;
-    top: 50%;
-    -ms-transform: translateY(-50%);
-    -webkit-transform: translateY(-50%);
-    transform: translateY(-50%);
-  }
 }
 
 @media (max-width: 320px) {
@@ -511,19 +497,47 @@ h1, h2, h3, h4, h5, h6 {
 
 /* Category page */
 
+@media (max-width: 575px) {
+
+  /* fixed height for mobile category header */
+  #category-header {
+    min-height: 180px;
+    overflow: hidden;
+  }
+
+  /* img attributes to fit 180px header div */
+  #category-header img {
+    position: absolute;
+    height: 100%;
+    top: 50%;
+    -ms-transform: translateY(-50%);
+    -webkit-transform: translateY(-50%);
+    transform: translateY(-50%);
+  }
+  
+  .category-overlay {
+    bottom: 23px;
+  }
+  
+  .category-overlay .nav-item {
+    margin-top: 0;
+    margin-left: 0;
+    padding-left: 17px;
+    padding-right: 17px;
+  }
+  
+  .nav-link {
+    padding: 0;
+  }
+
+}
+  
 #category-header {
   position: relative;
 }
 
 .category-main {
   background-color: #fff;
-}
-
-.category-overlay {
-  position: absolute;
-  left: 0;
-  right: 0;
-  bottom: 40px;
 }
 
 .category-overlay h1 {
@@ -543,13 +557,6 @@ h1, h2, h3, h4, h5, h6 {
 
 .category-overlay a:hover {
   border-bottom: 2px solid #61b310;
-}
-
-.category-overlay .nav-item {
-  margin-top: 0;
-  margin-left: 0;
-  padding-left: 33px;
-  padding-right: 33px;
 }
 
 .select-wrapper {
@@ -621,3 +628,25 @@ h1, h2, h3, h4, h5, h6 {
   background-color: #fff;
 }
 
+/* after navbar extend */
+@media (min-width: 768px) {
+  .category-overlay {
+    position: absolute;
+    left: 0;
+    right: 0;
+    bottom: 40px;
+  }
+  
+  .category-overlay .nav-item {
+    margin-top: 0;
+    margin-left: 0;
+    padding-left: 33px;
+    padding-right: 33px;
+  }
+  
+  .category-overlay h1 {
+  font-size: 4.5rem;
+  letter-spacing: 1.1px;
+  }
+
+}
