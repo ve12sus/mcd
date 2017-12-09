@@ -606,10 +606,6 @@ h1, h2, h3, h4, h5, h6 {
   width: 66px;
 }
 
-.category-content {
-  margin-top: 40px
-}
-
 .category-content .container {
   padding-left: 10px;
   padding-right: 10px;
@@ -695,6 +691,10 @@ h1, h2, h3, h4, h5, h6 {
   .category-overlay h1 {
   font-size: 4.5rem;
   letter-spacing: 1.1px;
+  }
+
+  .category-content {
+    margin-top: 40px;
   }
 
 }
