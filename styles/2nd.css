@@ -186,6 +186,16 @@ h1, h2, h3, h4, h5, h6 {
   /* fixed height for mobile header */
   #category-header {
     min-height: 180px;
+    overflow: hidden;
+  }
+
+  #category-header img {
+    position: absolute;
+    width: 100%;
+    top: 50%;
+    -ms-transform: translateY(-50%);
+    -webkit-transform: translateY(-50%);
+    transform: translateY(-50%);
   }
 }
 
