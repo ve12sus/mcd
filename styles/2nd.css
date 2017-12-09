@@ -542,6 +542,10 @@ h1, h2, h3, h4, h5, h6 {
     padding: 0;
   }
 
+  .category-content {
+    margin-top: 20px;
+  }
+
   .category-content .container {
     padding-left: 10px;
     padding-right: 10px;
@@ -549,11 +553,24 @@ h1, h2, h3, h4, h5, h6 {
 
   .featured-post {
     text-align: center;
+    margin-bottom: 40px;
+  }
+
+  .featured-post img {
+    position: absolute;
+    left: 0;
+    right: 0;
+    top: -11px;
+    margin: auto;
   }
 
   .category-content .col-12 {
     padding-left: 0;
     padding-right: 0;
+  }
+
+  .card-deck {
+    margin-top: 0;
   }
 }
 
