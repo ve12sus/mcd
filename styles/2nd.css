@@ -260,7 +260,7 @@ h1, h2, h3, h4, h5, h6 {
   position: absolute;
   left: 0;
   right: 0;
-  bottom: 24px;
+  bottom: 8%;
   margin: auto;
 }
 
@@ -275,11 +275,6 @@ h1, h2, h3, h4, h5, h6 {
   width: 140px;
   height: 36px;
   border-radius: 37px;
-  position: absolute;
-  left: 0;
-  right: 0;
-  bottom: 24px;
-  margin: auto;
 }
 
 .featured-news a:hover {
