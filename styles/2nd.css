@@ -189,71 +189,6 @@ h1, h2, h3, h4, h5, h6 {
 }
 
 @media (min-width: 768px) {
-
-/* rules for floating nav */
-  .navbar-wrapper {
-    position: absolute;
-    top: 0;
-    left: 0;
-    right: 0;
-    z-index: 10;
-  }
-
-  .navbar-wrapper {
-    background-image: linear-gradient(to top,
-      rgba(0, 0, 0, 0), rgba(0, 0, 0, 0.52));
-  }
-  
-  .navbar {
-    padding-top: 2rem;
-  }
-
-  .navbar-light .navbar-nav .nav-link:focus,
-  .navbar-light .navbar-nav .nav-link:hover {
-    color: #fff;
-  }
-
-  .navbar-light .navbar-nav .nav-link {
-    color: #fff;
-  }
-
-  .nav-item {
-    margin-top: 9px;
-    margin-left: 10px;
-	}
-
-  .nav-link {
-    padding: 0;
-  }
-
-  .news-nav-link {
-    border-bottom: transparent solid 2px;
-  }
-	.news-nav-link:hover {
-		border-bottom: #63dc12 solid 2px;
-	}
-
-  .food-nav-link {
-    border-bottom: transparent solid 2px;
-  }
-	.food-nav-link:hover {
-		border-bottom: #2289f2 solid 2px;
-	}
-
-  .people-nav-link {
-    border-bottom: transparent solid 2px;
-  }
-	.people-nav-link:hover {
-		border-bottom: #b549ff solid 2px;
-	}
-
-  .events-nav-link {
-    border-bottom: transparent solid 2px;
-  }
-	.events-nav-link:hover {
-		border-bottom: #ffc400 solid 2px;
-	}
-
   /* carousel-caption */
   .caption-wrapper {
     position: absolute;
@@ -272,6 +207,7 @@ h1, h2, h3, h4, h5, h6 {
     font-size: 3rem;
     margin-bottom: 1rem;
   }
+
 }
 
 @media (min-width: 992px) {
@@ -303,6 +239,7 @@ h1, h2, h3, h4, h5, h6 {
   .caption h1 {
     margin-bottom: 1rem;
   }
+  
 }
 
 /* rules for featured cards */
@@ -428,6 +365,78 @@ h1, h2, h3, h4, h5, h6 {
 
 .hashtag {
   color: #009bf6;
+}
+
+/* floating nav */
+@media (min-width: 768px) {
+
+  .navbar-wrapper {
+    position: absolute;
+    top: 0;
+    left: 0;
+    right: 0;
+    z-index: 10;
+  }
+
+  .navbar-wrapper {
+    background-image: linear-gradient(to top,
+      rgba(0, 0, 0, 0), rgba(0, 0, 0, 0.52));
+  }
+  
+  .navbar {
+    padding-top: 2rem;
+  }
+
+  .navbar-light .navbar-nav .nav-link:focus,
+  .navbar-light .navbar-nav .nav-link:hover {
+    color: #fff;
+  }
+
+  .navbar-light .navbar-nav .nav-link {
+    color: #fff;
+  }
+
+  .nav-item {
+    margin-top: 9px;
+    margin-left: 10px;
+	}
+
+  .nav-link {
+    padding: 0;
+  }
+
+  .news-nav-link {
+    border-bottom: transparent solid 2px;
+  }
+  
+	.news-nav-link:hover {
+		border-bottom: #63dc12 solid 2px;
+	}
+
+  .food-nav-link {
+    border-bottom: transparent solid 2px;
+  }
+  
+	.food-nav-link:hover {
+		border-bottom: #2289f2 solid 2px;
+	}
+
+  .people-nav-link {
+    border-bottom: transparent solid 2px;
+  }
+  
+	.people-nav-link:hover {
+		border-bottom: #b549ff solid 2px;
+	}
+
+  .events-nav-link {
+    border-bottom: transparent solid 2px;
+  }
+  
+	.events-nav-link:hover {
+		border-bottom: #ffc400 solid 2px;
+	}
+
 }
 
 /* footer styles */
