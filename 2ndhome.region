@@ -31,7 +31,6 @@
       </header>
 
       <main class="content-container" role="main" data-content-field="main-content">
-       {squarespace.main-content}      
         <div class="container-fluid">      
           <div id="carouselExampleIndicators" class="carousel slide" data-interval="false" data-ride="carousel">
             <ol class="carousel-indicators">
