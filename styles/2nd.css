@@ -81,6 +81,8 @@ h1, h2, h3, h4, h5, h6 {
   padding-left: 0px;
 }
 
+/* components */
+
 .btn {
   border: none;
   font-family: 'LovinSansCondensed-Bold', Sans-serif;
@@ -88,18 +90,13 @@ h1, h2, h3, h4, h5, h6 {
   letter-spacing: 1px;
 }
 
-/* commenting out for now while we switch over to cms 
-#main, #nav, #caption, #footer {
-  padding-right: 0;
-  padding-left: 0;
-} */
-
 .carousel-indicators li {
   width: 16px;
   height: 16px;
   border-radius: 50%;
 }
 
+/* homepage */
 @media (max-width: 767px) {
 
   .container {
@@ -166,6 +163,10 @@ h1, h2, h3, h4, h5, h6 {
 
 @media (max-width: 575px) {
 
+  .carousel-inner, .carousel-item {
+    height: 240px;
+  }
+
   .caption-wrapper {
     position: absolute;
     top: 0;
@@ -192,7 +193,7 @@ h1, h2, h3, h4, h5, h6 {
   }
 
   .carousel-inner, .carousel-item {
-    height: 180px;
+    height: 200px;
   }
 
   .carousel-item .w-100 {
