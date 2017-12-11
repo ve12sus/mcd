@@ -89,10 +89,11 @@ h1, h2, h3, h4, h5, h6 {
   letter-spacing: 1px;
 }
 
+/* commenting out for now while we switch over to cms 
 #main, #nav, #caption, #footer {
   padding-right: 0;
   padding-left: 0;
-}
+} */
 
 .carousel-indicators li {
   width: 16px;
