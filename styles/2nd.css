@@ -181,7 +181,6 @@ h1, h2, h3, h4, h5, h6 {
   }
 
   .caption {
-    margin-top: 10px;
     text-align: center;
   }
 
@@ -193,8 +192,8 @@ h1, h2, h3, h4, h5, h6 {
 
 @media (max-width: 320px) {
 
-  .caption {
-    margin-top: 40px;
+  .caption-wrapper {
+    top: 40px;
   }
 
   .carousel-inner, .carousel-item {
