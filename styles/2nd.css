@@ -118,7 +118,7 @@ h1, h2, h3, h4, h5, h6 {
   }
 
   .caption {
-    margin-top: 40px;
+    margin-top: 15%;
     text-align: center;
   }
 
@@ -169,11 +169,8 @@ h1, h2, h3, h4, h5, h6 {
     height: 100%;
   }
 
-  .caption-wrapper {
-    top: 40px;
-  }
-
   .caption {
+    margin-top: 15%;
     text-align: center;
   }
 
