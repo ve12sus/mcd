@@ -168,7 +168,8 @@ h1, h2, h3, h4, h5, h6 {
   }
 
   .carousel-item .w-100 {
-    width: 140% !important;
+    width: auto !important;
+    height: 100%;
   }
 
   .caption-wrapper {
@@ -201,7 +202,8 @@ h1, h2, h3, h4, h5, h6 {
   }
 
   .carousel-item .w-100 {
-    width: 140% !important;
+    width: auto !important;
+    height: 100%;
   }
 
 }
