@@ -167,9 +167,13 @@ h1, h2, h3, h4, h5, h6 {
     height: 240px;
   }
 
+  .carousel-item .w-100 {
+    width: 140% !important;
+  }
+
   .caption-wrapper {
     position: absolute;
-    top: 0;
+    top: 40px;
     left: 0;
     right: 0;
     z-index: 10;
@@ -197,7 +201,7 @@ h1, h2, h3, h4, h5, h6 {
   }
 
   .carousel-item .w-100 {
-    width: 130% !important;
+    width: 140% !important;
   }
 
 }
