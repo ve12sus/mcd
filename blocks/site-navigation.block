@@ -25,6 +25,7 @@
 						
 						<!-- collection link -->
 						{.section collection}
+              <script>console.log({@|json-pretty})</script>
 							<a class="nav-link news-nav-link" href="{fullUrl}"><h3 class="text-uppercase">{navigationTitle}</h3></a>
 						{.end}
 						</li>
