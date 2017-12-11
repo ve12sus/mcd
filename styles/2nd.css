@@ -96,7 +96,7 @@ h1, h2, h3, h4, h5, h6 {
   border-radius: 50%;
 }
 
-/* homepage */
+/* homepage content */
 @media (max-width: 767px) {
 
   .container {
@@ -557,6 +557,12 @@ h1, h2, h3, h4, h5, h6 {
     padding-right: 10px;
   }
 
+  .category-content .col-12 {
+    padding-left: 0;
+    padding-right: 0;
+  }
+
+    
   .featured-post {
     text-align: center;
     margin-bottom: 40px;
@@ -570,17 +576,11 @@ h1, h2, h3, h4, h5, h6 {
     margin: auto;
   }
 
-  .category-content .col-12 {
-    padding-left: 0;
-    padding-right: 0;
-  }
-
   .card-deck {
     margin-top: 0;
   }
 }
 
-  
 #category-header {
   position: relative;
 }
