@@ -665,10 +665,6 @@ h1, h2, h3, h4, h5, h6 {
   margin-bottom: 82px;
 }
 
-.site-container {
-  background-color: #fff;
-}
-
 /* after navbar extend */
 @media (min-width: 768px) {
   .category-overlay {
@@ -704,6 +700,12 @@ h1, h2, h3, h4, h5, h6 {
 
 .homepage {
   background-color: #1e1e1e;
+}
+
+/* category / blog.list */
+
+.view-list {
+  background-color: #fff;
 }
 
 /* Individual Post / blog.item */
