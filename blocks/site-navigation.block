@@ -6,9 +6,9 @@
 					<picture>
 						<source
 							media="(min-width: 768px)"
-							srcset="assets/logo.png">
+							srcset="/assets/logo.png">
 						<img
-							src="assets/logo-mobile.png"
+							src="/assets/logo-mobile.png"
 							alt="logo">
 					</picture>
 				</a>
