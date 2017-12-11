@@ -25,7 +25,7 @@
 						
 						<!-- collection link -->
 						{.section collection}
-							<a class="nav-link news-nav-link" href="{fullUrl}"><h3>{navigationTitle}</h3></a>
+							<a class="nav-link news-nav-link" href="{fullUrl}"><h3 class="text-uppercase">{navigationTitle}</h3></a>
 						{.end}
 						</li>
 					{.end}	
