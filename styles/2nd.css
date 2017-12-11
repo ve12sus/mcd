@@ -707,6 +707,9 @@ h1, h2, h3, h4, h5, h6 {
   background-color: #fff;
 }
 
+.homepage {
+}
+
 /* Individual Post / blog.item */
 
 div[id^='item-'] {
