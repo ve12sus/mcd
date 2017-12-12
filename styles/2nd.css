@@ -701,5 +701,6 @@ article .title {
 
 
 article .post-tag {
+  display: block;
   margin: auto;
 }
