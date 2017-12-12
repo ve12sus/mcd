@@ -674,6 +674,11 @@ h1, h2, h3, h4, h5, h6 {
 
 div[id^='item-'] {
   color: #4a4a4a;
+  background-color: #fff;
+  /* set size of container to 640px */
+  .container {
+    max-width: 640px;
+  }
 }
 
 article .title {
