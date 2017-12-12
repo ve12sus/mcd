@@ -676,3 +676,8 @@ div[id^='item-'] {
   color: #4a4a4a;
 }
 
+article .title {
+  color: #111111;
+}
+
+

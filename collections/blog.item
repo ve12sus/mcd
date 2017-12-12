@@ -7,6 +7,8 @@
       <div id="post-header">
         <img class="d-block w-100" src="http://via.placeholder.com/1440x700">
       </div>
+    </div>
+    <div class="container">
       <!--POST TILE-->
       <p class="title" data-content-field="title">
         {.passthrough?}
