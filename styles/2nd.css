@@ -248,7 +248,8 @@ h1, h2, h3, h4, h5, h6 {
   background-color: @easter-purple;
   color: #fff;
   width: 140px;
-  height: 36px;
+  padding-top: 10px;
+  padding-bottom: 10px;
   border-radius: 18.5px;
 }
 
@@ -262,6 +263,8 @@ h1, h2, h3, h4, h5, h6 {
   right: 0;
   bottom: 8%;
   margin: auto;
+  padding-top: 10px;
+  padding-bottom: 10px;
 }
 
 .featured-news {
