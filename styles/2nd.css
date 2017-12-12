@@ -442,7 +442,7 @@ h1, h2, h3, h4, h5, h6 {
   }*/
   
 	.news-nav-link:hover {
-		border-bottom: #63dc12 solid 2px;
+		border-bottom: @frog-green solid 2px;
 	}
 
   /*.food-nav-link {
@@ -450,7 +450,7 @@ h1, h2, h3, h4, h5, h6 {
   }*/
   
 	.food-nav-link:hover {
-		border-bottom: #2289f2 solid 2px;
+		border-bottom: @dodger-blue solid 2px;
 	}
 
   /*.people-nav-link {
@@ -458,7 +458,7 @@ h1, h2, h3, h4, h5, h6 {
   }*/
   
 	.people-nav-link:hover {
-		border-bottom: #b549ff solid 2px;
+		border-bottom: @easter-purple solid 2px;
 	}
 
   /*.events-nav-link {
@@ -466,7 +466,7 @@ h1, h2, h3, h4, h5, h6 {
   }*/
   
 	.events-nav-link:hover {
-		border-bottom: #ffc400 solid 2px;
+		border-bottom: @golden solid 2px;
 	}
 
 }
