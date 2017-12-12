@@ -20,6 +20,11 @@
   src: url( '../assets/LovinSansCondensed-Black.woff' ) format('woff');
 }
 
+@font-face {
+  font-family: 'LovinSansLight' ;
+  src: url( '../assets/LovinSans-Light.woff' ) format('woff');
+}
+
 body {
   color: #fff;
   font-family: 'LovinSans-Regular', Sans-serif;
@@ -689,6 +694,7 @@ article {
 
 article .title {
   color: #111111;
+  font-family: 'LovinSans-Light', sans-serif;
   font-size: 2.25rem;
   text-align: center;
 }
