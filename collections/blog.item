@@ -3,55 +3,58 @@
 
   <!--WRAPPER-->
   <article id="post-{id}" class="{@|item-classes}" data-item-id="{id}">
+    <div class="container-fluid">
+      <div id="post-header">
+        <img class="d-block w-100" src="http://via.placeholder.com/1440x700">
+      </div>
+      <!--POST TILE-->
+      <h1 class="title" data-content-field="title">
+        {.passthrough?}
+          <a href="{sourceUrl}" target="_blank">{title}</a>
+        {.or}
+          {title}
+        {.end}
+      </h1>
 
-    <!--POST TILE-->
-    <h1 class="title" data-content-field="title">
-      {.passthrough?}
-        <a href="{sourceUrl}" target="_blank">{title}</a>
-      {.or}
-        {title}
+      <!--AUTHOR AND DATE-->
+      <p class="meta">
+        <a href="{fullUrl}" class="permalink"><time datetime="{addedOn|date %F}">{addedOn|date %B %d, %Y}</time></a> by <a href="{collection.fullUrl}?author={author.id}">{author.displayName}</a>
+      </p>
+
+      <!--MAIN CONTENT-->
+      {body}
+
+      <!--BLOG INJECTION-->
+      {postItemInjectCode}
+
+      <!--CATEGORIES-->
+      {.repeated section categories}
+        <a class="category" href="{collection.fullUrl}?category={@|url-encode}">{@}</a>{.alternates with},
       {.end}
-    </h1>
 
-    <!--AUTHOR AND DATE-->
-    <p class="meta">
-      <a href="{fullUrl}" class="permalink"><time datetime="{addedOn|date %F}">{addedOn|date %B %d, %Y}</time></a> by <a href="{collection.fullUrl}?author={author.id}">{author.displayName}</a>
-    </p>
-
-    <!--MAIN CONTENT-->
-    {body}
-
-    <!--BLOG INJECTION-->
-    {postItemInjectCode}
-
-    <!--CATEGORIES-->
-    {.repeated section categories}
-      <a class="category" href="{collection.fullUrl}?category={@|url-encode}">{@}</a>{.alternates with},
-    {.end}
-
-    <!--TAGS-->
-    {.repeated section tags}
-      <a class="tag" href="{collection.fullUrl}?tag={@|url-encode}">{@}</a>{.alternates with},
-    {.end}
-
-    <!--SHARE AND LIKE-->
-    {@|like-button}
-    {@|social-button}
-
-
-    <!--LOCATION-->
-    {.section location}
-      {.section addressTitle}
-        {addressTitle}
-        {addressLine1}
-        {addressLine2}
-        {addressCountry}
+      <!--TAGS-->
+      {.repeated section tags}
+        <a class="tag" href="{collection.fullUrl}?tag={@|url-encode}">{@}</a>{.alternates with},
       {.end}
-    {.end}
 
-    <!--COMMENTS-->
-    {@|comments}
+      <!--SHARE AND LIKE-->
+      {@|like-button}
+      {@|social-button}
 
+
+      <!--LOCATION-->
+      {.section location}
+        {.section addressTitle}
+          {addressTitle}
+          {addressLine1}
+          {addressLine2}
+          {addressCountry}
+        {.end}
+      {.end}
+
+      <!--COMMENTS-->
+      {@|comments}
+    </div>
   </article>
 
 {.end}
