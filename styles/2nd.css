@@ -189,6 +189,7 @@ h1, h2, h3, h4, h5, h6 {
 
 @media (max-width: 320px) {
 
+  /* sets carousel height in mobile */
   .carousel-inner, .carousel-item {
     height: 200px;
   }
@@ -196,6 +197,7 @@ h1, h2, h3, h4, h5, h6 {
 }
 
 @media (min-width: 768px) {
+
   /* carousel-caption */
   .caption-wrapper {
     position: absolute;
@@ -219,7 +221,7 @@ h1, h2, h3, h4, h5, h6 {
 
 @media (min-width: 992px) {
 
-/* max width of container*/
+  /* max width of container*/
   .container{
     max-width: 940px;
   }
@@ -238,6 +240,7 @@ h1, h2, h3, h4, h5, h6 {
 
 @media (min-width: 1200px) {
 
+  /* carousel caption placement on large desktop */
   .caption {
     margin-top: 80px;
     margin-left: 12%;
@@ -249,7 +252,7 @@ h1, h2, h3, h4, h5, h6 {
   
 }
 
-/* rules for featured cards */
+/* rule for carousel caption button */
 
 .welcome-readmore > a {
   background-color: @easter-purple;
@@ -264,6 +267,7 @@ h1, h2, h3, h4, h5, h6 {
   background-color: @easter-purple-hover;
 }*/
 
+/* Rules for featured cards */
 
 /* absolute positions bottons from bottom */
 .featured-posts a {
@@ -321,9 +325,14 @@ h1, h2, h3, h4, h5, h6 {
 
 .featured-people {
   background-color: rgba(130, 58, 194, 0.7);
+  a {
+    background-color: @easter-purple;
+  }
+  a:hover {
+    background-color: @easter-purple-hover;
 }
 
-.featured-people a {
+/*.featured-people a {
   background-color: @easter-purple;
   color: #fff;
   width: 140px;
@@ -332,13 +341,19 @@ h1, h2, h3, h4, h5, h6 {
 
 .featured-people a:hover {
   background-color: @easter-purple-hover;
-}
+}*/
 
 .featured-events {
   background-color: rgba(189, 162, 57, 0.7);
+  a {
+    background-color: @golden;
+  }
+  a:hover {
+    background-color: @golden-hover;
+  }
 }
 
-.featured-events a {
+/*.featured-events a {
   background-color: @golden;
   color: #fff;
   width: 140px;
@@ -347,7 +362,7 @@ h1, h2, h3, h4, h5, h6 {
 
 .featured-events a:hover {
   background-color: @golden-hover;
-}
+}*/
 
 .featured-overlay-content .card-text:last-child {
   margin-bottom: 60px;
