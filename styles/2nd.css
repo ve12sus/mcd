@@ -275,10 +275,17 @@ h1, h2, h3, h4, h5, h6 {
 
 .featured-news {
   background-color: rgba(101, 154, 42, 0.7);
+  a {
+    background-color: @frog-green;
+  }
+  &:hover {
+    background-color: @frog-green-hover;
+  }
+
 }
 
 
-.featured-news a {
+/*.featured-news a {
   background-color: @frog-green;
   color: #fff;
   width: 140px;
@@ -287,7 +294,7 @@ h1, h2, h3, h4, h5, h6 {
 
 .featured-news a:hover {
   background-color: @frog-green-hover;
-}
+}*/
 
 .featured-food {
   background-color: rgba(57, 120, 191, 0.7);
