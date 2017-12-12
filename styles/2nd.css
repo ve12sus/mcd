@@ -273,7 +273,6 @@ h1, h2, h3, h4, h5, h6 {
   background-color: @frog-green;
   color: #fff;
   width: 140px;
-  height: 36px;
   border-radius: 37px;
 }
 
@@ -289,7 +288,6 @@ h1, h2, h3, h4, h5, h6 {
   background-color: @dodger-blue;
   color: #fff;
   width: 140px;
-  height: 36px;
   border-radius: 37px;
 }
 
@@ -305,7 +303,6 @@ h1, h2, h3, h4, h5, h6 {
   background-color: @easter-purple;
   color: #fff;
   width: 140px;
-  height: 36px;
   border-radius: 37px;
 }
 
@@ -321,7 +318,6 @@ h1, h2, h3, h4, h5, h6 {
   background-color: @golden;
   color: #fff;
   width: 140px;
-  height: 36px;
   border-radius: 37px;
 }
 
