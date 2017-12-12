@@ -263,10 +263,6 @@ h1, h2, h3, h4, h5, h6 {
   }
 }
 
-/*.welcome-readmore a:hover {
-  background-color: @easter-purple-hover;
-}*/
-
 /* Rules for featured cards */
 
 /* absolute positions bottons from bottom */
@@ -290,18 +286,6 @@ h1, h2, h3, h4, h5, h6 {
   }
 }
 
-
-/*.featured-news a {
-  background-color: @frog-green;
-  color: #fff;
-  width: 140px;
-  border-radius: 37px;
-}
-
-.featured-news a:hover {
-  background-color: @frog-green-hover;
-}*/
-
 .featured-food {
   background-color: rgba(57, 120, 191, 0.7);
   a {
@@ -311,17 +295,6 @@ h1, h2, h3, h4, h5, h6 {
     background-color: @dodger-blue-hover;
   }
 }
-
-/*.featured-food a {
-  background-color: @dodger-blue;
-  color: #fff;
-  width: 140px;
-  border-radius: 37px;
-}
-
-.featured-food a:hover {
-  background-color: @dodger-blue-hover;
-}*/
 
 .featured-people {
   background-color: rgba(130, 58, 194, 0.7);
@@ -333,17 +306,6 @@ h1, h2, h3, h4, h5, h6 {
   }
 }
 
-/*.featured-people a {
-  background-color: @easter-purple;
-  color: #fff;
-  width: 140px;
-  border-radius: 37px;
-}
-
-.featured-people a:hover {
-  background-color: @easter-purple-hover;
-}*/
-
 .featured-events {
   background-color: rgba(189, 162, 57, 0.7);
   a {
@@ -353,17 +315,6 @@ h1, h2, h3, h4, h5, h6 {
     background-color: @golden-hover;
   }
 }
-
-/*.featured-events a {
-  background-color: @golden;
-  color: #fff;
-  width: 140px;
-  border-radius: 37px;
-}
-
-.featured-events a:hover {
-  background-color: @golden-hover;
-}*/
 
 .featured-overlay-content .card-text:last-child {
   margin-bottom: 60px;
@@ -437,34 +388,18 @@ h1, h2, h3, h4, h5, h6 {
     border-bottom: transparent solid 2px;
   }
 
-  /*.news-nav-link {
-    border-bottom: transparent solid 2px;
-  }*/
-  
 	.news-nav-link:hover {
 		border-bottom: @frog-green solid 2px;
 	}
 
-  /*.food-nav-link {
-    border-bottom: transparent solid 2px;
-  }*/
-  
 	.food-nav-link:hover {
 		border-bottom: @dodger-blue solid 2px;
 	}
 
-  /*.people-nav-link {
-    border-bottom: transparent solid 2px;
-  }*/
-  
 	.people-nav-link:hover {
 		border-bottom: @easter-purple solid 2px;
 	}
 
-  /*.events-nav-link {
-    border-bottom: transparent solid 2px;
-  }*/
-  
 	.events-nav-link:hover {
 		border-bottom: @golden solid 2px;
 	}
