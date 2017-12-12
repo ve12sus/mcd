@@ -21,9 +21,11 @@
       </p>
 
       <!--AUTHOR AND DATE-->
-      <p class="meta">
+      <!--<p class="meta">
         <a href="{fullUrl}" class="permalink"><time datetime="{addedOn|date %F}">{addedOn|date %B %d, %Y}</time></a> by <a href="{collection.fullUrl}?author={author.id}">{author.displayName}</a>
-      </p>
+      </p>-->
+
+      <hr class="post-divider">
 
       <!--MAIN CONTENT-->
       {body}
