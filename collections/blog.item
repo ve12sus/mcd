@@ -8,13 +8,13 @@
         <img class="d-block w-100" src="http://via.placeholder.com/1440x700">
       </div>
       <!--POST TILE-->
-      <h1 class="title" data-content-field="title">
+      <p class="title" data-content-field="title">
         {.passthrough?}
           <a href="{sourceUrl}" target="_blank">{title}</a>
         {.or}
           {title}
         {.end}
-      </h1>
+      </p>
 
       <!--AUTHOR AND DATE-->
       <p class="meta">
