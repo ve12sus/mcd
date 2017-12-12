@@ -709,3 +709,9 @@ article .post-tag {
   display: block;
   margin: auto;
 }
+
+.post-divider {
+  width: 360px;
+  margin-top: 48px;
+  margin-bottom: 44px;
+}
