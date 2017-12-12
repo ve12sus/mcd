@@ -253,6 +253,7 @@ h1, h2, h3, h4, h5, h6 {
 .welcome-readmore > a {
   background-color: @easter-purple;
   border-radius: 18.5px;
+  color: #fff;
   &:hover {
     background-color: @easter-purple-hover;
   }
