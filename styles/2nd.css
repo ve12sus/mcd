@@ -265,6 +265,7 @@ h1, h2, h3, h4, h5, h6 {
 }*/
 
 
+/* absolute positions bottons from bottom */
 .featured-posts a {
   color: #fff;
   position: absolute;
@@ -274,6 +275,7 @@ h1, h2, h3, h4, h5, h6 {
   margin: auto;
 }
 
+/* button and overlay styling */
 .featured-news {
   background-color: rgba(101, 154, 42, 0.7);
   a {
@@ -298,9 +300,15 @@ h1, h2, h3, h4, h5, h6 {
 
 .featured-food {
   background-color: rgba(57, 120, 191, 0.7);
+  a {
+    background-color: @dodger-blue;
+  }
+  a:hover {
+    background-color: @dodger-blue-hover;
+  }
 }
 
-.featured-food a {
+/*.featured-food a {
   background-color: @dodger-blue;
   color: #fff;
   width: 140px;
@@ -309,7 +317,7 @@ h1, h2, h3, h4, h5, h6 {
 
 .featured-food a:hover {
   background-color: @dodger-blue-hover;
-}
+}*/
 
 .featured-people {
   background-color: rgba(130, 58, 194, 0.7);
