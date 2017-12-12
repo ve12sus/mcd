@@ -88,7 +88,6 @@ h1, h2, h3, h4, h5, h6 {
   font-family: 'LovinSansCondensed-Bold', Sans-serif;
   font-size: 0.875rem;
   letter-spacing: 1px;
-  margin-top: -0.125em;
 }
 
 .carousel-indicators li {
@@ -257,7 +256,7 @@ h1, h2, h3, h4, h5, h6 {
   background-color: @easter-purple-hover;
 }
 
-.featured-btn-wrapper {
+.featured-posts a {
   position: absolute;
   left: 0;
   right: 0;
