@@ -84,10 +84,14 @@ h1, h2, h3, h4, h5, h6 {
 /* components */
 
 .btn {
+  background-color: @bg-color;
   border: none;
   font-family: 'LovinSansCondensed-Bold', Sans-serif;
   font-size: 0.875rem;
   letter-spacing: 1px;
+  &:hover {
+    background-color: darken(@bg-color, 20%);
+  }
 }
 
 .carousel-indicators li {
@@ -246,7 +250,7 @@ h1, h2, h3, h4, h5, h6 {
 
 /* rules for featured cards */
 
-.welcome-readmore > a {
+/*.welcome-readmore > a {
   background-color: @easter-purple;
   color: #fff;
   width: 140px;
@@ -257,6 +261,10 @@ h1, h2, h3, h4, h5, h6 {
 
 .welcome-readmore a:hover {
   background-color: @easter-purple-hover;
+}*/
+
+.welcome-readmore .btn {
+  @color: @easter-purple;
 }
 
 .featured-posts a {
