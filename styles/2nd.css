@@ -264,7 +264,7 @@ h1, h2, h3, h4, h5, h6 {
 }*/
 
 .welcome-readmore .btn {
-  @color: @easter-purple;
+  @bg-color: @easter-purple;
 }
 
 .featured-posts a {
