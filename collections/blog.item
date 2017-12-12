@@ -9,6 +9,8 @@
       </div>
     </div>
     <div class="container">
+      <!--POST TAG-->
+      <img src="tag-national.jpg" class="post-tag">
       <!--POST TILE-->
       <p class="title" data-content-field="title">
         {.passthrough?}
