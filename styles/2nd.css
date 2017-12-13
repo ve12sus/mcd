@@ -261,7 +261,7 @@ h1, h2, h3, h4, h5, h6 {
 
 @media (min-width: 768px) {
 
-  /* carousel-caption */
+  /* positioned under larger nav*/
   .caption-wrapper {
     top: 180px;
   }
@@ -280,7 +280,7 @@ h1, h2, h3, h4, h5, h6 {
 
 @media (min-width: 992px) {
 
-  /* max width of container*/
+  /* max width of container */
   .container{
     max-width: 940px;
   }
@@ -311,7 +311,7 @@ h1, h2, h3, h4, h5, h6 {
   }
 }
 
-/* Rules for featured cards */
+/* Rules for featured categories */
 
 /* absolute positions buttons from bottom */
 .featured-posts a {
@@ -493,7 +493,7 @@ h1, h2, h3, h4, h5, h6 {
     padding-right: 17px;
   }
   
-  .nav-link {
+  .category .nav-link {
     padding: 0;
   }
 
