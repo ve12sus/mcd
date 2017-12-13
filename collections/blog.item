@@ -25,7 +25,7 @@
         <a href="{fullUrl}" class="permalink"><time datetime="{addedOn|date %F}">{addedOn|date %B %d, %Y}</time></a> by <a href="{collection.fullUrl}?author={author.id}">{author.displayName}</a>
       </p>-->
 
-      <hr class="post-divider">
+      <hr class="d-none d-sm-block post-divider">
 
       <!--MAIN CONTENT-->
       {body}
