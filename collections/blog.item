@@ -34,32 +34,32 @@
       {postItemInjectCode}
 
       <!--CATEGORIES-->
-      {.repeated section categories}
+      <!--{.repeated section categories}
         <a class="category" href="{collection.fullUrl}?category={@|url-encode}">{@}</a>{.alternates with},
-      {.end}
+      {.end}-->
 
       <!--TAGS-->
-      {.repeated section tags}
+      <!--{.repeated section tags}
         <a class="tag" href="{collection.fullUrl}?tag={@|url-encode}">{@}</a>{.alternates with},
-      {.end}
+      {.end}-->
 
       <!--SHARE AND LIKE-->
-      {@|like-button}
-      {@|social-button}
+      <!--{@|like-button}
+      {@|social-button}-->
 
 
       <!--LOCATION-->
-      {.section location}
+      <!--{.section location}
         {.section addressTitle}
           {addressTitle}
           {addressLine1}
           {addressLine2}
           {addressCountry}
         {.end}
-      {.end}
+      {.end}-->
 
       <!--COMMENTS-->
-      {@|comments}
+      <!--{@|comments}-->
     </div>
   </article>
 
@@ -67,7 +67,7 @@
 
 
 <!--PAGINATION-->
-{.section pagination}
+<!--{.section pagination}
   <nav class="blog-item-pagination">
 
     <!--NEWER PAGE-->
@@ -85,4 +85,4 @@
     {.end}
 
   </nav>
-{.end}
+{.end}-->
