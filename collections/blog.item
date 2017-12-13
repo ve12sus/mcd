@@ -67,22 +67,22 @@
 
 
 <!--PAGINATION-->
-<!--{.section pagination}
+{.section pagination}
   <nav class="blog-item-pagination">
 
     <!--NEWER PAGE-->
-    {.section prevItem}
+    <!--{.section prevItem}
       <a href="{fullUrl}">Newer</a>
     {.or}
       <a class="disabled">Newer</a>
-    {.end}
+    {.end}-->
 
     <!--OLDER PAGE-->
-    {.section nextItem}
+    <!--{.section nextItem}
       <a href="{fullUrl}">Older</a>
     {.or}
       <a class="disabled">Older</a>
-    {.end}
+    {.end}-->
 
   </nav>
-{.end}-->
+{.end}
