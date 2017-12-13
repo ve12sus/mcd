@@ -700,11 +700,12 @@ article {
 }
 
 article .title {
+
   color: #111111;
   font-family: 'LovinSans-Light', sans-serif;
-  font-size: 2.25rem;
+  font-size: 1.125rem;
   /* sets margin between title and post-tag */
-  margin-top: 26px;
+  margin-top: 13px;
   text-align: center;
 }
 
@@ -722,6 +723,12 @@ article .post-tag {
 }
 
 @media(min-width: 768px) {
+
+  article .title {
+    font-size: 2.25rem;
+    margin-top: 13px;
+  }
+
   article .post-tag {
     margin-top: 0;
   }
