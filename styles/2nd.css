@@ -184,6 +184,15 @@ h1, h2, h3, h4, h5, h6 {
 }
 
 /* homepage content */
+
+.caption-wrapper {
+    position: absolute;
+    top: 0;
+    left: 0;
+    right: 0;
+    z-index: 10;
+}
+  
 @media (max-width: 767px) {
 
   .container {
@@ -194,14 +203,6 @@ h1, h2, h3, h4, h5, h6 {
   .row {
     margin-right: 0px;
     margin-left: 0px;
-  }
-
-  .caption-wrapper {
-    position: absolute;
-    top: 0;
-    left: 0;
-    right: 0;
-    z-index: 10;
   }
 
   .caption {
@@ -262,11 +263,7 @@ h1, h2, h3, h4, h5, h6 {
 
   /* carousel-caption */
   .caption-wrapper {
-    position: absolute;
     top: 180px;
-    left: 0;
-    right: 0;
-    z-index: 10;
   }
 
   .caption {
@@ -288,14 +285,8 @@ h1, h2, h3, h4, h5, h6 {
     max-width: 940px;
   }
 
-  .caption {
-    margin-top: 0;
-    margin-left: 12%;
-  }
-
   .caption h1 {
     font-size: 4rem;
-    margin-bottom: 1rem;
   }
 
 }
@@ -305,11 +296,6 @@ h1, h2, h3, h4, h5, h6 {
   /* carousel caption placement on large desktop */
   .caption {
     margin-top: 80px;
-    margin-left: 12%;
-  }
-
-  .caption h1 {
-    margin-bottom: 1rem;
   }
   
 }
