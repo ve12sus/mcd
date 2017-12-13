@@ -27,6 +27,10 @@
             <script>console.log({@|json-pretty})</script>
             <li class="nav-item {.section active} active-link {.end}">
 
+            <!-- external link -->
+            {.section externalLink}
+              <a class="nav-link {title}-nav-link" href="{url}"><h3 class="text-uppercase">{title}</h3></a>
+            {.end}
             <!-- collection link -->
             {.section collection}
               <a class="nav-link {urlId}-nav-link" href="{fullUrl}"><h3 class="text-uppercase">{navigationTitle}</h3></a>
