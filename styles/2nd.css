@@ -683,11 +683,14 @@ article {
   background-color: #fff;
 
   .container {
-    /* top margin above tag/title */
-    margin-top: 48px;
 
-    /* set max width of container */
-    max-width: 640px;
+    @media(min-width: 768px) {
+      /* top margin above tag/title */
+      margin-top: 48px;
+
+      /* set max width of container */
+      max-width: 640px;
+    }
   }
 
   p {
