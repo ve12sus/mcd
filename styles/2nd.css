@@ -712,6 +712,7 @@ article .title {
 article .post-tag {
   display: block;
   margin: auto;
+  margin-top: -11px;
 }
 
 .post-divider {
