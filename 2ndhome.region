@@ -54,7 +54,7 @@
               <div class="carousel-item">
                 <img class="d-block w-100" src="https://ve12sus.com/images/McCafe_LineUp_16x9.jpg" alt="Second slide">
                 <div class="caption-wrapper">
-                  <div class="caption">
+                  <div class="container">
                     <h1>WELCOME TO OUR NEW<br>WEBSITE.</h1>
                      <p class="welcome-readmore">
                       <a class="btn" href="#" role="button">READ MORE</a>
