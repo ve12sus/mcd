@@ -733,3 +733,10 @@ article .post-tag {
     margin-top: 0;
   }
 }
+
+/* no margin on sqs rows */
+.sqs-layout > .sqs-row {
+  margin-left: 0;
+  margin-right: 0;
+}
+
