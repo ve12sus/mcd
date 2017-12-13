@@ -112,6 +112,74 @@ h1, h2, h3, h4, h5, h6 {
   margin-right: 0;
 }
 
+@media (max-width: 767px) {
+
+  .navbar {
+    background-color: #fff;
+    color: #4a4a4a;
+    padding-left: 8px;
+    padding-right: 8px;
+  }
+
+}
+
+@media (min-width: 768px) {
+
+  /* absolute positions navbar */
+  .navbar-wrapper {
+    position: absolute;
+    top: 0;
+    left: 0;
+    right: 0;
+    z-index: 10;
+  }
+
+  .navbar-wrapper {
+    background-image: linear-gradient(to top,
+      rgba(0, 0, 0, 0), rgba(0, 0, 0, 0.52));
+  }
+  
+  .navbar {
+    padding-top: 2rem;
+  }
+  
+  .nav-item {
+    margin-top: 9px;
+    margin-left: 10px;
+	}
+    
+  .navbar-light .navbar-nav .nav-link {
+    color: #fff;
+  }
+  
+  .navbar-light .navbar-nav .nav-link:focus,
+  .navbar-light .navbar-nav .nav-link:hover {
+    color: #fff;
+  }
+
+  .nav-link {
+    padding: 0;
+    border-bottom: transparent solid 2px;
+  }
+
+	.news-nav-link:hover {
+		border-bottom: @frog-green solid 2px;
+	}
+
+	.food-nav-link:hover {
+		border-bottom: @dodger-blue solid 2px;
+	}
+
+	.people-nav-link:hover {
+		border-bottom: @easter-purple solid 2px;
+	}
+
+	.events-nav-link:hover {
+		border-bottom: @golden solid 2px;
+	}
+
+}
+
 /* homepage content */
 @media (max-width: 767px) {
 
@@ -145,13 +213,6 @@ h1, h2, h3, h4, h5, h6 {
   .card-title {
     margin-bottom: 0.5rem;
   }
-
-  .navbar {
-    background-color: #fff;
-    color: #4a4a4a;
-    padding-left: 8px;
-    padding-right: 8px;
-  }
   
   /* hides carousel indicators */
   .carousel-indicators {
@@ -165,6 +226,7 @@ h1, h2, h3, h4, h5, h6 {
   .carousel-control-next {
     display: none;
   }
+  
 }
 
 @media (max-width: 575px) {
@@ -267,7 +329,7 @@ h1, h2, h3, h4, h5, h6 {
 
 /* Rules for featured cards */
 
-/* absolute positions bottons from bottom */
+/* absolute positions buttons from bottom */
 .featured-posts a {
   color: #fff;
   position: absolute;
@@ -349,63 +411,6 @@ h1, h2, h3, h4, h5, h6 {
 
 .hashtag {
   color: #009bf6;
-}
-
-/* floating nav */
-@media (min-width: 768px) {
-
-  .navbar-wrapper {
-    position: absolute;
-    top: 0;
-    left: 0;
-    right: 0;
-    z-index: 10;
-  }
-
-  .navbar-wrapper {
-    background-image: linear-gradient(to top,
-      rgba(0, 0, 0, 0), rgba(0, 0, 0, 0.52));
-  }
-  
-  .navbar {
-    padding-top: 2rem;
-  }
-
-  .navbar-light .navbar-nav .nav-link:focus,
-  .navbar-light .navbar-nav .nav-link:hover {
-    color: #fff;
-  }
-
-  .navbar-light .navbar-nav .nav-link {
-    color: #fff;
-  }
-
-  .nav-item {
-    margin-top: 9px;
-    margin-left: 10px;
-	}
-
-  .nav-link {
-    padding: 0;
-    border-bottom: transparent solid 2px;
-  }
-
-	.news-nav-link:hover {
-		border-bottom: @frog-green solid 2px;
-	}
-
-	.food-nav-link:hover {
-		border-bottom: @dodger-blue solid 2px;
-	}
-
-	.people-nav-link:hover {
-		border-bottom: @easter-purple solid 2px;
-	}
-
-	.events-nav-link:hover {
-		border-bottom: @golden solid 2px;
-	}
-
 }
 
 /* footer styles */
