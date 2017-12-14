@@ -18,7 +18,7 @@
 			<div class="category">
         {.section categoryFilter}
         <h1>{@|safe}</h1>
-          {.equals?:@:"Press Room"}
+          {.equals?:@:"Press BRoom"}
             <p>Extra heading</p>
           {.end}
         {.end}
