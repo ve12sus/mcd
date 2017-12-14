@@ -55,7 +55,7 @@
             {.repeated section items}
             
             <p class="featured-post-title">{title}</p>
-            <p class="supporting-copy">{body|safe|truncate 250}</p>
+            <p class="supporting-copy">{body|truncate 250|safe}</p>
             <a class="btn" href={fullUrl} role="button"><h4>READ MORE</h4></a>
             
             {.end}
