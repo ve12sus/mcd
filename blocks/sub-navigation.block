@@ -1,7 +1,8 @@
 {.section website}
+<script>console.log({@|json-pretty})</script>
 <ul class="nav justify-content-center">
   {.repeated section items}
-  <script>console.log({@|json-pretty})</script>
+  
     {.if folderActive}
       <p>hello world</p>
       
