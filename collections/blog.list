@@ -18,11 +18,10 @@
 			<div class="category">
         {.section categoryFilter}
         <h1>{@|safe}</h1>
-          {.equals?:@:"Press BRoom"}
-            <p>Extra heading</p>
-          {.end}
         {.end}
-
+        {.equals?:categoryFilter:"Press Room"}
+        <p>Hi Im new</p>
+        {.end}
 				<p>Local stories, promotions, and sponsorships</p>	  
 				<ul class="nav justify-content-center">
 					<li class="nav-item">
