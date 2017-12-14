@@ -52,7 +52,7 @@
           <squarespace:query collection="{.section collection}{urlId}{.end}" featured="true" limit="1">
 	
             <img src="../assets/tag-national.png">
-            {.section items.0}
+            {.repeated section items}
             
             <p class="featured-post-title">{title}</p>
             <p class="supporting-copy">{body|truncate 160}</p>
