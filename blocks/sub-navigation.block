@@ -3,7 +3,7 @@
 
 <ul class="nav justify-content-center">
   {.repeated section items}
-  
+    <script>console.log({@|json-pretty})</script>  
     {.if folderActive}
       {.repeated section items}
 		{.section externalLink}
