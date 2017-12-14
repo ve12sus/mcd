@@ -22,7 +22,7 @@
         <p>Local stories, promotions, and sponsorships</p>
         {.end}
         {.end}
-        <squarespace:navigation template="sub-navigation" />
+        <squarespace:navigation navigationId="siteNav" template="sub-navigation" />
 <!--				<ul class="nav justify-content-center">
 					<li class="nav-item">
 						<a class="nav-link" href="#"><h3>ALL</h3></a>
