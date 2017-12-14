@@ -7,7 +7,7 @@
         {.repeated section items}
           {.section externalLink}
             <li class="nav-item">
-              <a href=""{url}">{title}</a>
+              <a href=""{url|json-pretty}">{title}</a>
             </li>
           {.end}
         {.end}
