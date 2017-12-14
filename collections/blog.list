@@ -1,5 +1,5 @@
-
-{.section categoryFilter}
+<!-- category filters -->
+<!--{.section categoryFilter}
   <p class="filtered-by">Filtered by Category: {@|safe}</p>
 {.end}
 
@@ -9,7 +9,7 @@
 
 {.if authorFilter}
   <p class="filtered-by">Filtered by Author: {author.displayName}</p>
-{.end}
+  {.end}-->
 
 <div class="container-fluid category-main">
   <div id="category-header">
