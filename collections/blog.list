@@ -53,9 +53,9 @@
 	
             <img src="../assets/tag-national.png">
             {.repeated section items}
-            
+            {.var @bodysafe {body|safe}
             <p class="featured-post-title">{title}</p>
-            <p class="supporting-copy">{title|truncate 5}</p>
+            <p class="supporting-copy">{@bodysafe|truncate 160}</p>
             <a class="btn" href={fullUrl} role="button"><h4>READ MORE</h4></a>
             
             {.end}
