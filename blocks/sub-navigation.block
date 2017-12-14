@@ -7,7 +7,7 @@
     {.if folderActive}
       {.section items.1}
       <p>{title}</p>
-      
+	  {.end}
     {.end}
   {.end}
   <li class="nav-item">
