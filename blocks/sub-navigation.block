@@ -5,7 +5,8 @@
   {.repeated section items}
   
     {.if folderActive}
-      <p>hello world</p>
+      {.section items.1}
+      <p>{title}</p>
       
     {.end}
   {.end}
@@ -13,4 +14,5 @@
     <a class="nav-link" href="#"><h3>ALL</h3></a>
   </li>
 </ul>
+
 {.end}
