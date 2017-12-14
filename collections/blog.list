@@ -19,9 +19,8 @@
         {.section collection}
         <h1>{title}</h1>
         {.equal?:urlId:"blog"}
-        <p>hello world</p>
+        <p>Local stories, promotions, and sponsorships</p>
         {.end}
-        <p>{title}</p>
         {.end}    
 				<ul class="nav justify-content-center">
 					<li class="nav-item">
