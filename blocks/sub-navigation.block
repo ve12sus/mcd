@@ -5,6 +5,7 @@
       <p>hello world</p>
       <script>console.log({@|json-pretty})</script>
     {.end}
+  {.end}
   <li class="nav-item">
     <a class="nav-link" href="#"><h3>ALL</h3></a>
   </li>
