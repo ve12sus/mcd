@@ -19,7 +19,7 @@
         {.section categoryFilter}
         <h1>{@|safe}</h1>
         {.end}
-        {.equals?:categoryFilter:"Press Room"}
+        {.equals?:categoryFilter:"Press BRoom"}
         <p>Hi Im new</p>
         {.end}
 				<p>Local stories, promotions, and sponsorships</p>	  
