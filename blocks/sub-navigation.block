@@ -5,8 +5,10 @@
   {.repeated section items}
   
     {.if folderActive}
-      {.section items.1}
-      <p>{title}</p>
+      {.repeated section items}
+		{.section externalLink}
+			<a class="nav-link {title}-nav-link" href="{url}"><h3 class="text-uppercase">{title}</h3></a>
+        {.end}
 	  {.end}
     {.end}
   {.end}
