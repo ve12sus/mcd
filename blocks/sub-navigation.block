@@ -1,20 +1,15 @@
-<script>console.log({@|json-pretty})</script>
-{.section website}
+
 
 <ul class="nav justify-content-center">
   {.repeated section items}
-    <script>console.log({@|json-pretty})</script>  
-    {.if folderActive}
-      {.repeated section items}
-		{.section externalLink}
-			<a class="nav-link {title}-nav-link" href="{url}"><h3 class="text-uppercase">{title}</h3></a>
-        {.end}
-	  {.end}
+    {.folder?}
+      
     {.end}
   {.end}
   <li class="nav-item">
     <a class="nav-link" href="#"><h3>ALL</h3></a>
   </li>
+  <script>console.log({@|json-pretty})</script>
 </ul>
 
-{.end}
+
