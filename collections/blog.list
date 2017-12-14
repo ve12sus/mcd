@@ -49,7 +49,7 @@
             at Annual SBU's "give Kids a Smile" Day</p>
           <p class="supporting-copy">The 5th annual "Give Kids a Smile" Back to School Day took place</p>
           <a class="btn" href="#" role="button"><h4>READ MORE</h4></a>-->
-          <squarespace:query collection="{.section collection}{urlId}{.end} featured="true" limit="1">
+          <squarespace:query collection="{.section collection}{urlId}{.end}" featured="true" limit="1">
 	
             <img src="../assets/tag-national.png">
             {.section items.0}
