@@ -3,11 +3,13 @@
 <ul class="nav justify-content-center">
   {.repeated section items}
     {.folder?}
-      {.repeated section items}
-        {.section externalLink}
-          <li class="nav-item">
-            <a href=""{url}">{title}</a>
-          </li>
+      {.if folderActive}
+        {.repeated section items}
+          {.section externalLink}
+            <li class="nav-item">
+              <a href=""{url}">{title}</a>
+            </li>
+          {.end}
         {.end}
       {.end}
     {.end}
