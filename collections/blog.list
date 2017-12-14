@@ -18,6 +18,9 @@
 			<div class="category">
         {.section categoryFilter}
         <h1>{@|safe}</h1>
+        {.equal?:@:"Press Room"}
+        <p>hello world</p>
+        {.end}
         {.end}
         {.equal?:categoryFilter:"Press BRoom"}
         <p>Hi Im new</p>
