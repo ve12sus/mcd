@@ -1,0 +1,11 @@
+{.section website}
+<ul class="nav justify-content-center">
+  {.repeat section items}
+    {.if folderActive}
+      <script>console.log({@|json-pretty})</script>
+    {.end}
+  <li class="nav-item">
+    <a class="nav-link" href="#"><h3>ALL</h3></a>
+  </li>
+</ul>
+{.end}
