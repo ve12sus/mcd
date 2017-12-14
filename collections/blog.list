@@ -44,11 +44,24 @@
           <img class="img-fluid" src="http://via.placeholder.com/618x413">
         </div>
         <div class="col-12 col-md-4 featured-post">
-          <img src="../assets/tag-national.png">
+          <!--<img src="../assets/tag-national.png">
           <p class="featured-post-title">Special Tribute to 9/11 McDonad's Owner Opreator Hero Lloyd Frazier
             at Annual SBU's "give Kids a Smile" Day</p>
           <p class="supporting-copy">The 5th annual "Give Kids a Smile" Back to School Day took place</p>
-          <a class="btn" href="#" role="button"><h4>READ MORE</h4></a>
+          <a class="btn" href="#" role="button"><h4>READ MORE</h4></a>-->
+          <squarespace:query collection="{.section collection}{urlId}{.end} featured="true" limit="1">
+	
+            <img src="../assets/tag-national.png">
+            {.section items.0}
+            
+            <p class="featured-post-title">{title}</p>
+            <p class="supporting-copy">{body|truncate 160}</p>
+            <a class="btn" href={fullUrl} role="button"><h4>READ MORE</h4></a>
+            
+            {.end}
+
+          </squarespace:query>
+
         </div>
       </div>
       <div class="card-deck">
